@@ -446,7 +446,14 @@ Không thích iphone vì giá cao, máy xấu, pin yếu, ram yếu, sóng kém,
 wifi
 2
 Biết bao thế hệ ngậm ngùi với ram 1gb, h nó đã lên 2gb cho bằng anh bằng em rồi.
-Máy cầm chắc tay hơn, chứ không mỏng như em 6. Nâng cấp ram thế này thì chắc dùng được vài thế hệ nữa mà không sợ giật, lag
+ram
+1
+$T$ cầm chắc tay hơn, chứ không mỏng như em 6. Nâng cấp ram thế này thì chắc dùng được vài thế hệ nữa mà không sợ giật, lag
+máy
+1
+Máy cầm chắc tay hơn, chứ không mỏng như em 6. Nâng cấp $T$ thế này thì chắc dùng được vài thế hệ nữa mà không sợ giật, lag
+ram
+1
 Mình thì không quan tâm lắm đến ram, nhưng camera đẹp, lại tốn xiền mua bộ nhớ thôi, mình chụp choẹt nhiều 64gb còn thấy thiếu
 Các dòng khác toàn ram 3gb, 4gb mà giờ ip mới nâng cấp lên 2gb mà ác ifan đã sốt hết cả lên.
 Cá nhân mình thấy tốc độ em 6 với em 6s không khác nhau là mấy. chắc ram 1gb vẫn đủ mượt rồi, nên chắc chờ lên ip7 rồi nâng cấp 1 thể.
@@ -1028,8 +1035,8 @@ Mình cũng rất máu 6s nhưng cũng cân nhắc xem thế nào, mình thích 
 3d touch
 1
 Quan trọng nhất là chờ sự đột phá mạnh mẽ hơn về thiết kế! Điều mà có lẽ apple phải làm ở iphone7 nếu muốn tiếp tục thành công!
-Tất nhiên nếu có điều kiện thì ra con nào cứ quất luôn con đấy tội gì phải nghĩ! Ở Tây nó chơi với các nhà mạng, giá thấp hơn nên doanh số cao cũng là điều dễ hiểu! Ở Việt Nam! Vừa mất tiền mua máy đắt, vừa phải ngốn một đống tiền nuôi!
-Thật sự là không cần thiết bỏ ra một số tiền kha khá để nâng cấp . Vs apple 2 năm một lần nâng cấp là ok . Hài lòng vs ip 6 và đợi ip7 để nâng cấp
+thiết kế
+2
 Tính lên để thử quả $T$ 12 chấm mà em nó chụp cũng ko khác gì 6+ của mình là mấy nên thôi vậy đợi năm sau đổi 7
 camera
 2
@@ -1044,32 +1051,57 @@ thiết kế
 $T$ không đổi. Ip6 còn đáp ứng tốt. Chu kì mua máy là 2 năm 1 lần.
 thiết kế
 2
-6+ gold nhìn vẫn mới chán, đổi làm gì, mấy cái chức năng mới em không dùng đến, có cái 3d touch thấy hay hay, nhưng như giờ cũng dc rồi. Để lên 7 rồi làm quen với 3d touch cũng không muộn
-Lên vì cái RAM 2GB thôi. 3D Touch cũng là cái để thưởng thức. Không quan tâm chụp hình nên 12 mgp hay 4K kok nhu cầu. Chờ hàng.
-Một vài ý kiến cá nhân. Nếu có cydia, iphone 6,6+ sẽ có thêm livephoto(tên tweak là photoslive) và frontflash, sẽ có tính năng bàn rê chuột (tweak là swipeselection) , untethered siri.
-Những điều còn phân vân. 6s có ram 2gb nên khá ngon, đa nhiệm ngon hơn, không biết cydia sẽ có tweak giả lập or là mở tính năng 3d touch hay k (tất nhiên là phần mềm đè lâu để giả lập 3d touch thôi, chứ nó ăn tiền mỗi cái này)
-Đang dùng ip6 64gb gold và rất mãn nguyện! bạn cùng phòng vừa lên ip6s và suốt ngày nghe nó ca thán điếc cả tai! 2 đứa mình trải nghiệm được hơn 1 tuần và nhận xét là chơi alphaft 8 mượt mà hơn (ko như ip6 lâu lâu giật tung chảo).
-6s so với 6 thì nặng hơn, pin kém hơn, thỉnh thoảng có hiện tượng đơ lúc quay video 4k. 3D touch là cái thứ khỉ dịch vô dụng nhất nhỡ tay chạm mạnh là lòi ra cái thanh tap!
-Chả biết bh mình ms có tiền làm con plus nữa
-Đang dùng 6 và cam thấy hài lòng . Nhưng lại thích cái 3d touch độc quyền của 6s
-Dùng iphone thì ko nên lên phiên bản ios mới hơn vì Apple đểu lắm. Cứ ở phiên bản gốc theo máy là ok nhất. Mà đểu cái là ko lên thì ko tải được phần mềm.
-Cơ bản, nhu cầu sài: 6, 6 + thấy vẫn nhanh, chụp hình cũng đã tạm thỏa mãn, ngoại hình so với 6s, 6s+ không có thay đổi lớn, đáp ứng nhu cầu cơ bản của cá nhân.
-Nếu bỏ ra khoảng tiền chênh lệch để mua 6s, 6s+ thì nên vắt thêm tí tiền nữa để lên 7, 7+ luôn. Vừa kịp trào lưu, thỏa mãn công nghệ mới, tính năng mới, nâng cấp đáng kể.
+6+ gold nhìn vẫn mới chán, đổi làm gì, mấy cái chức năng mới em không dùng đến, có cái $T$ thấy hay hay, nhưng như giờ cũng dc rồi. Để lên 7 rồi làm quen với 3d touch cũng không muộn
+3d touch
+1
+6+ gold nhìn vẫn mới chán, đổi làm gì, mấy cái chức năng mới em không dùng đến, có cái 3d touch thấy hay hay, nhưng như giờ cũng dc rồi. Để lên 7 rồi làm quen với $T$ cũng không muộn
+3d touch
+0
+Lên vì cái $T$ 2GB thôi. 3D Touch cũng là cái để thưởng thức. Không quan tâm chụp hình nên camera 12 mgp hay 4K kok nhu cầu. Chờ hàng.
+ram
+1
+Lên vì cái RAM 2GB thôi. $T$ cũng là cái để thưởng thức. Không quan tâm chụp hình nên camera 12 mgp hay 4K kok nhu cầu. Chờ hàng.
+3d touch
+1
+Lên vì cái RAM 2GB thôi. 3D Touch cũng là cái để thưởng thức. Không quan tâm chụp hình nên $T$ 12 mgp hay 4K kok nhu cầu. Chờ hàng.
+camera
+0
+Những điều còn phân vân. 6s có $T$ 2gb nên khá ngon, đa nhiệm ngon hơn, không biết cydia sẽ có tweak giả lập or là mở tính năng 3d touch hay k
+ram
+1
+Những điều còn phân vân. 6s có ram 2gb nên khá ngon, $T$ ngon hơn, không biết cydia sẽ có tweak giả lập or là mở tính năng 3d touch hay k
+đa nhiệm
+1
+Những điều còn phân vân. 6s có ram 2gb nên khá ngon, đa nhiệm ngon hơn, không biết cydia sẽ có tweak giả lập or là mở tính năng $T$ hay k
+3d touch
+0
+6s so với 6 thì nặng hơn, $T$ kém hơn, thỉnh thoảng có hiện tượng đơ lúc quay video 4k. 3D touch là cái thứ khỉ dịch vô dụng nhất nhỡ tay chạm mạnh là lòi ra cái thanh tap!
+pin
+2
+6s so với 6 thì nặng hơn, pin kém hơn, thỉnh thoảng có hiện tượng đơ lúc quay video 4k. $T$ là cái thứ khỉ dịch vô dụng nhất nhỡ tay chạm mạnh là lòi ra cái thanh tap!
+3d touch
+2
+Đang dùng 6 và cam thấy hài lòng . Nhưng lại thích cái $T$ độc quyền của 6s
+3d touch
+1
 Lý do duy nhất mình mua Ip 6s là $T$ 2gb, camera chụp sáng đẹp hơn Ip 6.
 ram
 1
 Lý do duy nhất mình mua Ip 6s là ram 2gb, $T$ chụp sáng đẹp hơn Ip 6.
 camera
 1
-Mình đang phân vân giữa 6 và 6s - yếu tố quyết định là pin. Bác xài rồi cho mình biết là cái nào pin xài lâu hơn và hơn bao nhiêu được ko?
-Mình search google mãi mà ko rõ là thằng nào hơn cả, trang nói 6 vì dung lượng to, trang nói 6s vì quản lí điện năng tốt?
-Không hơn nhau là bao bác nhé như bt e đi làm cầm theo game nhẹ + fb + web nhưng lúc rỗi thì cũng được từ sáng đến chiều tối về đến nhà là phải sạc ( tầm từ 15-20% ) 6 trước e cũng dùng y như thế nhưng đi làm về là còn tầm > 10%
-Chưa có nhiều điểm khác biệt nổi bật để nâng cấp, camera nghe ép phê hơn thật nhưng thằng 6 Plus đủ ngon rồi, 3D Touch chắc đợi thêm chứ chưa thấy được tính hữu dụng của nó. Chưa kể sắp có iPhone 7 rồi vôi làm chi
-Vì ip6 ip6+ quá tốt à. lên 6s 6s+ chả có sự nâng cấp đang tiền ngoài cái touch id . còn lại vứt hết à. ai thần thánh cứ khen chứ e méo thấy ra gì cả
-Mua 6s xong, e đã bị sùi vỏ và éo được đổi huhuu. Chả hiểu sao bán 6pl đi mua 6s về nghĩ đời cao hỗ trợ cao ai ngờ ăn trái đắng
-6 Cấu hình đủ dùng, vừa túi tiền. 3d touch đời đầu,chưa hoàn thiện lắm. 6 đập hộp hãng cài sẵn ios 9.0.2, xài tẹt ga, khỏi lo pin.
-6 và 6s bề ngoài không khác nhau là mấy, 6 có thể coi là bản hoàn chỉnh, 6s là hoàn chỉnh + thêm một số tính năng mới, Ý kiến riêng, ae đừng quăng dép nhé
-Nói chung 6 plus là quá tuyệt cho 1 cuộc tình !!! K có gì phải chê trách cả. Đợi có 7 pro thì mua
+Chưa có nhiều điểm khác biệt nổi bật để nâng cấp, $T$ nghe ép phê hơn thật nhưng thằng 6 Plus đủ ngon rồi, 3D Touch chắc đợi thêm chứ chưa thấy được tính hữu dụng của nó. Chưa kể sắp có iPhone 7 rồi vôi làm chi
+camera
+1
+Chưa có nhiều điểm khác biệt nổi bật để nâng cấp, camera nghe ép phê hơn thật nhưng thằng 6 Plus đủ ngon rồi, $T$ chắc đợi thêm chứ chưa thấy được tính hữu dụng của nó. Chưa kể sắp có iPhone 7 rồi vôi làm chi
+3d touch
+2
+Vì ip6 ip6+ quá tốt à. lên 6s 6s+ chả có sự nâng cấp đang tiền ngoài cái $T$. còn lại vứt hết à. ai thần thánh cứ khen chứ e méo thấy ra gì cả
+touch id
+1
+6 Cấu hình đủ dùng, vừa túi tiền. $T$ đời đầu, chưa hoàn thiện lắm.
+3d touch
+2
 6s 6s+ phần cứng mạnh hơn, cảm ứng 3d touch, touch id tốt hơn, camera tốt hơn ( live photo, 4k ), camera trước tốt hơn (5megapixel, plash tự xướng), chất liệu vỏ nhôm cứng hơn.
 Rất nhiều cái thay đổi rất đáng kể, còn một vài cái lý do trên chỉ là biện minh cho việc không chịu nhìn theo góc độ thực sự của 6s và 6s+
 Mới đầu cũng như mọi người,nghĩ pin thấp hơn, cảm ứng lực thì chưa nhiều ứng dụng hỗ trợ, nhưng sau khi dùng thì ko phải hối hận gì cả. Pin dài hơn nhiều, ram 2g nên rất mượt và nhanh, cam thì 12m nhưng chênh ko nhiều!
@@ -1080,93 +1112,58 @@ Từ hồi lên ios 9 cho cái 6 plus cảm giác chạy ì ạch hơn hẳn. M�
 Camera có 360 tài trợ rồi và mình cảm thấy chụp mình đẹp bao nhiêu đó cũng ok rồi. Sợ đẹp nữa người ta gặp ở ngoài người ta ối.
 camera
 1
-Nói chứ em vẫn còn hài lòng với em plus 64GB này . Đợi 1 thời gian nữa cái 3D nó hổ trợ thiết thực hơn xíu nữa mới tính đổi . chứ đã thử livephoto. vui xíu chóng chán . Fan Apple nhưng đợt này chưa đáng lên đời kiểu mà máu lên não ( đợi hạ nhiệt rùi hốt cũng k muộn )
-Chuẩn men. Tuy nhiên vòng đời iphone là 2 năm, nên phần lớn mua dùng 2 năm mới lên đời. Thêm nữa iphone 6/plus không nhất định phải mua sớm làm gì mà có thể ta mới mua dùng 3-4 tháng nay, hổng lẽ giờ lại đổi (tỉ lệ dùng vài tháng đổi là ít).
-Đang xài iphone 6 và thấy chưa cần nâng cấp với lý do khá giống nhau vẻ bề ngoài
-Thấy hiệu năng cực nhanh và nhiều cải tiến thú vị, thấy đáng tiền hơn là đợt ip6 mới ra
-Đang nói nếu xài 6/6+ thì ko lên 6s/6s+ mà má. Não mịn quá hay sao mà đọc ko hiểu?
-Thời điểm này má xài 4s thì ko khác gì xài 1200 má à. Còn đang xài 5s thì nên nâng cấp lên 6s (dành cho những ai thích các dòng s)
-Má đem ăn roi vô chi vậy, mua xong, xài trải nghiệm cũng vậy. Edge+ mua xong giờ này năm sau rớt giá thảm hại muốn nâng cấp lên thì bỏ ra món tiền ko nhỏ? 6+ năm ngoái mua 18-19, giờ bán lại chí ít cũng 10-11. Còn s6 thử hỏi giờ giá bao nhiêu nếu mua cũ?
+Nói chứ em vẫn còn hài lòng với em plus 64GB này . Đợi 1 thời gian nữa cái 3D nó hổ trợ thiết thực hơn xíu nữa mới tính đổi . chứ đã thử livephoto. vui xíu chóng chán.
+Thấy $T$ cực nhanh và nhiều cải tiến thú vị, thấy đáng tiền hơn là đợt ip6 mới ra
+hiệu năng
+1
 Các cụ, các mợ cứ nói câu chuyện không đổi vì ip 6, 5s đã đáp ứng nhu cầu và nhanh rồi, nếu nói đáp ứng thì Ip 4s cũng đáp ứng tương tự 6s, thậm chí nhỏ gọn tay hơn.
 Lý do là các cụ, mợ chưa có tiền hoặc có nhưng chưa nhiều nên cân đối làm việc khác quan trọng hơn.
 Thực tâm là cụ máu lắm rồi đấy. hahaha. Chuyển sang android đi thì giả sử có bản nâng cấp đỡ bứt rứt hơn táo.
 Đang dùng 6plus. Nói thật là k có tiền để đổi 6s plus. Có cũng đổi. Ram gấp đôi, camera ngon hơn trước
 Em nghe nói ram 2gb mà các bác
-6 > Z3 > S6 Edge > Note 5 > S6 Edge+ > 6S+ trong 6 tháng của mình và vẫn hài lòng với ios nhất. Nói sao chứ 6S+ thấy mượt, không nóng và hao pin gì đến nổi phải này kia nó, PS thấy sao nói vậy vì Android hay IOS gì em cũng quất. Chỉ hơi bị không hoà nhập đc WP.
-Ai bán 6+ lock 64gb k, muốn thử 1 em mà không biết nó ntn
-Ai mua iphone chú ý nhá, có 2 phiên bản chip đấy haha
-Xấu y như ip6 nên không lên thôi. 5s vẫn đẹp nhất. Chờ 7 xem sao. Vừa thô vừa thiển. Viền to, Chỉ nhựa, camera lồi.
-Các bạn cứ nói ko có tiền để lên 6s. Mình thì có thừa 1 núi cũng ko mua 1 sản phẩm nào của táo nữa.
-Thiết kế ngày càng lỗi thời, ko theo xu hướng của thời đại. Màn hình 6 thường với 6+ to hơn nhau rõ nhưng hiển thị ko hơn đc nhau (ví dụ như 6 hiện đc 20 dòng chữ chả hạn thì thằng 6+ phải hiện đc 25 dòng nhưg nó lại chỉ hiện to hơn chứ ko thêm) khác xa hoàn toàn với mấy dòng Lumia màn hình to sẽ hiển thị thêm nội dung.
-Chức năng ko hơn j mấy dòng máy dưới tầm giá. Cộng đồng hóa rất là ngu (bản tính hẹp hòi, ko quan hệ ở cái blutooth)
+Xấu y như ip6 nên không lên thôi. 5s vẫn đẹp nhất. Chờ 7 xem sao. Vừa thô vừa thiển. Viền to, Chỉ nhựa, $T$ lồi.
+camera
+2
+Thiết kế ngày càng lỗi thời, ko theo xu hướng của thời đại.
+thiết kế
+2
 Trừ màu sắc vàng hồng ra thì ta không có lí do để nâng cấp
 màu sắc
 1
 Dùng $T$ mới biết nó thú vị thế nào
 3d touch
 1
-Có lẽ 6s sẽ rớt giá thảm vì quá nhiều lỗi. ko hơn gì ip6 nhiều
-Việc hiển nhiên ai cũng thấy là: 6 vs 6+ chỉ so sánh đc với 6s và 6s + ở cái mã thôi. Còn lại thua hết. The only thing changed is everything.
-Tại apple đời có chữ S mới là cải tiến mạnh tính năng (key breakthrough selling point & technology, new industry standard. (Siri, Touch ID, giờ là 3D touch). Em 6 vs 6+ chả có cái mẹ j hơn 5S cả. Nên m luôn là người dùng dòng S này. Sẽ lên 6S.
-Bây giờ dùng 3D touch vuốt mạnh từ cạnh vào là chuyển lại app khác quá tiện. Trc đây cứ phải thoát ra home rồi vào cái khác. hoặc bật multitask lên. Đúng là chỉ có apple mới làm đc vậy. Với 3D touch thì dần dần có thể bỏ nút home khỏi đt. Nhấn mạnh thoát về home chẳng hạn. The possibility is limitless thử hỏi 6 vs 6+ khóc tiếng mán có làm đc ko
-Apple nó có 3D touch, cảm nhận đc lực mạnh nhẹ ông à. Nó tạo ra 1 chiều tương tác nữa giúp tiết kiệm thời gian nên gọi là 3D. Mấy cái webOS kia có cảm nhận đc ko.
-Quote bài thì phải xem nói gì đã rồi hẵng quote nhé, chính ông bảo bây giờ vuốt từ cạnh vào blah blah. 3D gì thì 3D, cứ tính năng vuốt chuyển app hay chuyển dạng thẻ đều là thuổng từ webos hết. Ai quan tâm là ấn mạnh hay nhẹ?
-Tính năng slide to unlock của apple, vuốt từ trái sang phải, android nó cũng là vuốt nhưng đa hướng hơn, vẫn bị apple kiện cho lên bờ xuống ruộng.
-Nói chung là may Palm ko còn tồn tại, chứ ko thì apple bây giờ cũng vẫn chỉ là ios 6. Nói chung tôi cũng chẳng phản đối gì đưa tính năng hay của hdh khác lên, mục đích đều cho người dùng trải nghiệm tốt hơn. Cái chính mấy ông cuồng chẳng biết cái gì cũng tung hô như đúng rồi :v
-Từ hồi ông Job thăng, đầu bếp lên thay, luôn đi sau, chẳng có gì mới mẻ. Nhưng mà cũng chúc mừng dân cuồng táo, được hưởng những gì hay ho nhất từ các hệ điều hành khác, mặc dù có từ mấy năm trước rồi.
-Về phần apple họ cũng nghĩ ra cách vuốt của web os từ trc khi web os ra đời lâu rồi nhưng họ k cho sp ra dơid nó chỉ tồn tại dạng prototype thôi. Vì apple ko bán sp thử nghiệm và rác ra ngoài thị trường. Và họ nghĩ là phải nghiên cứu ra 1 cách hữu hiệu hơn. Nên họ mất mấy năm làm ra cái 3d touch. Họ đưa sp hoàn chỉnh ra thị trường. Bạn hiểu triết lý sp của winner và loser chứ
-Phải công nhận là nó nặng hơn đáng kể, nhưng nhiều người lại thích đầm tay hơn, mình nâng cấp từ 5s.
-Em vẫn sài 5s và k muốn nâng lên 6 hay 6s với cái lý do rất đơn giản là chả có tiền.
 $T$ vẫn lồi
 camera
 2
 Thực sự ip6 dùg 2, 3 năm nữa chắc cấu hình k lỗi thời đc. Giốg như 5s đến bây h dùg vẫn nhanh đó thôi. Còn quay phim 4k hay 3d touch k cần thiết lắm. Để tiền mua ipad pro ngon hơn
-Đang dùng 6, vẫn có khả năng mua 6s or 6s+ nhưng sẽ không lên đời vì: Chưa có sự bứt phá về kiểu dáng (tất nhiên các đời s của IP sẽ chỉ lấy theo phiên bản trước). Chưa kể IP 6 kiểu dáng cũng ko phải là đẹp do viền ăngten sau lưng quá thô
-Pin chưa cải thiện chứ chưa thèm nói là cải lùi.
-Tốc độ xử lý không tăng được mấy, đặc biệt Ram có 1GB là quá ít nên thường xuyên phải thoát hết sw chạy ẩn nếu ko chỉ cần 2-3 cái chạy ẩn thôi là hết sạch ram
-Cần sự đột phá hơn nưa thì mới đổi, ví dụ đột phá như cách anh sam làm với S6e đấy (tôi ko phải là fan của a sam nhé)
+$T$ chưa cải thiện chứ chưa thèm nói là cải lùi.
+pin
+2
 $T$ nào 1GB?
 ram
 0
 $T$ 2gB bạn ơi. Tuyệt vời. Mình sài hầu như không load lại. Bạn thử đi hẳng nói nhé.
 ram
 1
-Đang xài 5s thấy chỉ có màn hình hơi nhỏ thôi mà thích thiết kế nên vẫn xài như thường, chừng nào nó hư thì còn suy nghĩ tới chuyện lên đời.
-Mình mua xài chứ chả phải sang chảnh, thời thượng nên thấy hơi phí tiền để nâng cấp mà thấy không đáng. Ngay cả ipad đang xài ipad 3 vẫn đáp ứng tốt tất cả mọi thứ nên thấy ko cần phải lên ipad mới. Chừng nào hãng hết hỗ trợ phần mềm thì mới nâng cấp.
-Em cũng ko lên vì chả khác gì ngoài vài cấu hình. 6 đủ dùng siêu mượt kể cả lên 9.0.2.
-Nâng cấp dc cái touch ID là làm mình đỡ khổ hơn bao nhiêu, bây h cứ chạm là mở, nhanh như ăn cắp.
+Nâng cấp dc cái $T$ là làm mình đỡ khổ hơn bao nhiêu, bây h cứ chạm là mở, nhanh như ăn cắp.
+touch id
+1
 Camera ko thay đổi đáng kể? Live Photo làm kiểng? nâng cam từ 8mpx lên 12mpx giảm noise tối đa tăng nét cho hình ảnh là ko đáng kể? Bản thân mình còn thừa nhận chưa test kỹ chưa rành mà cũng khuyên dc chả khác j xúi người ta đừng mua!
 Phần cứng lên hẵn 2GB tha hồ mở app game nặng ko lo load lại so vs 1GB iphone 6 vậy chê j nữa? đã chắc sau này mấy cái ios mới nó nâng lên ko lag ko giật ko? truyền thống apple toàn nâng cấp mấy con cũ trước lag giật đùng đùng kể cả ios9
 $T$ thì cũng ko có gì đáng giá với cá nhân mình. Hơn nữa cũng ko sẵn tiền
 3d touch
 2
 6plus + 1 nokia 6700 là đủ dùng, chờ xem sang năm ip7 có thay đổi nhiều thì mới cân nhắc có đổi hay không? Chứ 6s chỉ thêm mỗi cái lực ít dùng, camera thì plus hiện tại cũng đủ chấp nhận đc, vàng hồng thì ko động đến zùi, video 4k thì nặng chứ quay 720 vs 1080p là đẹp zùi,4k dành cho đoàn làm phim chứ người bt ko có nhu cầu mấy
-Tiện thể nói luôn, mình không trích dẫn bài, có bác kia bảo là vuốt nghe gọi bị lag, bị đơ, cái này là có thật, và do lỗi phần mềm thôi ạ
-Mình thấy giữ lâu hiện popup có vẻ hay hơn là dùng lực mạnh. hiện tại điện thoại nào cũng to. đang cầm 1 tay mà giờ tác động lực mạnh lên nữa, sợ ko vững (suy nghĩ cá nhân)
-Không lên vì chờ 7s, 7 sẽ có diện mạo mới, 7s sẽ hoàn thiện hơn
 Cá nhân mình đang dùng 6 và pin khá tốt mặc dù cứ bật wifi 24/24. Hiệu năng của 6 vẫn rất tốt. Xem xong thấy 6s thì rộn ràng vì muốn trải nghiệm 3D touch camera mới nhưng bình tĩnh lại thì mình nghĩ những chức năng đấy thực sự chỉ mang tính định hướng chứ chưa thực sự tạo nên giá trị sử dụng căn bản cho người dùng.
 Mình nghĩ (và trông đợi) phiên bản 7 đến đây sẽ đáng nâng cấp hơn. Vẫn chờ một phiên bản OS ổn định từ thời OS 6. Nếu bản 7 không đáp ứng được một số kì vọng của mình thì mình vẫn dùng 6 thôi.
-Mình đang xài 6+ cũng thấy hài lòng rồi nên chưa có nhu cầu lên đời 6s+. Chờ đến iP7 ra tiếp xem thế nào?
-Có thay đổi nhiều nhưng mấy thay đổi đó k cấp thiết lắm. Nên k nỡ bỏ số tiền kha khá ra để chơi.
-Đã đổi từ 6 lên 6s sau khi đã dùng 6 dc 1 năm, cái thay đổi khiến tôi hài lòng nhất là chất lượng sóng nhà mạng và sóng wifi dc cải thiện hơn, chất lượng đàm thoại và loa trong nghe ấm hơn, to hơn,vân tay nhạy hơn rất nhiều, vuốt màn hình nghe cuộc gọi tỷ lệ thành công cao hơn, không bị delay 2s như các đời trước. Những cái đó là tôi phải sử dụng suốt ngày nên thấy nó cần thiết, còn những thay đổi khác chưa quan tâm lắm.
 Đang xài 6 thì không cần len 6s. Nhưng em đã chót dại bán 6 rôi nên phải mua em 6s+ rose gold hehe
 Tính năng 3D Touch phải ấn 1 lực khá mạnh vào màn hình mới sử dụng được, đa số đã quen với việc chạm và vuốt nên lần đầu sửu dụng sẽ bỡ ngỡ và chưa quen => Thật sự mình thấy tính năng này cũng không cần thiết cho lắm.
-Pin máy sử dụng được hơn 10 tiếng (hệ điều hành ios 9, only wifi 24/24, lướt web, facebook) => Quá xá ổn, anh em nào mà yêu cầu máy phải trụ 2, 3 ngày pin thì mình chịu. Quan điểm của mình là điện thoại cũng giống như mình, cũng phải cần sạc năng lượng sau 1 ngày làm việc.
+Pin máy sử dụng được hơn 10 tiếng (hệ điều hành ios 9, only wifi 24/24, lướt web, facebook) => Quá xá ổn, anh em nào mà yêu cầu máy phải trụ 2, 3 ngày pin thì mình chịu.
 Màu Rose Gold nhìn nghiêng dưới ánh đèn rất giống màu gold, nếu xái thêm ốp lương trong thì sẽ không thấy hết được vẻ sexy của em nó, mà không xài thì sợ trầy máy. hehehe.
-Trọng lượng máy lúc cầm không quá năng hoặc quá nhẹ, cảm giác cầm 1 tay thì khá là dễ chịu.
-Jack cắm tai nghe được bao bọc bởi 1 chất liệu màu trắng (mình không rõ chất liệu đó là gì) nhưng chất liệu bao bọc ấy khá mềm, bữa trước mình xài ốp lưng có nút bịt tai nghe và cổng sạc, ấn vô thì vô tình chạm vào lớp bao bọc màu trắng ấy và nó bị cong vào trong.
-Pass mở máy được nâng lên thành 6 chữ số (do lâu quá không xài nên không nhớ là ip 6 & 6 plus đã có 6 chữ số mở máy hay chưa).
-Tùy theo nhu cầu và túi tiền thì thay đổi thôi !Nếu nhu cầu ít thì dùng 4S vẫn tốt ! Còn nếu nhu cầu nhiều và cần trong các mối quan hệ làm ăn và cần hình thức thì nên dùng cái mới . Thế thôi ! Vì iphone hay bất kỳ cái smartphone nào thì cũng là một cái điện thoại mà thôi !
 3D Touch đúng là không quen thật. Nếu sau này được hỗ trợ nhiều, dùng nhiều thì mới quen được.
 Pin càng lâu càng tốt chứ bác. Nhưng pin trâu thì cũng hay ôm điện thoại nhiều hơn đâm ra dán mắt vào điện thoại cũng chưa chắc tốt nhỉ
-Màu Rose Gold để khoe máy mới thì nói đại đi bác, ai cũng có nhu cầu khoe mẽ mà.
 Theo bạn nói ai mà xài màu Rose Gold để khoe mã thì chưa đúng, mỗi người có quan điểm và sở thích riêng thôi. Như vợ mình ở nhà trông bé thì khoe với ai??? Do thích màu hồng nên mua thôi. Không nên đánh đồng ai xài màu đó là khoe mã, để biết là xài 6s,
-Quan trọng là tiền thôi bác, màu chi cũng có hết, em chả phải dân buôn nhưng có chênh lệch màu gì cũng có hết ý
-Mình đang dùng S6 và vẫn có ý định mua 6S ( đang đợi hàng về - màu grey hiếm quá ). Nói túm lại, nếu ai có tiền và thích thì mua, thiếu 1 trong 2 yếu tố đó thì chắc chắn là ko mua !
-Theo cá nhân mình thấy là chẳng có j nổi bật hết! Hài lòng ip6 gòy chờ ip7 thay đổi kiểu dáng lúc đó nâng cấp thôi. Tiền thì ko thiếu nhiều thì ko có
-Bạn tính sao mà ra tới 20 củ vậy? Ví dụ đang xài 6 Plus 64GB, bán được khoảng 12 triệu Mua 6s Plus 64GB, khoảng 22-23 triệu. Vậy là tốn 10-11 triệu thôi chứ nhỉ?
-iP6, iP6+ mới dùng 1 năm và vẫn còn đang rất tốt. Chu kỳ 2 năm (ko biết là vô tình hay cố ý của Apple) thì ai đang dùng 5S sẽ nhiều khả năng lên 6S hoặc 6S+ hơn.
-Không dễ trong vòng 1 năm bỏ ra gần 20 củ chỉ để đổi 1 chiếc đt ko có nhiều khác biệt lớn.
 $T$ Rose Gold phần lớn chỉ hấp dẫn phái nữ.
 màu sắc
 1
