@@ -1,13 +1,7 @@
-import numpy as np
-import requests
-# from flask import Flask, render_template, jsonify
-from flask import Flask, render_template, abort, request, jsonify
-from flask import request, redirect, url_for
-import codecs
 import gensim
-from distutils.version import LooseVersion, StrictVersion
-
+import numpy as np
 import os
+from distutils.version import LooseVersion
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
