@@ -531,23 +531,102 @@ pin
 Mỗi tội 6s $T$ yếu hơn
 pin
 2
-Công nhận dùng quen 3d touch thì thấy rất sướng. Quả camera cũng cực ngon, chụp pano cực đẹp. cảm biến thì nhạy hơn rõ rệt so với 6. Còn ram 2gb so với 1gb của 6 mình thấy vẫn không quá khác biệt. 6 vẫn nhanh như 6s
+Công nhận dùng quen $T$ thì thấy rất sướng. Quả camera cũng cực ngon, chụp pano cực đẹp. touch id thì nhạy hơn rõ rệt so với 6. Còn ram 2gb so với 1gb của 6 mình thấy vẫn không quá khác biệt. 6 vẫn nhanh như 6s
+3d touch
+1
+Công nhận dùng quen 3d touch thì thấy rất sướng. Quả $T$ cũng cực ngon, chụp pano cực đẹp. touch id thì nhạy hơn rõ rệt so với 6. Còn ram 2gb so với 1gb của 6 mình thấy vẫn không quá khác biệt. 6 vẫn nhanh như 6s
+camera
+1
+Công nhận dùng quen 3d touch thì thấy rất sướng. Quả camera cũng cực ngon, chụp pano cực đẹp. $T$ thì nhạy hơn rõ rệt so với 6. Còn ram 2gb so với 1gb của 6 mình thấy vẫn không quá khác biệt. 6 vẫn nhanh như 6s
+touch id
+1
+Công nhận dùng quen 3d touch thì thấy rất sướng. Quả camera cũng cực ngon, chụp pano cực đẹp. touch id thì nhạy hơn rõ rệt so với 6. Còn $T$ 2gb so với 1gb của 6 mình thấy vẫn không quá khác biệt. 6 vẫn nhanh như 6s
+ram
+2
 Công nhận 6s ngon. Trước cứ phải mua 6sp vì sợ con bé nó pin kém, bây giờ thực tế dùng 6s thấy cây 6sp thành thừa. 6s pin rất tốt.
-Định chờ iphone 7 nhưng thôi. Ram 2gb thì dùng tẹt vài năm cũng không sợ bị lỗi thời.
-3D touch là công nghệ tương lai, giống như touch ID trên 5s mà 5 ko có vậy, các máy sau này buộc phải có. Phần cứng double mọi mặt, chip, ram, bộ nhớ trong đều chuẩn mới và nhanh hơn. Nó giống như từ 4 lên 4s vậy, 1 khoảng cách cấu hình rất xa. 2 cái ở trên thôi đã rất đáng kể rồi, chưa kể touch ID thế hệ 2 nhanh hơn. Giá cả miễn bàn đi, chơi iphone thì lo gì giá. CÒn muốn khoe thì dễ lắm, cứ mở máy lướt qua lướt lại là xong hà, iOS 9 mà chạy ầm ầm siêu mượt, lại có 3D touch và live photo thú vị thì chỉ có 6s/6s+
-Cầm con iphone màu vàng hồng thì con gà nó cũng biết là là chỉ 6s mới có. còn 1 điều này nữa là con 6s thấy nó nhanh hơn con 6s+ dù 2 con mua cách nhau có mấy ngày thôi.
-Thật ra đáng giá nhất là ram 2g nếu xét theo 3 tiêu chí kia! Nhưng với ios 1 g ram vẫn thoải mái chán! Và khác biệt nhau không quá lớn ngoài tiêu chí 3d.
+pin
+0
+Công nhận 6s ngon. Trước cứ phải mua 6sp vì sợ con bé nó pin kém, bây giờ thực tế dùng 6s thấy cây 6sp thành thừa. 6s $T$ rất tốt.
+pin
+1
+Định chờ iphone 7 nhưng thôi. $T$ 2gb thì dùng tẹt vài năm cũng không sợ bị lỗi thời.
+ram
+1
+$T$ là công nghệ tương lai, giống như touch ID trên 5s mà 5 ko có vậy, các máy sau này buộc phải có.
+3d touch
+1
+3D touch là công nghệ tương lai, giống như $T$ trên 5s mà 5 ko có vậy, các máy sau này buộc phải có.
+touch id
+0
+$T$ double mọi mặt, chip, ram, bộ nhớ trong đều chuẩn mới và nhanh hơn. Nó giống như từ 4 lên 4s vậy, 1 khoảng cách cấu hình rất xa. 2 cái ở trên thôi đã rất đáng kể rồi, chưa kể touch ID thế hệ 2 nhanh hơn.
+phần cứng
+1
+Phần cứng double mọi mặt, $T$, ram, bộ nhớ trong đều chuẩn mới và nhanh hơn. Nó giống như từ 4 lên 4s vậy, 1 khoảng cách cấu hình rất xa. 2 cái ở trên thôi đã rất đáng kể rồi, chưa kể touch ID thế hệ 2 nhanh hơn.
+chip
+1
+Phần cứng double mọi mặt, chip, $T$, bộ nhớ trong đều chuẩn mới và nhanh hơn. Nó giống như từ 4 lên 4s vậy, 1 khoảng cách cấu hình rất xa. 2 cái ở trên thôi đã rất đáng kể rồi, chưa kể touch ID thế hệ 2 nhanh hơn.
+ram
+1
+Phần cứng double mọi mặt, chip, ram, $T$ đều chuẩn mới và nhanh hơn. Nó giống như từ 4 lên 4s vậy, 1 khoảng cách cấu hình rất xa. 2 cái ở trên thôi đã rất đáng kể rồi, chưa kể touch ID thế hệ 2 nhanh hơn.
+bộ nhớ trong
+1
+Phần cứng double mọi mặt, chip, ram, bộ nhớ trong đều chuẩn mới và nhanh hơn. Nó giống như từ 4 lên 4s vậy, 1 khoảng cách cấu hình rất xa. 2 cái ở trên thôi đã rất đáng kể rồi, chưa kể $T$ thế hệ 2 nhanh hơn.
+touch id
+1
+$T$ cả miễn bàn đi, chơi iphone thì lo gì giá. CÒn muốn khoe thì dễ lắm, cứ mở máy lướt qua lướt lại là xong hà, iOS 9 mà chạy ầm ầm siêu mượt, lại có 3D touch và live photo thú vị thì chỉ có 6s/6s+
+giá
+0
+Giá cả miễn bàn đi, chơi iphone thì lo gì giá. CÒn muốn khoe thì dễ lắm, cứ mở máy lướt qua lướt lại là xong hà, iOS 9 mà chạy ầm ầm siêu mượt, lại có $T$ và live photo thú vị thì chỉ có 6s/6s+
+touch id
+1
+Giá cả miễn bàn đi, chơi iphone thì lo gì giá. CÒn muốn khoe thì dễ lắm, cứ mở máy lướt qua lướt lại là xong hà, iOS 9 mà chạy ầm ầm siêu mượt, lại có 3D touch và $T$ thú vị thì chỉ có 6s/6s+
+live photo
+1
+Thật ra đáng giá nhất là $T$ 2g nếu xét theo 3 tiêu chí kia! Nhưng với ios 1 g ram vẫn thoải mái chán! Và khác biệt nhau không quá lớn ngoài tiêu chí 3d.
+ram
+1
+Thật ra đáng giá nhất là ram 2g nếu xét theo 3 tiêu chí kia! Nhưng với ios 1 g $T$ vẫn thoải mái chán! Và khác biệt nhau không quá lớn ngoài tiêu chí 3d.
+ram
+0
 Màn hình của 6s có đẹp như 6s+ ko vậy mấy bác? Như 2 vc em đang dùng 6 và 6+ thấy màn của 6 màu nhợt nhạt quá, trong khi đó 6+ màu sắc đẹp hơn bao nhiêu
-Chụp tối thì nãn đều luôn. Bao giờ apple nâng cấp camera để chụp ban đêm và phơi sáng nhỉ
-Vừa mua được mấy hôm. Touch ID ngon, pin ngon, nhanh. lỗi camera, thi thoảng bị đơ 3s, lỗi app gọi điện thi thoảng có ng gọi tới có chuông nhưng không thấy giao diện nhận cuộc gọi.
-Mình vẫn thấy ok với em 6 plus, hơn nữa ko ham hố với rose gold nên chả có nhu cầu đổi. Hiệu năng thì có lẽ ko khác biệt nhiều, nhưng quan trọng nhất với mình là pin 6 plus quá ngon.
-6s chả khác gì 6 thường cả, có khác phải đợi 2,3 năm nữa apple ra pb mới thời điểm đó ram 2gb và chip mới cho thấy sự khác biệt. Cũng như 5,5s bây h. Thời mới ra gần như hơn nhau mỗi cái vân tay, h mới thấy pin 5s tốt hơn 5 hẳn
-Vấn đề là chất lượng ram 1G của ios so với 2G của adroid cái nào tốt hơn bạn ơi,ip nó ko màu mè hoa lá 3G,4g hay màn 2K 4K đâu.
-Chuẩn bác, tại bác ấy cứ thích so sánh vs android. Bản chất của hai OS khác nhau, ios đến h ram 1gb vẫn chạy mượt đấy thôi. Android mà ram 1gb thì xác định là lag sau 1 time dùng. Còn màn hình 2k hay 4k dĩ nhiên là tốt, nhưng tốt lên ko bao nh so vs full hd mà pin kém đi thì cũng chẳng ích lợi gì, cứ để full hd chạy có phải hay hơn ko, sau này cải thiện dc công nghệ pin lên cũng ko muộn.
-A đẹp thì a dùng iPhone màu gì chả đẹp. Màu Rose Gold bên ngoài nó sang trọng và hợp với giới trẻ chứ chả có gì là nữ tính hết.
-Nhưng phải nói thật dùng thử 6s của đứa ở cty : giải trí trên cả tuyệt vời, chụp choẹt nhoay nhoáy, game giếc chạy vèo vèo, màn đẹp và màu sáng, hình ảnh trung thực, thân máy khá sang chảnh, dùng để dụ ánh mắt khá ok. Nhưng những cái đó mình lại chưa thấy cần, vì PP cũng đủ độc, đáp ứng đủ nhu cầu cv và giải trí.
-Nhận xét về nâng Ram là chuẩn nhất. Công nhận chơi mấy ngày mà app mở từ mấy hôm trc quay lại vẫn ko bị load lại
-5s pin nó vốn đã kém sẵn rồi, xài lâu nữa thì nó lấy gì so với 6s thế ?
+màn hình
+0
+Màn hình của 6s có đẹp như 6s+ ko vậy mấy bác? Như 2 vc em đang dùng 6 và 6+ thấy màn của 6 màu nhợt nhạt quá, trong khi đó 6+ màu sắc đẹp hơn bao nhiêu
+màu sắc
+1
+Chụp tối thì nãn đều luôn. Bao giờ apple nâng cấp $T$ để chụp ban đêm và phơi sáng nhỉ
+camera
+0
+Vừa mua được mấy hôm. $T$ ngon, pin ngon, nhanh. lỗi camera, thi thoảng bị đơ 3s, lỗi app gọi điện thi thoảng có ng gọi tới có chuông nhưng không thấy giao diện nhận cuộc gọi.
+touch id
+1
+Vừa mua được mấy hôm. Touch ID ngon, $T$ ngon, nhanh. lỗi camera, thi thoảng bị đơ 3s, lỗi app gọi điện thi thoảng có ng gọi tới có chuông nhưng không thấy giao diện nhận cuộc gọi.
+pin
+1
+Vừa mua được mấy hôm. Touch ID ngon, pin ngon, nhanh. lỗi $T$, thi thoảng bị đơ 3s, lỗi app gọi điện thi thoảng có ng gọi tới có chuông nhưng không thấy giao diện nhận cuộc gọi.
+camera
+2
+Vừa mua được mấy hôm. Touch ID ngon, pin ngon, nhanh. lỗi camera, thi thoảng bị đơ 3s, lỗi $T$ gọi điện thi thoảng có ng gọi tới có chuông nhưng không thấy giao diện nhận cuộc gọi.
+app
+2
+Mình vẫn thấy ok với em 6 plus, hơn nữa ko ham hố với $T$ rose gold nên chả có nhu cầu đổi. Hiệu năng thì có lẽ ko khác biệt nhiều, nhưng quan trọng nhất với mình là pin 6 plus quá ngon.
+màu sắc
+1
+Mình vẫn thấy ok với em 6 plus, hơn nữa ko ham hố với màu sắc rose gold nên chả có nhu cầu đổi. $T$ thì có lẽ ko khác biệt nhiều, nhưng quan trọng nhất với mình là pin 6 plus quá ngon.
+hiệu năng
+2
+Mình vẫn thấy ok với em 6 plus, hơn nữa ko ham hố với rose gold nên chả có nhu cầu đổi. Hiệu năng thì có lẽ ko khác biệt nhiều, nhưng quan trọng nhất với mình là $T$ 6 plus quá ngon.
+pin
+1
+A đẹp thì a dùng iPhone màu gì chả đẹp. $T$ Rose Gold bên ngoài nó sang trọng và hợp với giới trẻ chứ chả có gì là nữ tính hết.
+màu sắc
+1
+Nhận xét về nâng $T$ là chuẩn nhất. Công nhận chơi mấy ngày mà app mở từ mấy hôm trc quay lại vẫn ko bị load lại
+ram
+1
+5s $T$ nó vốn đã kém sẵn rồi, xài lâu nữa thì nó lấy gì so với 6s thế ?
+pin
+2
 Cá nhân e thấy còn lâu apple mới nâng cấp lại $T$ với camera !! Cho nên bây giờ mua 6s dùng lâu dài là hợp lý !!
 ram
 1
@@ -602,7 +681,12 @@ camera
 Còn 3 cái mà mình không hài lòng là pin, diện tích màn hình, camera - Apple có thể cải thiện $T$ màn hình với iPhone 7.
 thiết kế
 2
-Nhưng camera và pin chắc chắn vẫn chỉ là những nâng cấp nhỏ thôi, không có tính đột phá. Đợi đến thời điểm camera vượt qua được giới hạn vât lý hiện giờ và phát minh ra một dạng pin mới dung lượng cao hơn.
+Nhưng $T$ và pin chắc chắn vẫn chỉ là những nâng cấp nhỏ thôi, không có tính đột phá.
+camera
+2
+Nhưng camera và $T$ chắc chắn vẫn chỉ là những nâng cấp nhỏ thôi, không có tính đột phá.
+pin
+2
 $T$ hẻo không trụ được hết ngày.
 pin
 2
