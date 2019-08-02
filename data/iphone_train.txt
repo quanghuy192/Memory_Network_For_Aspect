@@ -567,24 +567,78 @@ Cái $T$ chỉ maketing là chính, bấm như cảm ứng điện trở, không
 $T$ yếu quá dùng bất tiện.
 pin
 2
-App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
-Tôi ko đồng ý lắm. Mình quyết định mua 6s cũng vì vậy. Nói ip6s nâng cấp nhỏ nhặt nhất. Trong khi từ ip5 5s 6 đều ở mức 1gb ram. Nói về hiệu năng thì ip6s quá đáng mua. Mình thấy nâng nhỏ nhặt nhất phải là từ 5s lên 6. Hiệu năng k tăng nhiều mà chỉ thay đổi kích cỡ màn hình. Còn k biết ông có dùng 6s ko mà phán 3d touch ko đem lại lợi ích lớn. Có 3d touch xài các tác vụ rất tiện dụng.
-Iphone 6 và 6s có 3 nhược điểm rất lớn. Màn hình xấu so với các máy cao cấp khác. Hđh quá đóng ko cho copy gửi gọt gì cả. Giá quá đắt
-Đợt sau apple nâng cho nó lên 3GB ram luôn đi xài cho khoẻ. Nâng cấp đáng giá nhất lần này mình nghĩ là ram, làm cho việc trãi nghiệm máy thoải mái hơn.
-Nút home nhạy quá thì định quy định ngón nào dùng để mở máy, ngón nào chie để check giờ hoặc chụp hình
+$T$ cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+app
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, $T$ đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+thiết kế
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, $T$ tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+3d touch
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, $T$ giúp e lưu những khoảng khắc với gấu sinh động.
+live photo
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, $T$ cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+camera
+1
+Iphone 6 và 6s có 3 nhược điểm rất lớn. $T$ xấu so với các máy cao cấp khác. hệ điều hành quá đóng ko cho copy gửi gọt gì cả. Giá quá đắt
+màn hình
+2
+Iphone 6 và 6s có 3 nhược điểm rất lớn. Màn hình xấu so với các máy cao cấp khác. $T$ quá đóng ko cho copy gửi gọt gì cả. Giá quá đắt
+hệ điều hành
+2
+Iphone 6 và 6s có 3 nhược điểm rất lớn. Màn hình xấu so với các máy cao cấp khác. hệ điều hành quá đóng ko cho copy gửi gọt gì cả. $T$ quá đắt
+giá
+2
+Đợt sau apple nâng cho nó lên 3GB $T$ luôn đi xài cho khoẻ. Nâng cấp đáng giá nhất lần này mình nghĩ là ram, làm cho việc trãi nghiệm máy thoải mái hơn.
+ram
+0
+Đợt sau apple nâng cho nó lên 3GB ram luôn đi xài cho khoẻ. Nâng cấp đáng giá nhất lần này mình nghĩ là $T$, làm cho việc trãi nghiệm máy thoải mái hơn.
+ram
+1
 Iphone 6s vẩn $T$ lồi , ko đẹp tí nào , đành xài 5s và 5c thêm 1 thời gian nữa, chờ iphone 7 thế nào
 camera
 2
-Đã bao nhiêu lâu rồi apple trung thành vs camera 8mpx và chỉ đến đời 6s mới lên 12 mpx. Đa số các phiên bản IP đều dùng RAM 1GB và chỉ có 6s là bắt đầu nâng RAM 2GB. Màn hình 3D-Touch mới nhất dc áp dụng trên smartphone. Còn nếu bác so vs android thì RAM 2GB, camera 12 Mpx đã quá tầm thường ngoại trừ 3d-touch và bộ nhớ kiểu mb12'.
-Đang xài S6 và 6S+. Quả thực nâng cấp ram và Apple A9 khiến ip nhanh và mạnh khủng khiếp. Cơ mà nó nặng kinh khủng. To và vướng nữa.
-Touch ID thì cũng chưa phải ghê gớm lắm thiết nghĩ cho cùng nhanh hơn vài giây cũng chả làm đc gì. Camera cũng không hơn nhau là mấy. cái đáng đc nhất là ram 2G. ram 2G mang lại chải nghiệm tốt hơn rõ ràng.
-Cái 3d touch max sida nếu so vs longpress same same nhau, camera cải lùi chứ k phải cải tiến, đã có bài test từ trang chuyên test camera uy tín nhất thế giới.
-Để t xem bảo giờ mấy máy android lên 3D touch nè . Apple đúng là luôn làm cuộc cách mạng công nghệ khiến các hãng điện thoại khác phải học hỏi theo sau : Chip 64 bit , thiết kế nguyên khối , touch ID , thanh toán di động
-Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
-Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
-Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
-Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
-Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
+Đang xài S6 và 6S+. Quả thực nâng cấp $T$ và Apple A9 khiến ip nhanh và mạnh khủng khiếp. Cơ mà nó nặng kinh khủng. To và vướng nữa.
+ram
+1
+$T$ thì cũng chưa phải ghê gớm lắm thiết nghĩ cho cùng nhanh hơn vài giây cũng chả làm đc gì. Camera cũng không hơn nhau là mấy. cái đáng đc nhất là ram 2G. ram 2G mang lại chải nghiệm tốt hơn rõ ràng.
+touch id
+1
+Touch ID thì cũng chưa phải ghê gớm lắm thiết nghĩ cho cùng nhanh hơn vài giây cũng chả làm đc gì. $T$ cũng không hơn nhau là mấy. cái đáng đc nhất là ram 2G. ram 2G mang lại chải nghiệm tốt hơn rõ ràng.
+camera
+2
+Touch ID thì cũng chưa phải ghê gớm lắm thiết nghĩ cho cùng nhanh hơn vài giây cũng chả làm đc gì. Camera cũng không hơn nhau là mấy. cái đáng đc nhất là $T$ 2G. ram 2G mang lại chải nghiệm tốt hơn rõ ràng.
+ram
+1
+Touch ID thì cũng chưa phải ghê gớm lắm thiết nghĩ cho cùng nhanh hơn vài giây cũng chả làm đc gì. Camera cũng không hơn nhau là mấy. cái đáng đc nhất là ram 2G. $T$ 2G mang lại chải nghiệm tốt hơn rõ ràng.
+ram
+1
+Cái $T$ max sida nếu so vs longpress same same nhau, camera cải lùi chứ k phải cải tiến, đã có bài test từ trang chuyên test camera uy tín nhất thế giới.
+3d touch
+2
+Cái 3d touch max sida nếu so vs longpress same same nhau, $T$ cải lùi chứ k phải cải tiến, đã có bài test từ trang chuyên test camera uy tín nhất thế giới.
+camera
+2
+Cái 3d touch max sida nếu so vs longpress same same nhau, camera cải lùi chứ k phải cải tiến, đã có bài test từ trang chuyên test $T$ uy tín nhất thế giới.
+camera
+0
+Dù biết nó tốt nhưng nghĩ tới cái $T$ chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
+màn hình
+2
+Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. $T$ cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
+3d touch
+2
+Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. $T$ thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
+camera
+2
+Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh $T$ cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
+camera
+2
+Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. $T$ ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
+pin
+0
 Vẫn cái $T$ quá xấu so với 5 và 5s tạo độ nhảm của IP lên rất nhiều, thực sự thất vọng
 thiết kế
 2
@@ -680,10 +734,27 @@ Mới mua máy tối qua.dùng mượt, cảm biến nhạy, pin khá tốt. m�
 Chuyển từ ip6s lên ip6s+ là hoàn toàn đúng đắn. Pin ip6s+ bền hơn, xài được 4-5 hôm; máy cầm đầm tay; chụp hình đẹp. Nếu đã xài ip sẽ k ai muốn chuyển sang Android.
 Mình mua ngay đợt khuyến mãi nên giá chỉ 13.5 triệu, bằng với giá bên Mỹ luôn. Còn về hiệu năng thì khỏi nói, mượt mà và ổn định. Điểm duy nhất chưa hài lòng là pin không như mong đợi.
 Tôi dùng điện thoại bao đời nay và đây đúng là điện thoại tuyệt vời nhất. Nếu các bạn đã dùng iPhone thì sẽ không bao giờ muốn dùng hãng điện thoại khác
-Mình có mua may iphone 6s plus 32g ở thế giới di động máy dùng mượt vào mạng nhanh pin thì mình dung đươc hon 1 ngày.nói chung dung rất tốt.
-Điện thoại mua về dùng rất thích, ổn định, màn hình to, nét nên xem phim bá cháy luôn. Pin dùng hơn 2 ngày cho việc lướt web, xem phim trên youtube và nghe nhạc.
-Pin dùng ban đầu thì được lâu nhưng về sau nhanh hết ứng dụng vào thì nhanh
-Camera nét,chụp hình miễn chê Pin trâu,dùng 1,5 ngày mới hết pin Chơi game không bị đơ máy
+Mình có mua may iphone 6s plus 32g ở thế giới di động máy dùng mượt vào mạng nhanh $T$ thì mình dung đươc hon 1 ngày.nói chung dung rất tốt.
+pin
+1
+Điện thoại mua về dùng rất thích, ổn định, $T$ to, nét nên xem phim bá cháy luôn. Pin dùng hơn 2 ngày cho việc lướt web, xem phim trên youtube và nghe nhạc.
+màn hình
+1
+Điện thoại mua về dùng rất thích, ổn định, màn hình to, nét nên xem phim bá cháy luôn. pin dùng hơn 2 ngày cho việc lướt web, xem phim trên youtube và nghe nhạc.
+pin
+1
+$T$ dùng ban đầu thì được lâu nhưng về sau nhanh hết ứng dụng vào thì nhanh
+pin
+0
+$T$ nét,chụp hình miễn chê Pin trâu,dùng 1,5 ngày mới hết pin Chơi game không bị đơ máy
+camera
+1
+Camera nét,chụp hình miễn chê $T$ trâu,dùng 1,5 ngày mới hết pin Chơi game không bị đơ máy
+pin
+1
+Camera nét,chụp hình miễn chê Pin trâu,dùng 1,5 ngày mới hết $T$ Chơi game không bị đơ máy
+pin
+0
 $T$ đẹp ,camera chụp hình rõ ,sang trọng
 máy
 1
@@ -699,7 +770,15 @@ máy
 Máy đẹp, chơi game tốt, pin trâu, chụp hình đẹp, mới cập nhật 10.3 dùng khá sướng.
 pin
 1
-Máy cực mươt, pin trâu, nhiều ứng dụng cần phải tốn tiền mua. Máy khá lơn, dùng xem phim, lướt web đã mắt. Nghe nhạc hay, dùng tai nghe bass lớn như ở bar vậy.
+$T$ cực mươt, pin trâu, nhiều ứng dụng cần phải tốn tiền mua. Máy khá lơn, dùng xem phim, lướt web đã mắt. Nghe nhạc hay, dùng tai nghe bass lớn như ở bar vậy.
+máy
+1
+Máy cực mươt, $T$ trâu, nhiều ứng dụng cần phải tốn tiền mua. Máy khá lơn, dùng xem phim, lướt web đã mắt. Nghe nhạc hay, dùng tai nghe bass lớn như ở bar vậy.
+pin
+1
+Máy cực mươt, pin trâu, nhiều ứng dụng cần phải tốn tiền mua. $T$ khá lơn, dùng xem phim, lướt web đã mắt. Nghe nhạc hay, dùng tai nghe bass lớn như ở bar vậy.
+máy
+1
 Mình mang về dùng thử, cảm nhận khó xài vì phải thiết lập đủ thứ nào là APple id, icloud mấy cái đó đọc hướng dẫn làm mãi chả hiểu gì. Rồi ghét nhất là mỗi lần bật 3g phải vào cài đặt ko có tùy chọn nhanh.
 32gb xài vừa đủ, lưu 3 app mạng xã hội, các app linh tinh thêm 3 cái game nữa rồi lưu hình ảnh là vừa khít.
 Dùng đã lắm, nhanh, mượt, chụp hình selfie quá đỉnh tiếc là không có chụp bằng cử chỉ màn hình to khó bấm chụp.
@@ -910,56 +989,33 @@ Camera tuy lồi nhưng vẫn đẹp hơn đa số hãng khác, SS không con n�
 Loa Apple trước nay luôn ở đó và chất lượng ko có gì xuất sắc, nhưng vẫn luôn ở mức độ OK so với đa số sản phẩm đồng hạng. Nhưng những ai thực sự quan tâm giải chí có thật sự hài lòng với loa điện thoại? Loa boom sound HTC ư? No no no bull sh*t! Vẫn là loa đt mà thôi chưa kể cho dải loa ra mặt trước nhìn phát ớn
 Mỏng là 1 xu hướng thiết kết của Apple trước nay chứ không phải bây h mới có. Nó mỏng hơn mạnh mẽ hơn nhưng lại giữ được thời lượng pin tương đương thế hệ trước thì cũng là một thành công. Đòi hỏi gì nữa?
 Chống rung quang học mục đích không phải giúp ảnh nét hơn mà giúp ảnh bớt noise hơn với chụp thiếu sáng. Việc chống rung chỉ có tác dụng chủ yếu với video. Và thực tế thì chống rung của iPhone 6 thuộc loại top 1 bây h rồi. không tin tự lên youtube check
-Nút nguồn bấm mềm hơn, và nút volume dễ bấm hơn do mềm hơn và dài hơn. Miễn bàn cãi! Còn thích nút của 5s hay 6 tùy sở thích
-Vụ dính tóc, sạn thì khẳng định là có, nghiêm trọng hay không tùy không biết. Nhưng khẳng định thêm nữa là khe hở bé hơn rất nhiều một số sản phẩm đình đám khác là Note 4
-Có thấy hãng nào học tập 1 tính nào đó từ nơi khác họ có phải tự thừa nhận hay công bố không?
-The số 1 là ai? Tui nghĩ chả có hãng nào làm đt hoàn hảo cả. Xét cho cung thi điểm trung bình cho ip6 xêp số 2 cũng k ai dám nhận số 1
-Nhận xét khách quan là lấy cái ip5 phóng to lên làm ip6s thì đẹp gấp 3,42 lần hiện giờ.
-Đã rước e ip6s plus và thấy khá hài lòng, cầm mêm va mát tay
-Dù không hề thích thiết kế của iP6 nhưng phải nói cảm giác cầm trên tay cực kỳ thích
-Xác nhận là mình cũng bị dính tóc khi nghe gọi vài lần. Tổng thể khá ổn, dùng 1 tgian thấy thiết kế của IP6 đẹp ra (chắc là do quen dần)
 Phải thừa nhận iphone tuyệt vời dể sử dụng, thân thiện với tất cả mọi người từ thương gia đại gia để làm việc,giới showbiz để sĩ diện, ca ve để sang chảnh,mấy thằng ăn bám để đẳng cấp
-Mod đánh giá là chiếc smartphone tôt nhất hiện nay trong với màn hình thì thua khá xa so vs 6+, pin ở mức trung bình.
-Nói chung là không có j nổi bật so vs 6+(Gần như chỉ là 1 e 5s thay vỏ và phóng to màn hình) và những máy khác mình thấy hơi bị ảo, thêm vụ sạc nữa.1850 thôi dùng sạc 10w của ipad mất 4h ms đầy mà bảo nhanh thì không biết dùng sạc zin mất bao nhiêu ms đầy nữa
-Bài viết vẫn dìm hàng iphone 6 quá đáng, em chỉ thấy iphone 6 là tuyệt đỉnh nhất từ xưa tới giờ.
-Em vẫn dùng 5s và chưa có nhu cầu, vì tay bé mới cả chủ yếu là chưa có
-Giá cao muh Apple cho vào cái camera tệ quá. Có 8MP, sensor 1/3. Lens :Aperture f2.2 sài chống rung điện tử
-Nếu pin trâu, cam ko nhô, thì bá rồi. Đợi ip7 vậy
-Mình thì đánh giá iPhone6 là chiếc iPhone tốt nhất chứ chưa phải chiếc smartphone tốt nhất.
-Đúng là phải nói theo cách của Apple, iPhone 6 là iPhone tốt nhất mà hãng đã từng làm.
-Em thấy là chiếc iphone mạnh nhất chứ không phải là chiếc iphone đẹp nhất
-Pin 1850 + sạc bằng củ ipad mất 4h đầy pin.
+Mod đánh giá là chiếc smartphone tôt nhất hiện nay trong khi với $T$ thì thua khá xa so vs 6+, pin ở mức trung bình.
+màn hình
+2
+Mod đánh giá là chiếc smartphone tôt nhất hiện nay trong khi với màn hình thì thua khá xa so vs 6+, $T$ ở mức trung bình.
+pin
+2
+Giá cao mà Apple cho vào cái camera tệ quá.
+giá
+1
+Giá cao mà Apple cho vào cái camera tệ quá.
+camera
+2
 Mình rất ngưỡng mộ Apple, không thích, không ghét iphone nhưng đọc bài này, từ cái tiêu đề đến bài viết mình thấy có vẻ không bình thường cho lắm.
 Riêng về vấn đề iphone 6s dễ bị bẻ cong như mọi người cũng biết qua rất nhiều clip, hình ảnh của người dùng trên thế giới. Đây là một lỗi lớn về chất lượng hoàn thiện của sản phẩm cao cấp mà chưa smartphone cao cấp tiền lệ nào mắc phải. Thiết nghĩ là người yêu thích công nghệ, tác giả nên nêu rõ mọi ưu điểm lẫn nhược để anh em có thể định hướng rõ ràng hơn về sản phẩm.
 Nói ko mua iphone 6s thì bị uy là ko đủ tiền hoặc ko có tiền. Buồn vười thật đấy chứng tỏ mua iphone 6s để chứng tỏ mình có tiền phải ko ạ, xin thưa với mấy anh mấy bác là người ta xài đt làm sao cho đủ nhu cầu của mình thôi, và còn sở thik nữa, rất nhiều người co rất nhiều tiền nhưng họ vẫn xài nokia 1202 đấy thôi, vì đt cốt lỏi cũng để liên lạc là chính
-Không biết sao mà nhìn ip6s ngoài đời em lại thấy đep hơn 5s. chắc do nhìn tk của 5s 2 năm rồi nên bắt đầu thấy chán
 Mong là bản cập nhật tới giúp 6s trâu pin hơn
 pin
 1
-Trước giờ mình ko thích iphone vì nó quá bé. Giờ thì thích rồi.
-Màn to rồi vẫn còn cái ios (mình ko thích nó, đơn giản nhất là 5 hay 6 chưa thể chơi A8 online với 3g). Chưa có máy nào xác táo mà chạy android nhỉ (ko nói thằng guphone hiphone của nợ). Táo làm luôn tinh xảo từng cái ốc vít.
-Chỉ một câu đánh giá thôi. Đẹp như iPhone 6
-Mình đính chính là thời gian sạc pin mà cuhiep nói là sai nhé, 6 của mình chỉ cần 2h là đầy rùi, sạc từ lúc <10% nhé, ở đâu ra mà 4h
-Pin thì mình dùng 2 ngày nếu xài ít, xài nhiều thì đủ cho 1-1 ngày rưỡi
-À ban đêm ko dùng các bạn có thể vào assessability, gray scale, màn hình sẽ xám lại, đó là chế độ tiết kiệm pin khá hiệu quả lúc ngủ đấy
-Dùng một thời gian thấy iPhone 6 tuyệt vời thật. Ghét mỗi cái đêm nằm online 1 tay khoai hơn 5s
-Đã mua iphone 6 bản 128gb (1129$ Au) . Rất rất rất tuyệt vời ( cầm ,sờ, vuốt)
-Cho mình hỏi iP có chụp phơi sáng đc ko, và chụp ntn vậy ạ?
-Admin tinh tế là fan cuồng iphone à? sản phẩm nào của apple cũng khen tận mây,lỗi thì không đề cập
-Chính xác . Pm hỏi lỗi ko thấy chia sẻ trả lời giúp . Mà toàn tâng bóc hãm vãi hàng ra
-Dù sao thì củng hỉu giùm anh trong khoảng này . Nhưng túm lại là bài viết này hơi cảm tính mình nghỉ vậy
+$T$ thì mình dùng 2 ngày nếu xài ít, xài nhiều thì đủ cho 1-1 ngày rưỡi
+pin
+1
 Hôm cầm còn 6plus, nói đùa với mấy đứa bạn "tao mà lấy vợ chắc vợ cũng chỉ xinh được đến thế thế này là cùng *mắt hấp háy*", cả lũ cười như điên mà phải gật gù, iP6 quá đẹp!
 "Nên nói là chiếc điện thoại tốt nhất với mình" thì đúng hơn. Nhu cầu và gu thẩm mĩ của mỗi ng khác nhau, ko có chiếc đth tốt nhất, chỉ có chiếc đth tốt nhất với mình. iphone 6 với riêng cá nhân mình, dù thiết kế và trải nghiệm tốt nhưng màn 4.7 thì loại ngay từ vòng gửi xe.
 6s plus màn to nhưng kiểu dáng tròn tròn ko có j đột phá, thích vuông kiểu ultra hoặc ít ra cũng giống note 4. Mỗi ng một ý, nên bài viết chỉ nên dừng lại ở quan điểm cá nhân.
 Ios là một hệ điều hành huyền thoại luôn quá! ứng dụng của ios quá chất so với android!!! Ứng dụng chạy trên iphone rất mượt, cảm giác "nhấn là chạy" so với android!!! Không biết bao lâu nữa android mới xóa được khoảng cách này!!!
-Xác nhận là nếu pin lâu thì mới mua. Hihi. Quả thực mình rất rất cần pin lâu. Và rất thích ios. Ôm khư khư ipad thì không ổn chút nào, còn ip thì pin cùi quá
-Apple dư sức làm cho pin trâu hơn nhiều. Nhưng đó là chiến thuật kinh doanh của họ . Pin iphone trâu thì lượng ipod ,ipad bán ra sẽ giảm đáng kể. Trừ khi sau này apple bị sức ép quá lơn từ phía đối thủ hay khách hàng , chẳng hạn như iphone 6plus.
-Đã dùng thử ip6+ vài giờ. Nói là chiếc smart phone tốt nhất thì đúng là ếch ngồi đáy giếng.
-Toàn các thánh cuồng ip.
-Đọc cả bài, cũng chả hiểu vì sao gọi là smartphone tốt nhất nữa. Nói cho chuẩn chỉ là smartphone anh ấy thích nhất thôi.
-Trên đây là mạng ảo nên chê dìm hàng thổi mái chứ ở ngoài thấy ai dùng ip6s hay npte lại chê nó đấm cho vỡ mổm ra, có rất nhiều người dùng mỗi 1 đt xong mù mắt hết thấy con đt khác.
-Trước 5s thì khen vuông vức đẹp, giờ ra 6 thì chê 5s cầm cấn tay, đúng là lưỡi không xương. Cầm có cái đt mà cũng thấy cấn tay với đau tay thì thấy hài quá? Với nghe cái đoạn liền lạc, có nhất thiết phải thần thánh hoá lên vậy không chứ, cũng chỉ là cạnh bo tròn và mặt kính bo cong ở mép, cái này thì có nhiều máy làm rồi mà.
-IP 6s Cá nhân mình thấy thiết kế Bình thường ko đẹp như 4s và 5,5s. thích có mỗi màn hình to hơn còn về độ mỏng thực sư chỉ cần mỏng như 5,5s là quá đủ. mỏng hơn nữa cũng ko khoái lắm.
+Xác nhận là nếu pin lâu thì mới mua. Hihi. Quả thực mình rất rất cần pin lâu. Và rất thích ios.
 $T$ lồi có dễ xước không nhỉ?
 camera
 $T$ còn quá dày, dùng nút home vật lý.
@@ -979,10 +1035,8 @@ Mỗi năm thay 1 cục pin nhé cu hiệp, từ khi mua máy tới giờ đã 3
 Mỗi lần thay pin là làm mất zin vì phải bung máy, tốn nhiều tiền và quan trọng nhất là dễ bị lộ thông tin cá nhân trên máy vì buộc phải đem ra tiệm.
 Sao ai cũng khen nhỉ, mình thấy không đẹp như IPhone 5S, pin yếu, nóng máy là đủ để do dự rồi mà.Đang nghịch của gấu và cảm thấy vậy, các bác đừng ném đá em nhé, thường sự thật hay mất lòng
 Iphone 6s tuyệt vời, mong iphone 7 sapphire, và cái lưng xinh hơn 1 chút
-Rất quan tâm đến khả năng typing của nó mà video ko xem đc. Nản quá
 Vừa mới mua iPhone 6s. Thích nhất là có thể dụng khẩu lệnh để viết status mà không phải gõ (các máy sử dụng iOS tám nói chung). Hiện giờ ở bên Mỹ vẫn đang cháy hàng đặt trước phải 3-4 tuần mới có, iPhone sáu plus thì lâu hơn. Quyết định mua case bằng da để cầm khỏi bị trơn che camera lồi. Comment này mình viết theo kiểu khẩu lệnh chỉ phải sữa có phải từ.
 Riêng mình cảm nhận thấy không liên quan lắm nhưng mình nể apple ở cách họ làm ra sản phẩm: thứ nhất, lúc họ làm sản phẩm mới, họ chỉ so sánh với sản phẩm tiền nhiệm của họ là nó vượt trội hơn thế nào so với sản phẩm trước, họ không đem so sánh cái của họ với cái khác để dìm hàng. Thứ hai họ chỉ làm cái tốt hơn, vượt trội hơn, thân thiện hơn, mang tính ứng dụng cao hơn so với cái tiền nhiệm và đây là điều làm nên thành công của apple, điều khiến cho những ai trung thành với apple đều muốn gắn bó với nó
-Chờ ip 6 chính hãng bán ra rồi kiếm ip5s mới được
 Hôm rồi mình có khiếu nại với apple về một phần mềm đã mua ,nhưng không ưng ý muốn trả lại. Ngay ngày hôm sau mình nhận được mail trả lời của Customer Support xác nhận nó đã kiểm tra pm đó và đúng là đáng trả lại , và sau 7 ngày mình nhận được tiền hoàn trả. Dịch vụ tốt, thiết kế tinh xảo, ổn định bền. Và bộ gõ tiếng Việt tốt nhất thế giới.
 Các bác cho e hỏi ip6 của e sạc pin khoảng gần 3h từ 15% thì máy báo 100% nhưng vẫn có biểu tượng máy đang sạc. E vẫn để máy thêm khoảng 1h nhưng vẫn báo 100% và biểu tượng máy đang sạc. Vậy máy của em như vậy đã full chưa? Ngày trước e dùng ip5 nó cũng bị như vậy. Lâu rồi ko được thấy biểu tượng phích cắm trên ip của em.
 Xài màn hình to chơi game sướng lắm. Ngoài ra thì pin cũng ngon nữa.
