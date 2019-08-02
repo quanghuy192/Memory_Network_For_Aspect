@@ -502,7 +502,18 @@ camera
 Sao $T$ iphone 6s hết nhanh vậy trời ai có cách nào tối ưu không giúp mình với.
 pin
 2
-Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp tối kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
+Cái $T$ chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá. Camera thì chụp tối kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá.
+màn hình
+2
+Cái màn hình chỉ hd như Đt tầm trung là thấy chán. $T$ cũng chả có gì đột phá. Camera thì chụp tối kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá.
+3d touch
+2
+Cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá. $T$ thì chụp tối kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá.
+camera
+2
+Cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá. Camera thì chụp tối kém, chất lượng hình ảnh $T$ cũng thua các Đt cùng giá.
+camera
+2
 Mình mới lấy em iphone 6s đây. Nhìn chung các tính năng tuyệt vời, đặc biệt là thiết kế sang hẳn so với những dòng khác. Riêng cái tên Iphone thôi cũng đủ nâng tầm người dùng. Nhưng một nhược điểm cực lớn là giá cắt cổ và pin quá yếu.
 Đã xài thử cái của bà chị. Chỉ chấm được mỗi cái sang chảnh, chạy cũng khá mượt. Camera sau tạm được còn trước chụp chán phèo, nhất là khi thiếu sáng. Với mức giá 20 củ thì nên chấm giá/ hiệu năng 6 điểm thôi.
 Khả năng hoàn thiện rất tốt, trải nghiệm được chăm chút rất kỹ đến từng chi tiết, âm thanh rất tốt, quản lý pin tốt. Sau màn hình cảm ứng đa điểm, bây giờ là cảm ứng lực. Nhược điểm của iPhone 6s bây giờ là camera chưa theo kịp các đối thủ đến từ Sony và Samsung, dù sao camera của iPhone 6s vẫn là quá đủ dùng rồi.
@@ -779,14 +790,27 @@ pin
 Máy cực mươt, pin trâu, nhiều ứng dụng cần phải tốn tiền mua. $T$ khá lơn, dùng xem phim, lướt web đã mắt. Nghe nhạc hay, dùng tai nghe bass lớn như ở bar vậy.
 máy
 1
-Mình mang về dùng thử, cảm nhận khó xài vì phải thiết lập đủ thứ nào là APple id, icloud mấy cái đó đọc hướng dẫn làm mãi chả hiểu gì. Rồi ghét nhất là mỗi lần bật 3g phải vào cài đặt ko có tùy chọn nhanh.
-32gb xài vừa đủ, lưu 3 app mạng xã hội, các app linh tinh thêm 3 cái game nữa rồi lưu hình ảnh là vừa khít.
-Dùng đã lắm, nhanh, mượt, chụp hình selfie quá đỉnh tiếc là không có chụp bằng cử chỉ màn hình to khó bấm chụp.
-32gb vừa đủ dùng cho một người những ai thích selfie như mình, trong máy chỉ sử dụng một vài ứng dụng như face, zalo, và 1 vài ứng dụng chỉnh sửa ảnh thôi, nhạc mình toàn nghe online thôi à nên việc dùng lưu ảnh lưu file khá thoải mái đó.
-Apple ra bản 32gb rất hợp lý, 16gb thì quá tệ không đủ lưu còn cao hơn thì mắc quá 32 là vừa đủ xài, giá cũng hợp lý.
-Apple ra bản 32gb này cũng tốt, rẻ mà cũng vừa đủ dung lượng để xài, chỉ cần cài 1 vài app nhẹ 1 game để giải trí thôi thì đủ dùng rồi.
-Mua về xài mượt, game tốt, phim đẹp, chụp khá. pin ổn, tuột hơi nhanh. bản cập nhật hơi nặng.
-Pin dùng đc trên 9h chụp hình đẹp. Mình khuyên các bạn nào đi mua máy. Lựa ngày tốt mà đi. Chứ mình đi nhầm ngày 23 phải đổi máy 3 lần vì máy bị lỗi do nhà sản xuất.
+Apple ra bản $T$ 32gb rất hợp lý, dung lượng 16gb thì quá tệ không đủ lưu còn cao hơn thì mắc quá 32 là vừa đủ xài, giá cũng hợp lý.
+dung lượng
+1
+Apple ra bản dung lượng 32gb rất hợp lý, $T$ 16gb thì quá tệ không đủ lưu còn cao hơn thì mắc quá 32 là vừa đủ xài, giá cũng hợp lý.
+dung lượng
+2
+Apple ra bản $T$ 32gb rất hợp lý, dung lượng 16gb thì quá tệ không đủ lưu còn cao hơn thì mắc quá 32 là vừa đủ xài, $T$ cũng hợp lý.
+giá
+1
+Apple ra bản dung lượng 32gb này cũng tốt, $T$ rẻ mà cũng vừa đủ dung lượng để xài, chỉ cần cài 1 vài app nhẹ 1 game để giải trí thôi thì đủ dùng rồi.
+dung lượng
+1
+Apple ra bản dung lượng 32gb này cũng tốt, giá rẻ mà cũng vừa đủ dung lượng để xài, chỉ cần cài 1 vài app nhẹ 1 game để giải trí thôi thì đủ dùng rồi.
+giá
+1
+Apple ra bản dung lượng 32gb này cũng tốt, giá rẻ mà cũng vừa đủ $T$ để xài, chỉ cần cài 1 vài app nhẹ 1 game để giải trí thôi thì đủ dùng rồi.
+dung lượng
+1
+$T$ dùng đc trên 9h chụp hình đẹp.
+pin
+1
 $T$ đồ họa xử lí rất nhanh, touch id nhạy, nhân viên phục vụ rất tốt 5 sao.
 chip
 1
@@ -841,23 +865,54 @@ pin
 Sản phẩm rất ok và phục vụ tốt:) Rất hài lòng với chức năng cũng như $T$, độ ổn định:)
 pin
 1
-Thiết kế đẹp, app chạy rất nhanh và mượt mà, xài iphone tôi k có cảm giác chán như đã xài samsung hay những máy khác trước đây, giá cũng hợp lý, camera chụp hình đẹp, 3D Touch nhanh, điểm tôi thích nhất là Live Photos trên máy này.
-Ok lắm mọi người ak mua đi không thôi hết hàng đó nhé anh chị em
-Máy chạy tốt pin khoẻ , chạn vào là chạy . Ok mình đang dùng phiên bản 128G . Tuyệt hơn iphone 7
-Rất hài lòng vì máy chạy không đứng, tích hợp được nhiều chương trình trên máy vẩn ok
-Tuyệt vời, sản phẩm quá tốt không có gì để chê cả, thái độ nhân viên cũng rất tuyệt.
-Iphone 6s plus rất ngon, vô nhiều tab mà không bị lag. Apple mãi đẳng cấp.
-Trước giờ toàn dùng Samsung, giờ chuyển sang Iphone thấy cũng ngon lành quá! Mượt mà và trung thực.
-Máy mượt.pin dủng tốt. (tuỳ theo ng dùng) hệ đều hành ổn định(hơi khó sử dụng cho ng moi sử dụng IOS lần đầu) màng hình lơn đọc báo chơi game tuyệt cú mèo.đang gom lúa mua cho vợ
-Ip 6s plus 32g có bị tróc sơn như các phiên bản trước k vậy.đang tính mua mà sợ bị bong sơn
-Dùng sướng lắm, nhưng chơi game thì còn hạn chế quá hi vọng apple thấy được suy nghĩ của KH hơn để có nhiều nhiều game thêm nữa
-Thế là tốt lắm rồi đừng thắc mắc làm gì hàng iphone này xài thì qúa tuyệt nhưng nó vẫn mau hết phin hơn những dòng sản phẩm khác nhưng bù lại cái lỗi đó thì được một cái là xài iphone phong cách và hoành tráng lắm
-Tương đối ổn định, mượt, bền, đẹp. Muốn thay đổi thêm về thiết kế cho nhỏ gọn.
-Trước hết là bề ngoài nhìn rất sang . Màn hình rộng . Bộ nhớ 32GB là vừa để xài . Chụp hình đẹp hơn rất nhiều đối với plus thường.
-Iphone 6s plus tuyệt vời, tóm lại không có gì phải phàn nàn ,bản thân tôi sử dụng rất là tuyệt chụp hình rõ nét sáng đẹp.
-Rất tốt với nhu cầu sử dụng cua tôi,máy chỉ hơi bị lác ở nút HOME ảo thôi.
-Xài tốt, máy nhanh, bền, lớp xi viền dù xài ốp lưng vẫn dễ bị tróc
-Tự động mất nút activetooth ( nút mờ mờ sd như nút home ak ) Loa nghe có lúc rè giống như rà đài radio k nghe j, phải tắt máy khởi động lại
+$T$ đẹp, app chạy rất nhanh và mượt mà,  giá cũng hợp lý, camera chụp hình đẹp, 3D Touch nhanh, điểm tôi thích nhất là Live Photo trên máy này.
+thiết kế
+1
+Thiết kế đẹp, $T$ chạy rất nhanh và mượt mà,  giá cũng hợp lý, camera chụp hình đẹp, 3D Touch nhanh, điểm tôi thích nhất là Live Photo trên máy này.
+app
+1
+Thiết kế đẹp, app chạy rất nhanh và mượt mà,  $T$ cũng hợp lý, camera chụp hình đẹp, 3D Touch nhanh, điểm tôi thích nhất là Live Photo trên máy này.
+giá
+1
+Thiết kế đẹp, app chạy rất nhanh và mượt mà,  giá cũng hợp lý, $T$ chụp hình đẹp, 3D Touch nhanh, điểm tôi thích nhất là Live Photo trên máy này.
+camera
+1
+Thiết kế đẹp, app chạy rất nhanh và mượt mà,  giá cũng hợp lý, camera chụp hình đẹp, $T$ nhanh, điểm tôi thích nhất là Live Photo trên máy này.
+3d touch
+1
+Thiết kế đẹp, app chạy rất nhanh và mượt mà,  giá cũng hợp lý, camera chụp hình đẹp, 3D Touch nhanh, điểm tôi thích nhất là $T$ trên máy này.
+live photo
+1
+Máy chạy tốt $T$ khoẻ , chạn vào là chạy . Ok mình đang dùng phiên bản 128G . Tuyệt hơn iphone 7
+pin
+1
+$T$ mượt. Pin dủng tốt. Hệ điều hành ổn định, màn hình lơn đọc báo chơi game tuyệt cú mèo.
+máy
+1
+Máy mượt. $T$ dủng tốt. Hệ điều hành ổn định, màn hình lơn đọc báo chơi game tuyệt cú mèo.
+pin
+1
+Máy mượt. Pin dủng tốt. $T$ ổn định, màn hình lơn đọc báo chơi game tuyệt cú mèo.
+hệ điều hành
+1
+Máy mượt. Pin dủng tốt. Hệ điều hành ổn định, $T$ lớn đọc báo chơi game tuyệt cú mèo.
+màn hình
+1
+Thế là tốt lắm rồi đừng thắc mắc làm gì hàng iphone này xài thì qúa tuyệt nhưng nó vẫn mau hết $T$ hơn những dòng sản phẩm khác nhưng bù lại cái lỗi đó thì được một cái là xài iphone phong cách và hoành tráng lắm
+pin
+2
+Trước hết là $T$ nhìn rất sang . Màn hình rộng. Dung lượng 32GB là vừa để xài. Camera đẹp hơn rất nhiều đối với plus thường.
+thiết kế
+1
+Trước hết là thiết kế nhìn rất sang . $T$ rộng. Dung lượng 32GB là vừa để xài. Camera đẹp hơn rất nhiều đối với plus thường.
+màn hình
+1
+Trước hết là thiết kế nhìn rất sang . Màn hình rộng. $T$ 32GB là vừa để xài. Camera đẹp hơn rất nhiều đối với plus thường.
+dung lượng
+1
+Trước hết là thiết kế nhìn rất sang . Màn hình rộng. Dung lượng 32GB là vừa để xài. $T$ đẹp hơn rất nhiều đối với plus thường.
+camera
+1
 Tuyệt vời vs $T$ lớn, pin lâu, camera chụp ảnh cho hình cực nét.
 màn hình
 1
@@ -875,16 +930,28 @@ pin
 1
 Máy dùng ngon, ổn định, pin tốt , $T$ khá đẹp , giá cả cần phải mềm hơn nữa.
 thiết kế
+1
 Máy dùng ngon, ổn định, pin tốt , thiết kế khá đẹp , giá cả cần phải mềm hơn nữa.
 giá
 1
-Máy sài rất tốt, pin cũng lâu hết. Thiết kế quâ đẹp, rất sang trọng.
-Trải nghiệm rất tuyệt vời.mặc dù các thế hệ smartphone mới ra cách đây chưa lâu. Nhưng iphone 6s plus vẫn không thua kém các sản phẩm mới ra mắt
-Nói chung máy chạy tốt pin củng tốt hệ điều hành chạy tốt tuyệt vời
-Xài tốt nói chung đạt chuẩn day. Cần nâng cao hơn nữa iPhone 6s plus 64 G xài được
-Chơi game rất mượt và không lag , tôi rất thích
-Dùng rất tốt, mượt và hoàn toàn ưng ý với quyết định mua em nó
-Tôi thấy sản phẩm này dùng cũng được, tôi dùng máy này rất ưng ý.
+$T$ sài rất tốt, pin cũng lâu hết. Thiết kế quâ đẹp, rất sang trọng.
+máy
+1
+Máy sài rất tốt, $T$ cũng lâu hết. Thiết kế quâ đẹp, rất sang trọng.
+pin
+1
+Máy sài rất tốt, pin cũng lâu hết. $T$ quâ đẹp, rất sang trọng.
+thiết kế
+1
+Nói chung $T$ chạy tốt pin củng tốt hệ điều hành chạy tốt tuyệt vời
+máy
+1
+Nói chung máy chạy tốt $T$ củng tốt hệ điều hành chạy tốt tuyệt vời
+pin
+1
+Nói chung máy chạy tốt pin củng tốt $T$ chạy tốt tuyệt vời
+hệ điều hành
+1
 Tuyệt vời tại thời điểm này. Hợp lý $T$ tiền. Công nghệ không quá cũ.
 giá
 1
