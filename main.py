@@ -17,12 +17,12 @@ flags.DEFINE_float("init_lr", 0.01, "initial learning rate [0.01]")
 flags.DEFINE_float("init_hid", 0.1, "initial internal state value [0.1]")
 flags.DEFINE_float("init_std", 0.01, "weight initialization std [0.05]")
 flags.DEFINE_float("max_grad_norm", 100, "clip gradients to this norm [50]")
-flags.DEFINE_string("pretrain_file", "/data/iphone_train.txt",
+flags.DEFINE_string("pretrain_file", "/data/wiki.vi.model.bin",
                     "pre-trained glove vectors file path [../data/wiki.vi.model.bin]")
 flags.DEFINE_string("train_data", "data/iphone_train.txt",
                     "train gold data set path [./data/iphone_train.txt]")
-flags.DEFINE_string("test_data", "data/Laptops_Test_Gold.xml.seg",
-                    "test gold data set path [./data/Laptops_Test_Gold.xml.seg]")
+flags.DEFINE_string("test_data", "data/iphone_train.txt",
+                    "test gold data set path [./data/iphone_train.txt]")
 flags.DEFINE_boolean("show", False, "print progress [False]")
 flags.DEFINE_integer("pad_idx", 0, "pad_idx")
 flags.DEFINE_integer("nwords", 3425, "nwords")
@@ -42,9 +42,9 @@ def main(_):
 
 
 
-    # train_data = get_dataset(FLAGS.train_data, source_word2idx, target_word2idx, embeddings)
-    # test_data = get_dataset(FLAGS.test_data, source_word2idx, target_word2idx, embeddings)
-    #
+    train_data = get_dataset(FLAGS.train_data, source_word2idx, target_word2idx, embeddings)
+    test_data = get_dataset(FLAGS.test_data, source_word2idx, target_word2idx, embeddings)
+
     # print("train data size - ", len(train_data[0]))
     # print("test data size - ", len(test_data[0]))
     #
@@ -80,5 +80,9 @@ if __name__ == '__main__':
     max_sent_len = -1
 
     max_sent_len = get_dataset_resources(FLAGS.train_data, source_word2idx, target_word2idx, word_set, max_sent_len)
-    max_sent_len = get_dataset_resources(FLAGS.test_data, source_word2idx, target_word2idx, word_set, max_sent_len)
+    # max_sent_len = get_dataset_resources(FLAGS.test_data, source_word2idx, target_word2idx, word_set, max_sent_len)
     embeddings = load_embedding_file(FLAGS.pretrain_file, word_set)
+    print(len(embeddings))
+
+    train_data = get_dataset(FLAGS.train_data, source_word2idx, target_word2idx, embeddings)
+    # test_data = get_dataset(FLAGS.test_data, source_word2idx, target_word2idx, embeddings)
