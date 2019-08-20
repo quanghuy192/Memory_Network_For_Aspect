@@ -10,30 +10,17 @@ from underthesea import word_tokenize
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 
-# download from https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0
-
 def load_embedding_file(embed_file_name, word_set):
-    model = dir_path + embed_file_name
 
     embeddings = {}
-    if os.path.isfile(model):
-        print('Loading word2vec model ...')
-        if LooseVersion(gensim.__version__) >= LooseVersion("1.0.1"):
-            from gensim.models import KeyedVectors
-            word2vec_model = KeyedVectors.load_word2vec_format(model, binary=True)
-        else:
-            from gensim.models import Word2Vec
-            word2vec_model = Word2Vec.load_word2vec_format(model, binary=True)
+    with open(embed_file_name, 'r') as embed_file:
+        for line in embed_file:
+            content = line.strip().split()
+            word = content[1]
+            if word in word_set:
+                embedding = np.array(content[2:], dtype=float)
+                embeddings[word] = embedding
 
-        for word in word2vec_model.wv.vocab:
-            if word not in word_set:
-                vec = word2vec_model.wv[word]
-                embeddings[word] = vec
-
-    else:
-        print(
-            "Download word2vec model and put into ./data/. File: "
-            "https://drive.google.com/open?id=0B1GKSX6YCHXlakkzQ2plZVdUUE0")
     return embeddings
 
 
@@ -63,7 +50,6 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
 
             vn_sentences = word_tokenize(sentence, format='text')
             vn_sentences = vn_sentences.replace("$ t $", "$t$")
-            print(vn_sentences)
 
             sentence_words.extend(vn_sentences.split())
             target_words.extend([target])
@@ -87,6 +73,25 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
 
     return max_sent_len
 
+def get_embedding_matrix(embeddings, sent_word2idx, target_word2idx, edim):
+
+    word_embed_matrix = np.zeros([len(sent_word2idx), edim], dtype=float)
+    target_embed_matrix = np.zeros([len(target_word2idx), edim], dtype=float)
+
+    for word in sent_word2idx:
+        if word in embeddings:
+            word_embed_matrix[sent_word2idx[word]] = embeddings[word]
+
+    for target in target_word2idx:
+        for word in target:
+            if word in embeddings:
+                target_embed_matrix[target_word2idx[target]] += embeddings[word]
+        target_embed_matrix[target_word2idx[target]] /= max(1, len(target.split()))
+
+    print(type(word_embed_matrix))
+
+    return word_embed_matrix, target_embed_matrix
+
 
 def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
     sentence_list = []
@@ -94,6 +99,7 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
     target_list = []
     polarity_list = []
 
+    dict = {}
     with open(data_file_name, 'r') as data_file:
         lines = data_file.read().split('\n')
         for line_no in range(0, len(lines) - 1, 3):
@@ -104,13 +110,11 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
             # sent_words = sentence.split()
             sent_words = word_tokenize(sentence, format='text')
             sent_words = sent_words.replace("$ t $", "$t$").split()
-            print(sent_words)
             # target_words = target.split()
             target_words = word_tokenize(target, format='text')
             try:
                 target_location = sent_words.index("$t$")
             except:
-                print(sentence)
                 print("sentence does not contain target element tag")
                 exit()
 
@@ -118,14 +122,13 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
             id_tokenised_sentence = []
             location_tokenised_sentence = []
 
+
             for index, word in enumerate(sent_words):
                 if word == "$t$":
                     continue
                 try:
                     word_index = sent_word2idx[word]
                 except:
-                    print(word)
-                    print(sentence)
                     print("id not found for word in the sentence")
                     exit()
 
@@ -134,6 +137,8 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
                 if word in embeddings:
                     id_tokenised_sentence.append(word_index)
                     location_tokenised_sentence.append(location_info)
+                else:
+                    dict[word] = word
 
                 # if word not in embeddings:
                 #   is_included_flag = 0
@@ -159,4 +164,6 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
             target_list.append(target_index)
             polarity_list.append(polarity)
 
+    print(len(dict))
+    print(dict)
     return sentence_list, location_list, target_list, polarity_list
