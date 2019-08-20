@@ -21,7 +21,7 @@ flags.DEFINE_float("max_grad_norm", 100, "clip gradients to this norm [50]")
 flags.DEFINE_string("pretrain_file", "baomoi.window2.vn.model.bin",
                     "pre-trained glove vectors file path [baomoi.window2.vn.model.bin]")
 flags.DEFINE_string("train_data", "iphone_train.txt", "train gold data set path [.iphone_train.txt]")
-flags.DEFINE_string("test_data", "iphone_train.txt", "test gold data set path [.iphone_train.txt]")
+flags.DEFINE_string("test_data", "iphone_test.txt", "test gold data set path [.iphone_train.txt]")
 flags.DEFINE_boolean("show", False, "print progress [False]")
 flags.DEFINE_integer("pad_idx", 0, "pad_idx")
 flags.DEFINE_integer("nwords", 1642, "nwords")
