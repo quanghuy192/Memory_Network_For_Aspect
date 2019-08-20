@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import gensim
 import numpy as np
 from collections import Counter
-import os
-from distutils.version import LooseVersion
 from underthesea import word_tokenize
-
-dir_path = os.path.dirname(os.path.realpath(__file__))
+from gensim.models import KeyedVectors
 
 
 def load_embedding_file(embed_file_name, word_set):
@@ -73,6 +69,7 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
 
     return max_sent_len
 
+
 def get_embedding_matrix(embeddings, sent_word2idx, target_word2idx, edim):
 
     word_embed_matrix = np.zeros([len(sent_word2idx), edim], dtype=float)
@@ -93,7 +90,12 @@ def get_embedding_matrix(embeddings, sent_word2idx, target_word2idx, edim):
     return word_embed_matrix, target_embed_matrix
 
 
+embed_file_name = 'baomoi.window2.vn.model.bin'
+word2vec_model = KeyedVectors.load_word2vec_format(embed_file_name, binary=True)
+
+
 def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
+
     sentence_list = []
     location_list = []
     target_list = []
@@ -134,7 +136,7 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
 
                 location_info = abs(index - target_location)
 
-                if word in embeddings:
+                if check_vector(word):
                     id_tokenised_sentence.append(word_index)
                     location_tokenised_sentence.append(location_info)
                 else:
@@ -146,7 +148,7 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
 
             is_included_flag = 0
             for word in target_words:
-                if word in embeddings:
+                if check_vector(word):
                     is_included_flag = 1
                     break
 
@@ -167,3 +169,14 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
     print(len(dict))
     print(dict)
     return sentence_list, location_list, target_list, polarity_list
+
+
+def check_vector(word) -> bool:
+
+    try:
+        if len(word2vec_model.wv[word]) > 0:
+            return True
+        else:
+            return False
+    except:
+        return False
