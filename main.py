@@ -1,4 +1,3 @@
-import os
 import pprint
 import tensorflow as tf
 from model import MemN2N
@@ -31,17 +30,14 @@ FLAGS = flags.FLAGS
 
 
 def main(_):
-    source_count, target_count = [], []
     source_word2idx, target_word2idx, word_set = {}, {}, {}
     max_sent_len = -1
 
     max_sent_len = get_dataset_resources(FLAGS.train_data, source_word2idx, target_word2idx, word_set, max_sent_len)
     max_sent_len = get_dataset_resources(FLAGS.test_data, source_word2idx, target_word2idx, word_set, max_sent_len)
-    # embeddings = load_embedding_file(FLAGS.pretrain_file, word_set)
-    embeddings = {}
 
-    train_data = get_dataset(FLAGS.train_data, source_word2idx, target_word2idx, embeddings)
-    test_data = get_dataset(FLAGS.test_data, source_word2idx, target_word2idx, embeddings)
+    train_data = get_dataset(FLAGS.train_data, source_word2idx, target_word2idx)
+    test_data = get_dataset(FLAGS.test_data, source_word2idx, target_word2idx)
 
     FLAGS.pad_idx = source_word2idx['<pad>']
     FLAGS.nwords = len(source_word2idx)
@@ -52,8 +48,7 @@ def main(_):
     print('loading pre-trained word vectors...')
     print('loading pre-trained word vectors for train and test data')
 
-    pre_trained_context_wt, pre_trained_target_wt = get_embedding_matrix(embeddings, source_word2idx,
-                                                                         target_word2idx, FLAGS.edim)
+    pre_trained_context_wt, pre_trained_target_wt = get_embedding_matrix(source_word2idx, target_word2idx, FLAGS.edim)
 
     with tf.Session() as sess:
         model = MemN2N(FLAGS, sess, pre_trained_context_wt, pre_trained_target_wt)

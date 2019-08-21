@@ -1,11 +1,7 @@
-import os
-import sys
 import math
-import random
 import numpy as np
 import tensorflow as tf
 from past.builtins import xrange
-import time as tim
 
 
 class MemN2N(object):
@@ -150,6 +146,7 @@ class MemN2N(object):
             target.fill(0)
             mask.fill(-1.0 * np.inf)
 
+            # b = 0
             for b in xrange(self.batch_size):
                 m = rand_idx[cur]
                 x[b][0] = target_data[m]
@@ -238,5 +235,5 @@ class MemN2N(object):
             print('epoch ' + str(idx) + '...')
             train_loss, train_acc = self.train(train_data)
             test_loss, test_acc = self.test(test_data)
-            print('train-loss=%.2f;train-acc=%.2f;test-acc=%.2f;' % (train_loss, train_acc, test_acc))
+            print('train-loss=%.2f; train-acc=%.2f; test-acc=%.2f;' % (train_loss, train_acc, test_acc))
             self.log_loss.append([train_loss, test_loss])

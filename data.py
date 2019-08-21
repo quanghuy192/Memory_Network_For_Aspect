@@ -70,19 +70,19 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
     return max_sent_len
 
 
-def get_embedding_matrix(embeddings, sent_word2idx, target_word2idx, edim):
+def get_embedding_matrix(sent_word2idx, target_word2idx, edim):
 
     word_embed_matrix = np.zeros([len(sent_word2idx), edim], dtype=float)
     target_embed_matrix = np.zeros([len(target_word2idx), edim], dtype=float)
 
     for word in sent_word2idx:
-        if word in embeddings:
-            word_embed_matrix[sent_word2idx[word]] = embeddings[word]
+        if check_vector(word):
+            word_embed_matrix[sent_word2idx[word]] = word2vec_model.wv[word]
 
     for target in target_word2idx:
         for word in target:
-            if word in embeddings:
-                target_embed_matrix[target_word2idx[target]] += embeddings[word]
+            if check_vector(word):
+                target_embed_matrix[target_word2idx[target]] += word2vec_model.wv[word]
         target_embed_matrix[target_word2idx[target]] /= max(1, len(target.split()))
 
     print(type(word_embed_matrix))
@@ -94,7 +94,7 @@ embed_file_name = 'baomoi.window2.vn.model.bin'
 word2vec_model = KeyedVectors.load_word2vec_format(embed_file_name, binary=True)
 
 
-def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
+def get_dataset(data_file_name, sent_word2idx, target_word2idx):
 
     sentence_list = []
     location_list = []
@@ -123,7 +123,6 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
             is_included_flag = 1
             id_tokenised_sentence = []
             location_tokenised_sentence = []
-
 
             for index, word in enumerate(sent_words):
                 if word == "$t$":
@@ -172,7 +171,6 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx, embeddings):
 
 
 def check_vector(word) -> bool:
-
     try:
         if len(word2vec_model.wv[word]) > 0:
             return True
