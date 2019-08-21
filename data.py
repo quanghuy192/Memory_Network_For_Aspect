@@ -85,8 +85,6 @@ def get_embedding_matrix(sent_word2idx, target_word2idx, edim):
                 target_embed_matrix[target_word2idx[target]] += word2vec_model.wv[word]
         target_embed_matrix[target_word2idx[target]] /= max(1, len(target.split()))
 
-    print(type(word_embed_matrix))
-
     return word_embed_matrix, target_embed_matrix
 
 
