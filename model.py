@@ -25,7 +25,7 @@ class MemN2N(object):
         self.mem_size = mem_size
 
         self.input = tf.placeholder(tf.int32, [self.batch_size, 1], name="input")
-        self.time = tf.placeholder(tf.int32, [None, self.mem_size], name="time")
+        # self.time = tf.placeholder(tf.int32, [None, self.mem_size], name="time")
         self.target = tf.placeholder(tf.int64, [self.batch_size], name="target")
         self.context = tf.placeholder(tf.int32, [self.batch_size, self.mem_size], name="context")
         self.mask = tf.placeholder(tf.float32, [self.batch_size, self.mem_size], name="mask")
@@ -48,18 +48,20 @@ class MemN2N(object):
     def build_memory(self):
         self.global_step = tf.Variable(0, name="global_step")
 
-        self.A = tf.Variable(tf.random_uniform([self.nwords, self.edim], minval=-0.01, maxval=0.01))
-        self.ASP = tf.Variable(
-            tf.random_uniform([self.pre_trained_target_wt.shape[0], self.edim], minval=-0.01, maxval=0.01))
-        self.C = tf.Variable(tf.random_uniform([self.edim, self.edim], minval=-0.01, maxval=0.01))
+        self.context_word = tf.Variable(tf.random_uniform([self.nwords, self.edim], minval=-0.01, maxval=0.01))
+        self.aspect_word = tf.Variable(tf.random_uniform([self.pre_trained_target_wt.shape[0], self.edim], minval=-0.01, maxval=0.01))
+
+        # Layer-wise (RNN-like)
+        self.H = tf.Variable(tf.random_uniform([self.edim, self.edim], minval=-0.01, maxval=0.01))
+
         self.C_B = tf.Variable(tf.random_uniform([1, self.edim], minval=-0.01, maxval=0.01))
         self.BL_W = tf.Variable(tf.random_uniform([2 * self.edim, 1], minval=-0.01, maxval=0.01))
         self.BL_B = tf.Variable(tf.random_uniform([1, 1], minval=-0.01, maxval=0.01))
 
-        self.Ain_c = tf.nn.embedding_lookup(self.A, self.context)
+        self.Ain_c = tf.nn.embedding_lookup(self.context_word, self.context)
         self.Ain = self.Ain_c
 
-        self.ASPin = tf.nn.embedding_lookup(self.ASP, self.input)
+        self.ASPin = tf.nn.embedding_lookup(self.aspect_word, self.input)
         self.ASPout2dim = tf.reshape(self.ASPin, [-1, self.edim])
         self.hid.append(self.ASPout2dim)
 
@@ -84,7 +86,7 @@ class MemN2N(object):
             self.Aout = tf.matmul(self.probs3dim, self.Ain)
             self.Aout2dim = tf.reshape(self.Aout, [self.batch_size, self.edim])
 
-            Cout = tf.matmul(self.hid[-1], self.C)
+            Cout = tf.matmul(self.hid[-1], self.H)
             til_C_B = tf.tile(self.C_B, [self.batch_size, 1])
             Cout_add = tf.add(Cout, til_C_B)
             self.Dout = tf.add(Cout_add, self.Aout2dim)
@@ -110,7 +112,7 @@ class MemN2N(object):
         self.lr = tf.Variable(self.current_lr)
         self.opt = tf.train.AdagradOptimizer(self.lr)
 
-        params = [self.A, self.C, self.C_B, self.W, self.BL_W, self.BL_B]
+        params = [self.context_word, self.H, self.C_B, self.W, self.BL_W, self.BL_B]
 
         self.loss = tf.reduce_sum(self.loss)
 
@@ -132,7 +134,7 @@ class MemN2N(object):
         cost = 0
 
         x = np.ndarray([self.batch_size, 1], dtype=np.int32)
-        time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
+        # time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         target = np.zeros([self.batch_size], dtype=np.int32)
         context = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         mask = np.ndarray([self.batch_size, self.mem_size])
@@ -146,7 +148,7 @@ class MemN2N(object):
             if self.show: bar.next()
 
             context.fill(self.pad_idx)
-            time.fill(self.mem_size)
+            # time.fill(self.mem_size)
             target.fill(0)
             mask.fill(-1.0 * np.inf)
 
@@ -155,7 +157,7 @@ class MemN2N(object):
                 m = rand_idx[cur]
                 x[b][0] = target_data[m]
                 target[b] = target_label[m]
-                time[b, :len(source_loc_data[m])] = source_loc_data[m]
+                # time[b, :len(source_loc_data[m])] = source_loc_data[m]
                 context[b, :len(source_data[m])] = source_data[m]
                 mask[b, :len(source_data[m])].fill(0)
                 cur = cur + 1
@@ -165,7 +167,7 @@ class MemN2N(object):
                                                    self.global_step],
                                                   feed_dict={
                                                       self.input: x,
-                                                      self.time: time,
+                                                      # self.time: time,
                                                       self.target: target,
                                                       self.context: context,
                                                       self.mask: mask})
@@ -185,7 +187,7 @@ class MemN2N(object):
         cost = 0
 
         x = np.ndarray([self.batch_size, 1], dtype=np.int32)
-        time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
+        # time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         target = np.zeros([self.batch_size], dtype=np.int32)
         context = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         mask = np.ndarray([self.batch_size, self.mem_size])
@@ -195,7 +197,7 @@ class MemN2N(object):
         m, acc = 0, 0
         for i in xrange(N):
             target.fill(0)
-            time.fill(self.mem_size)
+            # time.fill(self.mem_size)
             context.fill(self.pad_idx)
             mask.fill(-1.0 * np.inf)
 
@@ -203,7 +205,7 @@ class MemN2N(object):
             for b in xrange(self.batch_size):
                 x[b][0] = target_data[m]
                 target[b] = target_label[m]
-                time[b, :len(source_loc_data[m])] = source_loc_data[m]
+                # time[b, :len(source_loc_data[m])] = source_loc_data[m]
                 context[b, :len(source_data[m])] = source_data[m]
                 mask[b, :len(source_data[m])].fill(0)
                 raw_labels.append(target_label[m])
@@ -212,14 +214,14 @@ class MemN2N(object):
             loss = self.sess.run([self.loss],
                                  feed_dict={
                                      self.input: x,
-                                     self.time: time,
+                                     # self.time: time,
                                      self.target: target,
                                      self.context: context,
                                      self.mask: mask})
             cost += np.sum(loss)
 
             predictions = self.sess.run(self.correct_prediction, feed_dict={self.input: x,
-                                                                            self.time: time,
+                                                                            # self.time: time,
                                                                             self.target: target,
                                                                             self.context: context,
                                                                             self.mask: mask})
@@ -232,8 +234,8 @@ class MemN2N(object):
 
     def run(self, train_data, test_data):
         print('training...')
-        self.sess.run(self.A.assign(self.pre_trained_context_wt))
-        self.sess.run(self.ASP.assign(self.pre_trained_target_wt))
+        self.sess.run(self.context_word.assign(self.pre_trained_context_wt))
+        self.sess.run(self.aspect_word.assign(self.pre_trained_target_wt))
 
         for idx in xrange(self.nepoch):
             print('epoch ' + str(idx) + '...')
