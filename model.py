@@ -5,20 +5,24 @@ from past.builtins import xrange
 
 
 class MemN2N(object):
-    def __init__(self, config, sess, pre_trained_context_wt, pre_trained_target_wt):
-        self.nwords = config.nwords
+    def __init__(self, config, sess, pre_trained_context_wt, pre_trained_target_wt, pad_idx, nwords, mem_size):
+        # self.nwords = config.nwords
         self.init_hid = config.init_hid
         self.init_std = config.init_std
         self.batch_size = config.batch_size
         self.nepoch = config.nepoch
         self.nhop = config.nhop
         self.edim = config.edim
-        self.mem_size = config.mem_size
+        # self.mem_size = config.mem_size
         self.lindim = config.lindim
         self.max_grad_norm = config.max_grad_norm
-        self.pad_idx = config.pad_idx
+        # self.pad_idx = config.pad_idx
         self.pre_trained_context_wt = pre_trained_context_wt
         self.pre_trained_target_wt = pre_trained_target_wt
+
+        self.pad_idx = pad_idx
+        self.nwords = nwords
+        self.mem_size = mem_size
 
         self.input = tf.placeholder(tf.int32, [self.batch_size, 1], name="input")
         self.time = tf.placeholder(tf.int32, [None, self.mem_size], name="time")

@@ -22,9 +22,9 @@ flags.DEFINE_string("pretrain_file", "baomoi.window2.vn.model.bin",
 flags.DEFINE_string("train_data", "iphone_train.txt", "train gold data set path [.iphone_train.txt]")
 flags.DEFINE_string("test_data", "iphone_test.txt", "test gold data set path [.iphone_train.txt]")
 flags.DEFINE_boolean("show", False, "print progress [False]")
-flags.DEFINE_integer("pad_idx", 0, "pad_idx")
-flags.DEFINE_integer("nwords", 1642, "nwords")
-flags.DEFINE_integer("mem_size", 134, "mem_size")
+# flags.DEFINE_integer("pad_idx", 0, "pad_idx")
+# flags.DEFINE_integer("nwords", 1642, "nwords")
+# flags.DEFINE_integer("mem_size", 134, "mem_size")
 
 FLAGS = flags.FLAGS
 
@@ -39,9 +39,9 @@ def main(_):
     train_data = get_dataset(FLAGS.train_data, source_word2idx, target_word2idx)
     test_data = get_dataset(FLAGS.test_data, source_word2idx, target_word2idx)
 
-    FLAGS.pad_idx = source_word2idx['<pad>']
-    FLAGS.nwords = len(source_word2idx)
-    FLAGS.mem_size = max_sent_len
+    # FLAGS.pad_idx = source_word2idx['<pad>']
+    # FLAGS.nwords = len(source_word2idx)
+    # FLAGS.mem_size = max_sent_len
 
     pp.pprint(flags.FLAGS.__flags)
 
@@ -51,7 +51,8 @@ def main(_):
     pre_trained_context_wt, pre_trained_target_wt = get_embedding_matrix(source_word2idx, target_word2idx, FLAGS.edim)
 
     with tf.Session() as sess:
-        model = MemN2N(FLAGS, sess, pre_trained_context_wt, pre_trained_target_wt)
+        model = MemN2N(FLAGS, sess, pre_trained_context_wt, pre_trained_target_wt, source_word2idx['<pad>'],
+                       len(source_word2idx), max_sent_len)
         model.build_model()
         model.run(train_data, test_data)
 
