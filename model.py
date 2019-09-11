@@ -48,20 +48,25 @@ class MemN2N(object):
     def build_memory(self):
         self.global_step = tf.Variable(0, name="global_step")
 
-        self.context_word = tf.Variable(tf.random_uniform([self.nwords, self.edim], minval=-0.01, maxval=0.01))
-        self.aspect_word = tf.Variable(tf.random_uniform([self.pre_trained_target_wt.shape[0], self.edim], minval=-0.01, maxval=0.01))
-
-        # Layer-wise (RNN-like)
-        self.H = tf.Variable(tf.random_uniform([self.edim, self.edim], minval=-0.01, maxval=0.01))
+        self.A = tf.Variable(tf.random_uniform([self.nwords, self.edim], minval=-0.01, maxval=0.01))
+        self.ASP = tf.Variable(
+            tf.random_uniform([self.pre_trained_target_wt.shape[0], self.edim], minval=-0.01, maxval=0.01))
+        self.C = tf.Variable(tf.random_uniform([self.edim, self.edim], minval=-0.01, maxval=0.01))
 
         self.C_B = tf.Variable(tf.random_uniform([1, self.edim], minval=-0.01, maxval=0.01))
         self.BL_W = tf.Variable(tf.random_uniform([2 * self.edim, 1], minval=-0.01, maxval=0.01))
         self.BL_B = tf.Variable(tf.random_uniform([1, 1], minval=-0.01, maxval=0.01))
 
-        self.Ain_c = tf.nn.embedding_lookup(self.context_word, self.context)
+        # # Location
+        # location_encoding = 1 - tf.truediv(self.time, self.mem_size)
+        # location_encoding = tf.cast(location_encoding, tf.float32)
+        # location_encoding3dim = tf.tile(tf.expand_dims(location_encoding, 2), [1, 1, self.edim])
+
+        self.Ain_c = tf.nn.embedding_lookup(self.A, self.context)
+        # self.Ain = self.Ain_c * location_encoding3dim
         self.Ain = self.Ain_c
 
-        self.ASPin = tf.nn.embedding_lookup(self.aspect_word, self.input)
+        self.ASPin = tf.nn.embedding_lookup(self.ASP, self.input)
         self.ASPout2dim = tf.reshape(self.ASPin, [-1, self.edim])
         self.hid.append(self.ASPout2dim)
 
@@ -74,6 +79,7 @@ class MemN2N(object):
             self.a_til_concat = tf.concat(axis=2, values=[self.til_hid3dim, self.Ain])
             self.til_bl_wt = tf.tile(self.BL_W, [self.batch_size, 1])
             self.til_bl_3dim = tf.reshape(self.til_bl_wt, [self.batch_size, 2 * self.edim, -1])
+
             self.att = tf.matmul(self.a_til_concat, self.til_bl_3dim)
             self.til_bl_b = tf.tile(self.BL_B, [self.batch_size, self.mem_size])
             self.til_bl_3dim = tf.reshape(self.til_bl_b, [-1, self.mem_size, 1])
@@ -86,7 +92,7 @@ class MemN2N(object):
             self.Aout = tf.matmul(self.probs3dim, self.Ain)
             self.Aout2dim = tf.reshape(self.Aout, [self.batch_size, self.edim])
 
-            Cout = tf.matmul(self.hid[-1], self.H)
+            Cout = tf.matmul(self.hid[-1], self.C)
             til_C_B = tf.tile(self.C_B, [self.batch_size, 1])
             Cout_add = tf.add(Cout, til_C_B)
             self.Dout = tf.add(Cout_add, self.Aout2dim)
@@ -112,7 +118,7 @@ class MemN2N(object):
         self.lr = tf.Variable(self.current_lr)
         self.opt = tf.train.AdagradOptimizer(self.lr)
 
-        params = [self.context_word, self.H, self.C_B, self.W, self.BL_W, self.BL_B]
+        params = [self.A, self.C, self.C_B, self.W, self.BL_W, self.BL_B]
 
         self.loss = tf.reduce_sum(self.loss)
 
@@ -124,7 +130,7 @@ class MemN2N(object):
         with tf.control_dependencies([inc]):
             self.optim = self.opt.apply_gradients(clipped_grads_and_vars)
 
-        tf.initialize_all_variables().run()
+        tf.global_variables_initializer().run()
 
         self.correct_prediction = tf.argmax(self.z, 1)
 
@@ -149,11 +155,11 @@ class MemN2N(object):
 
             context.fill(self.pad_idx)
             # time.fill(self.mem_size)
-            target.fill(0)
+            # target.fill(0)
             mask.fill(-1.0 * np.inf)
 
-            # b = 0
             for b in xrange(self.batch_size):
+                if cur >= len(rand_idx): break
                 m = rand_idx[cur]
                 x[b][0] = target_data[m]
                 target[b] = target_label[m]
@@ -162,7 +168,7 @@ class MemN2N(object):
                 mask[b, :len(source_data[m])].fill(0)
                 cur = cur + 1
 
-            z, a, loss, self.step = self.sess.run([self.z, self.optim,
+            z, _, loss, self.step = self.sess.run([self.z, self.optim,
                                                    self.loss,
                                                    self.global_step],
                                                   feed_dict={
@@ -172,13 +178,10 @@ class MemN2N(object):
                                                       self.context: context,
                                                       self.mask: mask})
 
-            if idx % 500 == 0:
-                print("loss - ", loss)
-
             cost += np.sum(loss)
 
         if self.show: bar.finish()
-        _, train_acc = self.test(data)
+        _, train_acc, _, _, _, _ = self.test(data)
         return cost / N / self.batch_size, train_acc
 
     def test(self, data):
@@ -195,6 +198,8 @@ class MemN2N(object):
         context.fill(self.pad_idx)
 
         m, acc = 0, 0
+        predicts, labels = [], []
+        sentences, targets = [], []
         for i in xrange(N):
             target.fill(0)
             # time.fill(self.mem_size)
@@ -203,12 +208,16 @@ class MemN2N(object):
 
             raw_labels = []
             for b in xrange(self.batch_size):
+                if m >= len(target_label): break
+
                 x[b][0] = target_data[m]
                 target[b] = target_label[m]
                 # time[b, :len(source_loc_data[m])] = source_loc_data[m]
                 context[b, :len(source_data[m])] = source_data[m]
                 mask[b, :len(source_data[m])].fill(0)
                 raw_labels.append(target_label[m])
+                sentences.append(source_data[m])
+                targets.append(target_data[m])
                 m += 1
 
             loss = self.sess.run([self.loss],
@@ -225,21 +234,27 @@ class MemN2N(object):
                                                                             self.target: target,
                                                                             self.context: context,
                                                                             self.mask: mask})
-
             for b in xrange(self.batch_size):
+                if b >= len(raw_labels): break
+                predicts.append(predictions[b])
+                labels.append(raw_labels[b])
                 if raw_labels[b] == predictions[b]:
                     acc = acc + 1
 
-        return cost, acc / float(len(source_data))
+        return cost / float(len(source_data)), acc / float(len(source_data)), predicts, labels, sentences, targets
 
     def run(self, train_data, test_data):
         print('training...')
-        self.sess.run(self.context_word.assign(self.pre_trained_context_wt))
-        self.sess.run(self.aspect_word.assign(self.pre_trained_target_wt))
+        self.sess.run(self.A.assign(self.pre_trained_context_wt))
+        self.sess.run(self.ASP.assign(self.pre_trained_target_wt))
 
+        best_acc = 0
         for idx in xrange(self.nepoch):
             print('epoch ' + str(idx) + '...')
             train_loss, train_acc = self.train(train_data)
-            test_loss, test_acc = self.test(test_data)
-            print('train-loss=%.2f; train-acc=%.2f; test-acc=%.2f;' % (train_loss, train_acc, test_acc))
+            test_loss, test_acc, predicts, labels, sentences, targets = self.test(test_data)
+            if best_acc < test_acc * 100:
+                best_acc = test_acc * 100
+            print('train-loss=%.2f;train-acc=%.2f;test-acc=%.2f;' % (train_loss, train_acc * 100, test_acc * 100))
             self.log_loss.append([train_loss, test_loss])
+        print('best-acc=%.2f' % best_acc)
