@@ -33,7 +33,7 @@ camera
 0
 $T$ của IP luôn dc đánh giá là 1 trong những camera xuất sắc nhất của smartphone, có điều là k0 dc nhất mà thôi
 camera
-0
+1
 $T$ thì 6splus là full HD, tuy nhiên e thấy màn hình của 6s thôi cũng rất tốt rồi
 Màn hình
 1
@@ -99,7 +99,7 @@ giá
 2
 Nói chung mà màu thì cũng có đẹp, nhưng giá đắt quá, không kham nổi, bỏ một đống xiền vì cái $T$ 2gb.
 ram
-0
+2
 Cái $T$ trước 5MP sao ko thấy a nhắc đến ta. cái này cũng quan trọng đối với chị em phụ nữ lắm chớ. 1.2MP đã rõ lắm rồi giờ lên 5MP ko biết nó thế nào
 camera
 1
@@ -111,10 +111,10 @@ pin
 2
 Hóa ra bấy lâu nay các dòng ip 6s đổ xuống chơi game 3d vẫn lag, giật, còn pin hẻo thế kia thì chịu rồi, nửa buổi sạc một lần, ngày sạc hai làn. Với ip thì không nên lôi $T$ với chip để so sánh với dòng khác, vì hệ sinh thái nó khác.
 ram
-1
+0
 Hóa ra bấy lâu nay các dòng ip 6s đổ xuống chơi game 3d vẫn lag, giật, còn pin hẻo thế kia thì chịu rồi, nửa buổi sạc một lần, ngày sạc hai làn. Với ip thì không nên lôi ram với $T$ để so sánh với dòng khác, vì hệ sinh thái nó khác.
 chip
-1
+0
 Thêm cái $T$ Rose Gold khá bắt mắt, nhưng nâng cấp thì không đáng kể. Nếu là ram 2gb thì cũng lăn tăn phết.
 màu sắc
 1
@@ -175,6 +175,9 @@ pin
 E cũng dùng 6plus 2 tháng trc rồi chuyển qua 6s plus đây bác. Cảm nhận máy nhanh và nhẹ hơn thấy rõ, bắt LTE mạnh hơn. Duyệt web mở tabs ko bị reload, touch id quá ngon. Pin on screen thì như nhau nhưng stand by rất lâu sụt pin dù bật LTE. $T$ 2gb cũng khá nhanh.
 ram
 1
+Lúc mình mới bóc hộp $T$ cảm giác khác nhất là độ dày và sướng hơn, ram thì khỏi chê.
+máy
+1
 Lúc mình mới bóc hộp máy cảm giác khác nhất là độ dày và sướng hơn, $T$ thì khỏi chê.
 ram
 1
@@ -198,7 +201,7 @@ màu sắc
 1
 Chụp ban đêm thì nãn đều luôn. Bao giờ apple nâng cấp $T$ để chụp đêm và phơi sáng nhỉ
 camera
-0
+2
 Thật ra đáng giá nhất là $T$ 2g nếu xét theo 3 tiêu chí kia! Nhưng với ios 1 g ram vẫn thoải mái chán! Và khác biệt nhau không quá lớn ngoài tiêu chí 3d.
 ram
 1
@@ -210,7 +213,7 @@ $T$ là công nghệ tương lai, giống như touch ID trên 5s mà 5 ko có v�
 1
 3D touch là công nghệ tương lai, giống như $T$ trên 5s mà 5 ko có vậy, các máy sau này buộc phải có.
 touch id
-1
+0
 Nói chung mọi thứ đều được nâng cấp, $T$, camera, pin, máy cầm cũng chắc tay hơn. giá cúng chat hơn.
 ram
 1
@@ -237,7 +240,7 @@ ram
 1
 $T$ 2gb nhưng mình thấy tốc độ chả khác gì với em 6 cả. Pin em 6 cũng khá trâu rồi. Nên hài lòng với em 6, quyết tâm chờ em 7
 ram
-1
+2
 Ram 2gb nhưng mình thấy tốc độ chả khác gì với em 6 cả. $T$ em 6 cũng khá trâu rồi. Nên hài lòng với em 6, quyết tâm chờ em 7
 pin
 1
@@ -543,7 +546,7 @@ ram
 2
 Công nhận 6s ngon. Trước cứ phải mua 6sp vì sợ con bé nó $T$ kém, bây giờ thực tế dùng 6s thấy cây 6sp thành thừa. 6s pin rất tốt.
 pin
-0
+2
 Công nhận 6s ngon. Trước cứ phải mua 6sp vì sợ con bé nó pin kém, bây giờ thực tế dùng 6s thấy cây 6sp thành thừa. 6s $T$ rất tốt.
 pin
 1
