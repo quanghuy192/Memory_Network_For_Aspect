@@ -4,6 +4,7 @@ import numpy as np
 from collections import Counter
 from underthesea import word_tokenize
 from gensim.models import KeyedVectors
+from pyvi import ViTokenizer, ViPosTagger
 
 
 def load_embedding_file(embed_file_name, word_set):
@@ -33,6 +34,11 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
     sentence_words = []
     target_words = []
 
+    stop_words = []
+    with open('vietnamese-stopwords.txt', 'r') as data_file:
+        lines = data_file.read().split('\n')
+        stop_words.extend(lines)
+
     with open(data_file_name, 'r') as data_file:
         lines = data_file.read().split('\n')
         for line_no in range(0, len(lines) - 1, 3):
@@ -44,7 +50,8 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
             target = target.lower()
             max_sent_len = max(max_sent_len, len(sentence.split()))
 
-            vn_sentences = word_tokenize(sentence, format='text')
+            # vn_sentences = word_tokenize(sentence, format='text')
+            vn_sentences = ViTokenizer.tokenize(sentence)
             vn_sentences = vn_sentences.replace("$ t $", "$t$")
 
             sentence_words.extend(vn_sentences.split())
@@ -88,7 +95,7 @@ def get_embedding_matrix(sent_word2idx, target_word2idx, edim):
     return word_embed_matrix, target_embed_matrix
 
 
-embed_file_name = 'baomoi.window2.vn.model.bin'
+embed_file_name = 'baomoi.model.bin'
 word2vec_model = KeyedVectors.load_word2vec_format(embed_file_name, binary=True)
 
 
@@ -99,6 +106,11 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
     target_list = []
     polarity_list = []
 
+    stop_words = []
+    with open('vietnamese-stopwords.txt', 'r') as data_file:
+        lines = data_file.read().split('\n')
+        stop_words.extend(lines)
+
     dict = {}
     with open(data_file_name, 'r') as data_file:
         lines = data_file.read().split('\n')
@@ -108,10 +120,13 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
             polarity = int(lines[line_no + 2])
 
             # sent_words = sentence.split()
-            sent_words = word_tokenize(sentence, format='text')
+            # sent_words = word_tokenize(sentence, format='text')
+            sent_words = ViTokenizer.tokenize(sentence)
             sent_words = sent_words.replace("$ t $", "$t$").split()
             # target_words = target.split()
-            target_words = word_tokenize(target, format='text')
+            # target_words = word_tokenize(target, format='text')
+            target_words = ViTokenizer.tokenize(target)
+            print(sentence)
             try:
                 target_location = sent_words.index("$t$")
             except:
@@ -128,6 +143,7 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
                 try:
                     word_index = sent_word2idx[word]
                 except:
+                    print(word)
                     print("id not found for word in the sentence")
                     exit()
 

@@ -2,6 +2,7 @@ import math
 import numpy as np
 import tensorflow as tf
 from past.builtins import xrange
+from underthesea import word_tokenize
 
 
 class MemN2N(object):
@@ -234,6 +235,14 @@ class MemN2N(object):
                                                                             self.target: target,
                                                                             self.context: context,
                                                                             self.mask: mask})
+
+            # sentence_list = []
+            # with open('iphone_test.txt', 'r') as data_file:
+            #     lines = data_file.read().split('\n')
+            #     for line_no in range(0, len(lines) - 1, 3):
+            #         sentence = lines[line_no].lower()
+            #         sentence_list.append(sentence)
+
             for b in xrange(self.batch_size):
                 if b >= len(raw_labels): break
                 predicts.append(predictions[b])
