@@ -4,7 +4,7 @@ import numpy as np
 from collections import Counter
 from underthesea import word_tokenize
 from gensim.models import KeyedVectors
-from pyvi import ViTokenizer, ViPosTagger
+# from pyvi import ViTokenizer, ViPosTagger
 
 
 def load_embedding_file(embed_file_name, word_set):
@@ -50,8 +50,8 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
             target = target.lower()
             max_sent_len = max(max_sent_len, len(sentence.split()))
 
-            # vn_sentences = word_tokenize(sentence, format='text')
-            vn_sentences = ViTokenizer.tokenize(sentence)
+            vn_sentences = word_tokenize(sentence, format='text')
+            # vn_sentences = ViTokenizer.tokenize(sentence)
             vn_sentences = vn_sentences.replace("$ t $", "$t$")
 
             sentence_words.extend(vn_sentences.split())
@@ -120,12 +120,12 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
             polarity = int(lines[line_no + 2])
 
             # sent_words = sentence.split()
-            # sent_words = word_tokenize(sentence, format='text')
-            sent_words = ViTokenizer.tokenize(sentence)
+            sent_words = word_tokenize(sentence, format='text')
+            # sent_words = ViTokenizer.tokenize(sentence)
             sent_words = sent_words.replace("$ t $", "$t$").split()
             # target_words = target.split()
-            # target_words = word_tokenize(target, format='text')
-            target_words = ViTokenizer.tokenize(target)
+            target_words = word_tokenize(target, format='text').split()
+            # target_words = ViTokenizer.tokenize(target)
             print(sentence)
             try:
                 target_location = sent_words.index("$t$")
