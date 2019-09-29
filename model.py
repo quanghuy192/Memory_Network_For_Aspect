@@ -26,7 +26,7 @@ class MemN2N(object):
         self.mem_size = mem_size
 
         self.input = tf.placeholder(tf.int32, [self.batch_size, 1], name="input")
-        # self.time = tf.placeholder(tf.int32, [None, self.mem_size], name="time")
+        self.time = tf.placeholder(tf.int32, [None, self.mem_size], name="time")
         self.target = tf.placeholder(tf.int64, [self.batch_size], name="target")
         self.context = tf.placeholder(tf.int32, [self.batch_size, self.mem_size], name="context")
         self.mask = tf.placeholder(tf.float32, [self.batch_size, self.mem_size], name="mask")
@@ -141,7 +141,7 @@ class MemN2N(object):
         cost = 0
 
         x = np.ndarray([self.batch_size, 1], dtype=np.int32)
-        # time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
+        time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         target = np.zeros([self.batch_size], dtype=np.int32)
         context = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         mask = np.ndarray([self.batch_size, self.mem_size])
@@ -155,8 +155,8 @@ class MemN2N(object):
             if self.show: bar.next()
 
             context.fill(self.pad_idx)
-            # time.fill(self.mem_size)
-            # target.fill(0)
+            time.fill(self.mem_size)
+            target.fill(0)
             mask.fill(-1.0 * np.inf)
 
             for b in xrange(self.batch_size):
@@ -164,7 +164,7 @@ class MemN2N(object):
                 m = rand_idx[cur]
                 x[b][0] = target_data[m]
                 target[b] = target_label[m]
-                # time[b, :len(source_loc_data[m])] = source_loc_data[m]
+                time[b, :len(source_loc_data[m])] = source_loc_data[m]
                 context[b, :len(source_data[m])] = source_data[m]
                 mask[b, :len(source_data[m])].fill(0)
                 cur = cur + 1
@@ -174,7 +174,7 @@ class MemN2N(object):
                                                    self.global_step],
                                                   feed_dict={
                                                       self.input: x,
-                                                      # self.time: time,
+                                                      self.time: time,
                                                       self.target: target,
                                                       self.context: context,
                                                       self.mask: mask})
@@ -182,16 +182,16 @@ class MemN2N(object):
             cost += np.sum(loss)
 
         if self.show: bar.finish()
-        _, train_acc, _, _, _, _ = self.test(data)
+        _, train_acc, _, _, _, _ = self.test(data, True)
         return cost / N / self.batch_size, train_acc
 
-    def test(self, data):
+    def test(self, data, is_train=False):
         source_data, source_loc_data, target_data, target_label = data
         N = int(math.ceil(len(source_data) / self.batch_size))
         cost = 0
 
         x = np.ndarray([self.batch_size, 1], dtype=np.int32)
-        # time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
+        time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         target = np.zeros([self.batch_size], dtype=np.int32)
         context = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
         mask = np.ndarray([self.batch_size, self.mem_size])
@@ -203,7 +203,7 @@ class MemN2N(object):
         sentences, targets = [], []
         for i in xrange(N):
             target.fill(0)
-            # time.fill(self.mem_size)
+            time.fill(self.mem_size)
             context.fill(self.pad_idx)
             mask.fill(-1.0 * np.inf)
 
@@ -213,7 +213,7 @@ class MemN2N(object):
 
                 x[b][0] = target_data[m]
                 target[b] = target_label[m]
-                # time[b, :len(source_loc_data[m])] = source_loc_data[m]
+                time[b, :len(source_loc_data[m])] = source_loc_data[m]
                 context[b, :len(source_data[m])] = source_data[m]
                 mask[b, :len(source_data[m])].fill(0)
                 raw_labels.append(target_label[m])
@@ -224,24 +224,31 @@ class MemN2N(object):
             loss = self.sess.run([self.loss],
                                  feed_dict={
                                      self.input: x,
-                                     # self.time: time,
+                                     self.time: time,
                                      self.target: target,
                                      self.context: context,
                                      self.mask: mask})
             cost += np.sum(loss)
 
             predictions = self.sess.run(self.correct_prediction, feed_dict={self.input: x,
-                                                                            # self.time: time,
+                                                                            self.time: time,
                                                                             self.target: target,
                                                                             self.context: context,
-                                                                            self.mask: mask})
 
-            # sentence_list = []
-            # with open('iphone_test.txt', 'r') as data_file:
-            #     lines = data_file.read().split('\n')
-            #     for line_no in range(0, len(lines) - 1, 3):
-            #         sentence = lines[line_no].lower()
-            #         sentence_list.append(sentence)
+                                                                            self.mask: mask})
+            sentence_list = []
+            if is_train:
+                with open('iphone_train.txt', 'r') as data_file:
+                    lines = data_file.read().split('\n')
+                    for line_no in range(0, len(lines) - 1, 3):
+                        sentence = lines[line_no].lower()
+                        sentence_list.append(sentence)
+
+            if is_train:
+                for b in xrange(self.batch_size):
+                    if raw_labels[b] != predictions[b]:
+                        print(" predict raw_labels : " + str(raw_labels[b]) + " \n")
+                        print(sentence_list[i])
 
             for b in xrange(self.batch_size):
                 if b >= len(raw_labels): break
@@ -265,5 +272,6 @@ class MemN2N(object):
             if best_acc < test_acc * 100:
                 best_acc = test_acc * 100
             print('train-loss=%.2f;train-acc=%.2f;test-acc=%.2f;' % (train_loss, train_acc * 100, test_acc * 100))
+            print('============================================================================')
             self.log_loss.append([train_loss, test_loss])
         print('best-acc=%.2f' % best_acc)
