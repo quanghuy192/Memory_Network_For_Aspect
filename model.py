@@ -240,6 +240,12 @@ class MemN2N(object):
             if is_train:
                 with open('iphone_train.txt', 'r') as data_file:
                     lines = data_file.read().split('\n')
+                    # for line_no in range(0, len(lines) - 1, 3):
+                    #     sentence = lines[line_no].lower()
+                    #     sentence_list.append(sentence)
+            else:
+                with open('iphone_test.txt', 'r') as data_file:
+                    lines = data_file.read().split('\n')
                     for line_no in range(0, len(lines) - 1, 3):
                         sentence = lines[line_no].lower()
                         sentence_list.append(sentence)
@@ -247,8 +253,16 @@ class MemN2N(object):
             if is_train:
                 for b in xrange(self.batch_size):
                     if raw_labels[b] != predictions[b]:
-                        print(" predict raw_labels : " + str(raw_labels[b]) + " \n")
-                        print(sentence_list[i])
+                        print("")
+                    #     print(" predict raw_labels : " + str(raw_labels[b]))
+                    #     print(" predict by system : " + str(predictions[b]))
+                    #     print(sentence_list[i] + " \n")
+            else:
+                for b in xrange(self.batch_size):
+                    if raw_labels[b] != predictions[b]:
+                        print(" predict raw_labels : " + str(raw_labels[b]))
+                        print(" predict by system : " + str(predictions[b]))
+                        print(sentence_list[i] + " \n")
 
             for b in xrange(self.batch_size):
                 if b >= len(raw_labels): break
