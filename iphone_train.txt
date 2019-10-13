@@ -4,6 +4,27 @@ màn hình
 Màn hình của 6s có đẹp như 6s+ ko vậy mấy bác? Như 2 vc em đang dùng 6 và 6+ thấy màn của 6 $T$ nhợt nhạt quá
 màu sắc
 2
+Công nhận là năm nay $T$ của ông apple lôi kéo em thật.
+phần cứng
+0
+Từ 4s đến giờ vẫn dậm chân tại chỗ 1Gb $T$ là quá nản
+ram
+2
+Công nghệ $T$ nó là đột phá.
+3d touch
+1
+Vì công nghệ $T$ đột phá mới cũng như vậy nên cần 1 chút thời gian làm quen nhưng lúc quen r thì k muốn quay lại, đấy là ý nghĩa lịch sử của 3D touch
+3d touch
+0
+Vì công nghệ 3D touch đột phá mới cũng như vậy nên cần 1 chút thời gian làm quen nhưng lúc quen r thì k muốn quay lại, đấy là ý nghĩa lịch sử của $T$
+3d touch
+0
+$T$ thì nhạy sẵn rồi. Vấn đề của nó bây giờ là chờ các app sẽ dần có bản nâng cấp theo tính năng này.
+3d touch
+1
+Còn về cái $T$, con 5s của mình lên iOS 9.1 ấn hơi mạnh 1 cái nhấc ra đã mở máy rồi, tuy ko nhanh kinh khủng như 6s nhưng cũng có chú bất ngờ!
+touch id
+1
 Chụp tối thì nãn đều luôn. Bao giờ apple nâng cấp $T$ để chụp ban đêm và phơi sáng nhỉ
 camera
 2
@@ -1960,3 +1981,39 @@ viền màn hình
 $T$ iphone thực sự rất yếu
 pin
 2
+Những tính năng 3D Touch này nọ chưa cần thiết cho lắm , nếu nói cho cùng là rối rắm trong thao tác sử dụng hằng ngày. Mua cái model mới nhất xài luôn chip A9 mạnh hơn , $T$ máy 2GB .
+ram
+1
+$T$ bạn vào setting chỉnh lại Light bấm cho nó nhẹ, mặc định là Medium. E thì dùng kha khá như evernote, FB, Mess, trackpad nên đối vs e là thành công. Còn hiệu năng thì quá okie rùi hehe Camera sau okie, nhất là khoản quay 4K, e thấy hình ảnh rõ nét hẳn
+3d touch
+1
+3D touch bạn vào setting chỉnh lại Light bấm cho nó nhẹ, mặc định là Medium. E thì dùng kha khá như evernote, FB, Mess, trackpad nên đối vs e là thành công. Còn $T$ thì quá okie rùi hehe Camera sau okie, nhất là khoản quay 4K, e thấy hình ảnh rõ nét hẳn
+hiệu năng
+1
+3D touch bạn vào setting chỉnh lại Light bấm cho nó nhẹ, mặc định là Medium. E thì dùng kha khá như evernote, FB, Mess, trackpad nên đối vs e là thành công. Còn hiệu năng thì quá okie rùi hehe $T$ sau okie, nhất là khoản quay 4K, e thấy hình ảnh rõ nét hẳn
+camera
+1
+Tính năng của ip như $T$ còn dùng dc ít nhiều, chứ mấy cái của ss e toàn tắt đi cho đỡ hao pin. Nói chung là kiểu nào thì cũng phải thêm tính năng mới, cắt giảm cái thừa thãi, nsx nào chả thế.
+3d touch
+2
+Tính năng của ip như 3d touch còn dùng dc ít nhiều, chứ mấy cái của ss e toàn tắt đi cho đỡ hao $T$. Nói chung là kiểu nào thì cũng phải thêm tính năng mới, cắt giảm cái thừa thãi, nsx nào chả thế.
+pin
+2
+Nếu không đủ, thì có thể bỏ nhiều tiền hơn để mua $T$ cao hơn, chuyển sang mua Android, hoặc không mua nữa
+dung lượng
+0
+$T$ 16GB vs 1 số ng vẫn đủ, ví dụ bố mẹ mình, chỉ cần iphone facetime, zalo, dễ dùng, ít chụp ảnh mà cũng ko chơi game.
+dung lượng
+0
+Nhiều bạn trẻ chỉ muốn có iphone chứ ko cần suy nghĩ đến $T$, mà nếu bỏ bản 16GB đi thì sẽ mất đi thị phần đó. người ta có cái đầu thật to chứ không tưởng bở đâu!
+dung lượng
+2
+Em cần mua 1 chiếc 6s plus 64g $T$ gold để sử dụng. Bác nào có hàng new hoặc dùng lướt mà muốn nhượng lại thì báo em nhé
+màu
+0
+$T$ có tối ưu thì vẫn tốt trong 1 thời điểm, nhà thiết kế rất khó để thoát khỏi cái gu idea của mình! Có lễ nên có j đó khác khác với john eve thì tốt hơn (phải chăng là scott forstall)
+thiết kế
+0
+$T$ là 1 đột phá công nghệ rồi nó thay đổi cách dùng dùng thiết bị khá nhiều. Chip càng ngày càng nhanh mà đội kĩ sư vẫn làm cho nó mạnh gấp đôi đc quá ngon (mỗi lần gấp đôi sau càng khó vì chip cũ đã mạnh rồi).
+3d touch
+1
