@@ -93,7 +93,7 @@ màu sắc
 1
 Vẫn trung thành với 6 Plus, nhưng con gái tụi em mê $T$ Rose quá. Apple thiệt biết làm phụ nữ sướng
 màu sắc
-1
+0
 Đợi áp dụng $T$ mà táo mới mua. Đề nghị a hiệp viết bài chuẩn chính tả chút
 camera
 0
@@ -117,7 +117,7 @@ chip
 1
 Ai có 6s test thử nghe nói $T$ bị ám vàng ở 1 cạnh giống ipad mini 1.
 màn hình
-2
+0
 Lên cũng ổn vấn đề là nếu cầm 6s plus không phải $T$ hồng thì chẳng có j khác 6+ , mà bản màu hồng thì hơi pd. Thôi cứ dùng 6+ thấy vẫn ok
 màu sắc
 2
@@ -177,13 +177,13 @@ $T$ thực dụng + vui vẻ nhưng có vẻ không đại trà ở tất cả c
 0
 $T$ 12mp: thích thôi nhưng không thật sự thu hút mình. Nghiệp dư như mình đag hài lòng với 8mp của 6plus rồi
 camera
-0
+2
 $T$ 16G quay 4k tha hồ
 dung lượng
 1
 Mình xài $T$ 16gb thấy vẫn chụp ảnh chơi game vô tư mà , chắc tại mình ko chơi nhìu game
 dung lượng
-1
+0
 Game vài cái lặt vặt, ảnh đồng bộ hết vào Photos, chả bh hết $T$ 16gb
 dung lượng
 0
@@ -222,7 +222,7 @@ force touch
 1
 Hơn cái ram 2Gb và force touch , $T$ chụp hình nhiều chấm nhưng kg hơn nhé.
 camera
-0
+1
 Gấp đôi thì hơi qua, mình speed test thử thì chênh nhau 2 3s so với 6+, $T$ thì nhạy hơn nhiều
 touch id
 1
@@ -240,7 +240,7 @@ dung lượng
 2
 Để lúc nào ra đến 8 hay 8s thì chắc mình mới mua đc 6s, được cái $T$ 2G thì yên tâm chắc vẫn đú được, chứ 1G thì chắc hơi đuối.
 ram
-0
+2
 Thực ra nếu ai không game với chép video trong máy và cái 4k không cần thiết vì nặng để upload thì $T$ 16gb vẫn dùng được.
 dung lượng
 0
@@ -294,7 +294,7 @@ màu sắc
 0
 Em đang dùng con này đây. Phải nói là cái $T$ gần như chả có ý nghĩa j cả, thực sự lúc nghịch ngợm thì ấn thử cũng hay hay.
 3d touch
-2
+1
 Những lúc dùng cho sinh hoạt hàng ngày thì gần như 99% là ko động đến $T$, mong là về sau Apple bổ sung thêm nhiều thứ hay ho cho 3D touch
 3d touch
 2
@@ -306,13 +306,13 @@ rung
 1
 $T$ không có j đặc sắc hơn cả, nhưng phải công nhận chế độ Tiết kiệm pin của Apple rất tốt, bật cái này lên cảm giác máy vẫn chạy bình thường, ko yếu đi tí nào nhưng pin thì lâu hết hơn hẳn
 pin
-1
+2
 Pin không có j đặc sắc hơn cả, nhưng phải công nhận chế độ Tiết kiệm $T$ của Apple rất tốt, bật cái này lên cảm giác máy vẫn chạy bình thường, ko yếu đi tí nào nhưng pin thì lâu hết hơn hẳn
 pin
-1
+2
 Pin không có j đặc sắc hơn cả, nhưng phải công nhận chế độ Tiết kiệm pin của Apple rất tốt, bật cái này lên cảm giác máy vẫn chạy bình thường, ko yếu đi tí nào nhưng $T$ thì lâu hết hơn hẳn
 pin
-1
+2
 Về $T$, em ko quay phim chụp ảnh mấy nên không dám bình luận
 camera
 0
@@ -333,10 +333,10 @@ Chuẩn, xét riêng độ nhạy thì $T$ vô cùng ngon.
 1
 Nói về xu thế thì $T$ bao giờ cũng phải đi trước phần mềm. 3D touch chưa phổ biến ở thời điểm hiện tại cũng là chuyện bình thường.
 phần cứng
-1
+0
 Nói về xu thế thì phần cứng bao giờ cũng phải đi trước phần mềm. $T$ chưa phổ biến ở thời điểm hiện tại cũng là chuyện bình thường.
 3d touch
-2
+0
 $T$ dùng thích mà sao bị ném đá ác vậy. Hiệu năng tổng thể của 6s xác định là điện thoại nhanh nhất đến giữa năm sau luôn
 3d touch
 1
@@ -408,7 +408,7 @@ màn hình
 2
 Chuẩn đấy. $T$ hiện tại ứng dụng chưa nhiều mới 1 số cái cơ bản mà đã thấy nó tiện lợi rồi.
 3d touch
-2
+0
 Chuẩn bác, e bị y như bác. Đã vậy 6+ e bị lỗi lệch $T$ trc, ko ảnh hưởng đến chụp hình nhưng nhìn hơi mất thẩm mỹ hehe. 3d touch tính ra có nh cái lợi lắm bác, nhất là cái trackpad bàn phím kiểu mb, type sai thì sửa nhanh.
 camera
 2
@@ -435,7 +435,7 @@ hệ điều hành
 1
 Đính chính cho bác là lúc khơi động trình đa nhiệm bằng $T$ thì ko cần thiết phải vuốt mạnh bác nhé. Chỉ cần dùng lực ấn cho hiện trình hiện ra rồi nhả lực (ngón tay vẫn để nguyên trên màn hình chỉ nhả lực) xong vuôt nhẹ như thường là đc
 3d touch
-0
+2
 Vậy chờ 7 để thử $T$ luôn vì giờ 6+ vẫn còn ngon
 3d touch
 0
@@ -447,10 +447,10 @@ thiết kế
 2
 Lúc trước, cũng phân vân về khoản $T$ và cái độ phân giải màn hình nhưng mình hài lòng về em 6s hiện tại. 6plus/6splus hơi to và thô ,
 pin
-0
+2
 Lúc trước, cũng phân vân về khoản pin và cái $T$ màn hình nhưng mình hài lòng về em 6s hiện tại. 6plus/6splus hơi to và thô ,
 độ phân giải
-0
+2
 Cái $T$ màn hình có ảnh hưởng tốc độ xử lý nhiều ko nhỉ ?? Nếu có thì mấy cái đt mh 2k đem so sánh vs ip6 chạy xêm xêm chưa biết ai nhanh hơn nhỉ
 độ phân giải
 0
@@ -462,7 +462,7 @@ màu sắc
 1
 Tết này quất em 6s plus 64gb $T$ hồng vàng cho vợ.
 màu sắc
-0
+1
 Như vợ mình, chả quan tâm gì đến mấy cái thông số kỹ thuật gì cả. Hồi ra 6/6+ mình bảo có muốn đổi không, thì nhất định ko đổi, vợ bảo không cần thiết. Thế mà hồi ra 6s/6s+, thì chả cần hỏi, vợ kêu đổi luôn, đơn giản vì nó có $T$ hồng vợ thích vậy thôi, thế là chiến luôn.
 màu sắc
 1
@@ -522,7 +522,7 @@ camera
 1
 $T$ : Dùng giải trí vui , thích thú nhưng nói muốn xài hằng ngày thì không , hao pin và chiếm dung lượng , set hình nền hao pin so với hình tĩnh - > Bình thường .
 live photo
-0
+1
 Lives Photo : Dùng giải trí vui , thích thú nhưng nói muốn xài hằng ngày thì không , hao $T$ và chiếm dung lượng , set hình nền hao pin so với hình tĩnh - > Bình thường .
 pin
 0
@@ -558,16 +558,16 @@ camera
 1
 Tính năng của ip như $T$ còn dùng dc ít nhiều, chứ mấy cái của ss e toàn tắt đi cho đỡ hao pin. Nói chung là kiểu nào thì cũng phải thêm tính năng mới, cắt giảm cái thừa thãi, nsx nào chả thế.
 3d touch
-1
+2
 Tính năng của ip như 3d touch còn dùng dc ít nhiều, chứ mấy cái của ss e toàn tắt đi cho đỡ hao $T$. Nói chung là kiểu nào thì cũng phải thêm tính năng mới, cắt giảm cái thừa thãi, nsx nào chả thế.
 pin
-0
+2
 Nếu không đủ, thì có thể bỏ nhiều tiền hơn để mua $T$ cao hơn, chuyển sang mua Android, hoặc không mua nữa
 dung lượng
 0
 $T$ 16GB vs 1 số ng vẫn đủ, ví dụ bố mẹ mình, chỉ cần iphone facetime, zalo, dễ dùng, ít chụp ảnh mà cũng ko chơi game.
 dung lượng
-1
+0
 Nhiều bạn trẻ chỉ muốn có iphone chứ ko cần suy nghĩ đến $T$, mà nếu bỏ bản 16GB đi thì sẽ mất đi thị phần đó. người ta có cái đầu thật to chứ không tưởng bở đâu!
 dung lượng
 2
@@ -576,19 +576,19 @@ màu
 0
 $T$ có tối ưu thì vẫn tốt trong 1 thời điểm, nhà thiết kế rất khó để thoát khỏi cái gu idea của mình! Có lễ nên có j đó khác khác với john eve thì tốt hơn (phải chăng là scott forstall)
 thiết kế
-1
+0
 $T$ là 1 đột phá công nghệ rồi nó thay đổi cách dùng dùng thiết bị khá nhiều. Chip càng ngày càng nhanh mà đội kĩ sư vẫn làm cho nó mạnh gấp đôi đc quá ngon (mỗi lần gấp đôi sau càng khó vì chip cũ đã mạnh rồi).
 3d touch
 1
 Với m $T$ 16gb là đủ rồi chơi game thì cần nhiều thôi
 dung lượng
-1
+0
 Mấy thanh niên cứ so note 5 32gb vs iphone 16gb $T$ bằng nhau blah blah cái dung lượng là cái để đánh giá giá trị 1 con máy hả.
 giá
 0
 Mấy thanh niên cứ so note 5 32gb vs iphone 16gb giá bằng nhau blah blah cái $T$ là cái để đánh giá giá trị 1 con máy hả.
 dung lượng
-1
+0
 $T$ ios thiên về giải trí android hỗ trợ công việc nhiều. Pin 2 cái trâu như nhau.Nâng cấp 6 plus lên 6s plus chẳng qua là thích và nó cứng hơn. Đam mê là chơi còn các bác không nên chê cái này đá cái kia
 hệ điều hành
 0
@@ -597,7 +597,7 @@ pin
 1
 Công nhận là năm nay $T$ của ông apple lôi kéo em thật.
 phần cứng
-1
+0
 Từ 4s đến giờ vẫn dậm chân tại chỗ 1Gb $T$ là quá nản
 ram
 2
@@ -606,16 +606,16 @@ Công nghệ $T$ nó là đột phá.
 1
 Vì công nghệ $T$ đột phá mới cũng như vậy nên cần 1 chút thời gian làm quen nhưng lúc quen r thì k muốn quay lại, đấy là ý nghĩa lịch sử của 3D touch
 3d touch
-1
+0
 Vì công nghệ 3D touch đột phá mới cũng như vậy nên cần 1 chút thời gian làm quen nhưng lúc quen r thì k muốn quay lại, đấy là ý nghĩa lịch sử của $T$
 3d touch
-1
+0
 $T$ thì nhạy sẵn rồi. Vấn đề của nó bây giờ là chờ các app sẽ dần có bản nâng cấp theo tính năng này.
 3d touch
 1
 Còn về cái $T$, con 5s của mình lên iOS 9.1 ấn hơi mạnh 1 cái nhấc ra đã mở máy rồi, tuy ko nhanh kinh khủng như 6s nhưng cũng có chú bất ngờ!
 touch id
-0
+1
 Là sao bạn. Ý mình là $T$ con 5s cập nhật phần mềm lên nhạy hơn hồi mới bán ra.
 touch id
 1
@@ -624,94 +624,10 @@ touch id
 1
 Chụp hình $T$ thì hay nhưng tốn bộ nhớ. 3D Touch thì ít sử dụng nhưng cũng thấy hay hay ! Cảm ứng vân tay nhạy hơn. Cầm nặng hơn
 live photo
-0
+1
 Chụp hình Live Photo thì hay nhưng tốn bộ nhớ. $T$ thì ít sử dụng nhưng cũng thấy hay hay ! Cảm ứng vân tay nhạy hơn. Cầm nặng hơn
 3d touch
 1
 Nhưng nói gì thì nói, bản $T$ 16g rõ ràng không tương xứng ( nếu không muốn nói là kệch cỡm ) với cấu hình khủng cũng như cái giá "khủng" mà iphone mang lại.
 dung lượng
-2
-Nhưng nói gì thì nói, bản 16g rõ ràng không tương xứng ( nếu không muốn nói là kệch cỡm ) với cấu hình khủng cũng như cái $T$ "khủng" mà iphone mang lại.
-giá
-2
-Bạn không thấy điện thoại $T$ quay 4k mà chỉ với dung lượng 16g bộ nhớ trong là nực cười lắm hay sao.
-camera
-1
-Bạn không thấy điện thoại camera quay 4k mà chỉ với $T$ 16g bộ nhớ trong là nực cười lắm hay sao.
-dung lượng
-2
-Cái $T$ 4K cũng là tính năng ít dùng tới và nếu quay thì cũng chẳng quay lâu.
-camera
-2
-$T$ cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
-app
-1
-App cực tốt, ko bị lỗi vặt, ko hề bị bug, $T$ đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
-thiết kế
-1
-App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, $T$ cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
-camera
-1
-App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, $T$ tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
-3d touch
-1
-App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, $T$ giúp e lưu những khoảng khắc với gấu sinh động.
-live photto
-1
-Apple music và các service rất rẻ mà tiện, nghe nhạc chất lượng cao nữa. $T$ to nhưng tối ưu tốt ko gian hiển thị nên nhìn có vẻ to hơn cả note 5 dù thực tế nhỏ hơn.
-màn hình
-1
-Nhanh làm gì nếu mà không mượt mà thỉnh thoảng còn đơ đở giật lag, vụ đơ $T$ và giật lag đã có nói về con 6s rồi.
-camera
-2
-Chỉ thích mỗi quả $T$.
-live photo
-1
-Rất ưng cái $T$ của con này
-camera
-1
-$T$ thì dùng thoải mái con 6S Plus chỉ đạt tầm 6,5 - 7h (độ sáng 50%, sử dụng hỗn hợp web, game, app.)
-pin
-1
-Đang dùng 6S+ đây cầm lại con 6 ngày xưa khó chịu, $T$ nhỏ pin quá yếu
-màn hình
-2
-Đang dùng 6S+ đây cầm lại con 6 ngày xưa khó chịu, màn nhỏ $T$ quá yếu
-pin
-2
-Mình từ dòng Note của SS về 6s cảm thấy đây là đt phù hợp với mình, $T$ vừa đủ dùng, sử dụng 1 tay được, gọn, nhẹ.
-màn hình
-1
-$T$ onscreen trung bình khoảng 5-6h dư dả cho 1 ngày làm sáng đi tối về sạc ( về còn khoảng 30-40% ).
-pin
-0
-Ios nó có dư $T$ như android đâu mà lo, có gì chạy kg được kg?
-ram
-0
-6s 2Gb $T$ thì ngon quá
-ram
-1
-$T$ 6s khoẻ hơn nhỉ?
-pin
-0
-Hóng các bác chém nhau về $T$ 1gb và 2gb
-ram
-0
-Có mod nào vào đính chính thông tin chính xác lại xem. $T$ 1G hay 2G, tinh tế post mà sai sao? Đọc bài tìm hiểu thông tin, vào đọc thấy cmt vậy, hoang mang quá
-ram
-0
-Iphone 6s có $T$ gold mà mod
-màu sắc
-0
-Vẫn dùng $T$ thế hệ cũ
-touch id
-2
-$T$ trước kém, chẳng qua do thiết kế khung xương IP6 nhiều.
-camera
-2
-Táo bắt đầu đẻ nhiều giống a Sam rồi. Mà thời nào rồi mà còn làm cái $T$ dầy cộp thế kia nhỉ?
-viền màn hình
-2
-$T$ iphone thực sự rất yếu
-pin
 2

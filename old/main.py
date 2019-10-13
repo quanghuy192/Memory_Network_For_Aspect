@@ -1,11 +1,12 @@
 import pprint
 import tensorflow as tf
 from model import MemN2N
-from data import *
+
+from old.data import *
 
 pp = pprint.PrettyPrinter()
 
-flags = tf.compat.v1.app.flags
+flags = tf.app.flags
 
 flags.DEFINE_integer("edim", 400, "internal state dimension [300]")
 flags.DEFINE_integer("lindim", 400, "linear part of the state [75]")
@@ -49,7 +50,7 @@ def main(_):
 
     pre_trained_context_wt, pre_trained_target_wt = get_embedding_matrix(source_word2idx, target_word2idx, FLAGS.edim)
 
-    with tf.compat.v1.Session() as sess:
+    with tf.Session() as sess:
         model = MemN2N(FLAGS, sess, pre_trained_context_wt, pre_trained_target_wt, source_word2idx['<pad>'],
                        len(source_word2idx), max_sent_len)
         model.build_model()
@@ -57,4 +58,4 @@ def main(_):
 
 
 if __name__ == '__main__':
-    tf.compat.v1.app.run()
+    tf.app.run()

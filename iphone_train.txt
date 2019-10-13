@@ -1,12 +1,12 @@
 $T$ của 6s có đẹp như 6s+ ko vậy mấy bác? Như 2 vc em đang dùng 6 và 6+ thấy màn của 6 màu nhợt nhạt quá
 màn hình
-0
+2
 Màn hình của 6s có đẹp như 6s+ ko vậy mấy bác? Như 2 vc em đang dùng 6 và 6+ thấy màn của 6 $T$ nhợt nhạt quá
 màu sắc
-1
+2
 Chụp tối thì nãn đều luôn. Bao giờ apple nâng cấp $T$ để chụp ban đêm và phơi sáng nhỉ
 camera
-0
+2
 Vừa mua được mấy hôm. $T$ ngon, pin ngon, nhanh. lỗi camera, thi thoảng bị đơ 3s
 touch id
 1
@@ -18,7 +18,7 @@ camera
 2
 Mình vẫn thấy ok với em 6 plus, hơn nữa ko ham hố với $T$ rose gold nên chả có nhu cầu đổi. Hiệu năng thì có lẽ ko khác biệt nhiều, nhưng quan trọng nhất với mình là pin 6 plus quá ngon.
 màu sắc
-1
+0
 Mình vẫn thấy ok với em 6 plus, hơn nữa ko ham hố với màu sắc rose gold nên chả có nhu cầu đổi. $T$ thì có lẽ ko khác biệt nhiều, nhưng quan trọng nhất với mình là pin 6 plus quá ngon.
 hiệu năng
 2
@@ -36,10 +36,10 @@ pin
 2
 Cá nhân e thấy còn lâu apple mới nâng cấp lại $T$ với camera !! Cho nên bây giờ mua 6s dùng lâu dài là hợp lý !!
 ram
-1
+0
 Cá nhân e thấy còn lâu apple mới nâng cấp lại ram với $T$ !! Cho nên bây giờ mua 6s dùng lâu dài là hợp lý !!
 camera
-1
+0
 Đánh đổi điều đó chính là $T$ và 2Gb ram ạ.
 hệ điều hành
 0
@@ -153,7 +153,7 @@ giá
 2
 Đợt sau apple nâng cho nó lên 3GB $T$ luôn đi xài cho khoẻ. Nâng cấp đáng giá nhất lần này mình nghĩ là ram, làm cho việc trãi nghiệm máy thoải mái hơn.
 ram
-0
+1
 Đợt sau apple nâng cho nó lên 3GB ram luôn đi xài cho khoẻ. Nâng cấp đáng giá nhất lần này mình nghĩ là $T$, làm cho việc trãi nghiệm máy thoải mái hơn.
 ram
 1
@@ -183,7 +183,7 @@ camera
 2
 Cái 3d touch max sida nếu so vs longpress same same nhau, camera cải lùi chứ k phải cải tiến, đã có bài test từ trang chuyên test $T$ uy tín nhất thế giới.
 camera
-0
+2
 Dù biết nó tốt nhưng nghĩ tới cái $T$ chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. Pin ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
 màn hình
 2
@@ -202,18 +202,9 @@ pin
 Vẫn cái $T$ quá xấu so với 5 và 5s tạo độ nhảm của IP lên rất nhiều, thực sự thất vọng
 thiết kế
 2
-Mình mới lấy em iphone 6s và đây cũng là lần đầu tiên sở hữu dòng iphone. Nhìn chung các tính năng tuyệt vời, đặc biệt là $T$ sang hẳn so với những dòng khác. Riêng cái tên Iphone thôi cũng đủ nâng tầm người dùng. Nhưng một nhược điểm cực lớn là giá cắt cổ và pin quá yếu.
-thiết kế
-1
-Mình mới lấy em iphone 6s và đây cũng là lần đầu tiên sở hữu dòng iphone. Nhìn chung các tính năng tuyệt vời, đặc biệt là thiết kế sang hẳn so với những dòng khác. Riêng cái tên Iphone thôi cũng đủ nâng tầm người dùng. Nhưng một nhược điểm cực lớn là $T$ cắt cổ và pin quá yếu.
-giá
-2
-Mình mới lấy em iphone 6s và đây cũng là lần đầu tiên sở hữu dòng iphone. Nhìn chung các tính năng tuyệt vời, đặc biệt là thiết kế sang hẳn so với những dòng khác. Riêng cái tên Iphone thôi cũng đủ nâng tầm người dùng. Nhưng một nhược điểm cực lớn là giá cắt cổ và $T$ quá yếu.
-pin
-2
 Đã xài thử cái của bà chị, chỉ chấm được mỗi cái sang chảnh (bản gold), chạy cũng khá mượt. $T$ sau tạm được còn trước chụp chán phèo, nhất là lúc thiếu sáng.
 camera
-0
+2
 Với mức $T$ 20 củ thì nên chấm giá/ hiệu năng 6 điểm thôi.
 giá
 0
@@ -252,10 +243,10 @@ Vẫn thích 6s hơn vì có $T$
 1
 Bỏ 15 chai mua 6S $T$ 16gb, pin 1750maH, phòng mình có 3 ông ngày nào cũng 1 điệp khúc : cho mượn cục sạc ; đắng lòng cho ifan thật
 dung lượng
-0
+2
 Bỏ 15 chai mua 6S 16gb, $T$ 1750maH, phòng mình có 3 ông ngày nào cũng 1 điệp khúc : cho mượn cục sạc ; đắng lòng cho ifan thật
 pin
-0
+2
 Iphone nhanh hơn chỉ là cảm giác, bởi vì nó không có các hiệu ứng ví dụ như chuyển cảnh hoặc hình động, chứ bản thân $T$ của nó không mượt hơn
 hệ điều hành
 2
@@ -679,12 +670,15 @@ màn hình
 6s plus màn hình to nhưng $T$ tròn tròn ko có j đột phá, thích vuông kiểu ultra hoặc ít ra cũng giống note 4.
 kiểu dáng
 2
-Xác nhận là nếu $T$ lâu thì mới mua. Hihi. Quả thực mình rất rất cần pin lâu. Và rất thích ios.
+Xác nhận là nếu $T$ lâu thì mới mua. Hihi. Quả thực mình rất rất cần pin lâu. Và rất thích hệ điều hành.
 pin
-0
-Xác nhận là nếu pin lâu thì mới mua. Hihi. Quả thực mình rất rất cần $T$ lâu. Và rất thích ios.
+2
+Xác nhận là nếu pin lâu thì mới mua. Hihi. Quả thực mình rất rất cần $T$ lâu. Và rất thích hệ điều hành.
 pin
-0
+2
+Xác nhận là nếu pin lâu thì mới mua. Hihi. Quả thực mình rất rất cần $T$ lâu. Và rất thích hệ điều hành.
+hệ điều hành
+1
 $T$ lồi có dễ xước không nhỉ?
 camera
 0
@@ -736,7 +730,7 @@ thiết kế
 5s hiện giờ mình đang xài đã đáp ứng đủ nhu cầu. 6s vẫn $T$ không đẹp nên không muốn nâng cấp.
 thiết kế
 2
-Sẽ mua ip6s vì $T$ Rose Gold siêu đệp chuẩn men siêu cấp nhất hệ mặt trời
+Sẽ mua ip6s vì $T$ Rose Gold siêu đẹp chuẩn men siêu cấp nhất hệ mặt trời
 màu sắc
 1
 $T$ vàng hồng nhìn mê không chịu được.
@@ -1750,13 +1744,13 @@ camera
 Cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá. Camera thì chụp tối kém, chất lượng hình ảnh $T$ cũng thua các Đt cùng giá.
 camera
 2
-Nhìn chung các tính năng tuyệt vời, đặc biệt là $T$ sang hẳn so với những dòng khác. Nhưng một nhược điểm cực lớn là giá cắt cổ và pin quá yếu.
+Nhìn chung các tính năng tuyệt vời, đặc biệt là $T$ sang hẳn so với những dòng khác.
 thiết kế
 1
-Nhìn chung các tính năng tuyệt vời, đặc biệt là thiết kế sang hẳn so với những dòng khác. Nhưng một nhược điểm cực lớn là $T$ cắt cổ và pin quá yếu.
+Nhược điểm cực lớn là $T$ cắt cổ và pin quá yếu.
 giá
 2
-Nhìn chung các tính năng tuyệt vời, đặc biệt là thiết kế sang hẳn so với những dòng khác. Nhưng một nhược điểm cực lớn là giá cắt cổ và $T$ quá yếu.
+Nhược điểm cực lớn là giá cắt cổ và $T$ quá yếu.
 pin
 2
 $T$ hơi kém
@@ -1810,3 +1804,159 @@ touch id
 Giá cả miễn bàn đi, chơi iphone thì lo gì giá. CÒn muốn khoe thì dễ lắm, cứ mở máy lướt qua lướt lại là xong hà, iOS 9 mà chạy ầm ầm siêu mượt, lại có 3D touch và $T$ thú vị thì chỉ có 6s/6s+
 live photo
 1
+Mình cảm thấy còn 6s plus $T$ quá ngon hehe. Xài sướng lắm, con trai sài con plus nó mới sướng.
+pin
+1
+Mới chuyển từ 6 plus sang 6s plus . Thấy $T$ cũng rất tốt ( hơn 6 plus khoảng 5-10% thời lượng pin )
+pin
+1
+6s của mình chip TSMC $T$ cũng rất tốt. Thời gian sử dụng xấp xỉ 7h, thời gian chờ trên 22h là còn 5%, vừa đúng cuối ngày cắm sạc
+pin
+1
+Có rất nhiều điểm cải tiến đáng kể được cập nhật trên iPhone 6s, $T$ mạnh hơn, camera tốt hơn
+cấu hình
+1
+Có rất nhiều điểm cải tiến đáng kể được cập nhật trên iPhone 6s, cấu hình mạnh hơn, $T$ tốt hơn
+camera
+1
+Có vẻ như thời lượng $T$ trên iPhone 6s không đáp ứng được những kì vọng của người dùng iPhone
+pin
+2
+Con 6S $T$ trâu vãi
+pin
+1
+thật tiếc là vẫn còn hạn chế về thời lượng $T$. nếu ko thì mình đã tậu 1 e
+pin
+2
+nếu nói về $T$ thì ip6s nhanh nhất
+hiệu năng
+1
+lên 12MP cũng chỉ để quay 4k, chất lượng $T$ không cải thiện mấy
+ảnh
+2
+6s sử dụng hao $T$ lắm
+pin
+2
+Máy xài khá ổn, về $T$ thì máy sử dụng cầm pin lâu
+pin
+1
+Về $T$ thì máy ra mắt 4 năm nên cũng không mượt như mình tưởng
+hiệu năng
+2
+Tôi khuyên người khác nên dùng , vì với $T$ cả hiện nay rẻ
+giá
+1
+Hiện tại dùng tôt $T$ cũng ok dùng đc 1 ngày. Nếu hạn chế chơi game trong ngày, còn lại đều ok
+pin
+1
+Vừa mua con 6s plus xám hơn 2 tuần dc giảm tận 1tr5 =)))) máy bao êm không hao $T$ không lag như các ông review, bực là lúc đi mua xám hết hàng đợi hơi lâu =)))
+pin
+1
+$T$ xài cũng ok. Dùng đc 1 tháng rồi chưa thấy lỗi gì. Pin cũng tương đối ổn.
+máy
+1
+máy xài cũng ok. Dùng đc 1 tháng rồi chưa thấy lỗi gì. $T$ cũng tương đối ổn.
+pin
+1
+$T$ khá mượt mà nhưng sạc pin hơi lâu
+máy
+1
+Mua máy 2 ngày $T$ trâu chơi game khỏi chê
+pin
+1
+Dùng tuy sang nhưng $T$ mau hết
+pin
+2
+$T$ quá kém, còn lại thì ok.
+pin
+2
+$T$ dùng nhanh nhậy nhưng pin kém quá
+máy
+1
+Máy dùng nhanh nhậy nhưng $T$ kém quá
+pin
+2
+Nhưng nói gì thì nói, bản 16g rõ ràng không tương xứng ( nếu không muốn nói là kệch cỡm ) với cấu hình khủng cũng như cái $T$ "khủng" mà iphone mang lại.
+giá
+2
+Bạn không thấy điện thoại $T$ quay 4k mà chỉ với dung lượng 16g bộ nhớ trong là nực cười lắm hay sao.
+camera
+1
+Bạn không thấy điện thoại camera quay 4k mà chỉ với $T$ 16g bộ nhớ trong là nực cười lắm hay sao.
+dung lượng
+2
+Cái $T$ 4K cũng là tính năng ít dùng tới và nếu quay thì cũng chẳng quay lâu.
+camera
+2
+$T$ cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+app
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, $T$ đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+thiết kế
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, $T$ cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+camera
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, $T$ tiện cực kỳ, live photo giúp e lưu những khoảng khắc với gấu sinh động.
+3d touch
+1
+App cực tốt, ko bị lỗi vặt, ko hề bị bug, thiết kế đồng bộ, camera cân bằng tốt và cực nhanh, 3d touch tiện cực kỳ, $T$ giúp e lưu những khoảng khắc với gấu sinh động.
+live photto
+1
+Apple music và các service rất rẻ mà tiện, nghe nhạc chất lượng cao nữa. $T$ to nhưng tối ưu tốt ko gian hiển thị nên nhìn có vẻ to hơn cả note 5 dù thực tế nhỏ hơn.
+màn hình
+1
+Nhanh làm gì nếu mà không mượt mà thỉnh thoảng còn đơ đở giật lag, vụ đơ $T$ và giật lag đã có nói về con 6s rồi.
+camera
+2
+Chỉ thích mỗi quả $T$.
+live photo
+1
+Rất ưng cái $T$ của con này
+camera
+1
+$T$ thì dùng thoải mái con 6S Plus chỉ đạt tầm 6,5 - 7h (độ sáng 50%, sử dụng hỗn hợp web, game, app.)
+pin
+1
+Đang dùng 6S+ đây cầm lại con 6 ngày xưa khó chịu, $T$ nhỏ pin quá yếu
+màn hình
+2
+Đang dùng 6S+ đây cầm lại con 6 ngày xưa khó chịu, màn nhỏ $T$ quá yếu
+pin
+2
+Mình từ dòng Note của SS về 6s cảm thấy đây là đt phù hợp với mình, $T$ vừa đủ dùng, sử dụng 1 tay được, gọn, nhẹ.
+màn hình
+1
+$T$ onscreen trung bình khoảng 5-6h dư dả cho 1 ngày làm sáng đi tối về sạc ( về còn khoảng 30-40% ).
+pin
+0
+Ios nó có dư $T$ như android đâu mà lo, có gì chạy kg được kg?
+ram
+0
+6s 2Gb $T$ thì ngon quá
+ram
+1
+$T$ 6s khoẻ hơn nhỉ?
+pin
+0
+Hóng các bác chém nhau về $T$ 1gb và 2gb
+ram
+0
+Có mod nào vào đính chính thông tin chính xác lại xem. $T$ 1G hay 2G, tinh tế post mà sai sao? Đọc bài tìm hiểu thông tin, vào đọc thấy cmt vậy, hoang mang quá
+ram
+0
+Iphone 6s có $T$ gold mà mod
+màu sắc
+0
+Vẫn dùng $T$ thế hệ cũ
+touch id
+2
+$T$ trước kém, chẳng qua do thiết kế khung xương IP6 nhiều.
+camera
+2
+Táo bắt đầu đẻ nhiều giống a Sam rồi. Mà thời nào rồi mà còn làm cái $T$ dầy cộp thế kia nhỉ?
+viền màn hình
+2
+$T$ iphone thực sự rất yếu
+pin
+2

@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
-import re
 from collections import Counter
 from underthesea import word_tokenize
 from gensim.models import KeyedVectors
-
-
 # from pyvi import ViTokenizer, ViPosTagger
 
 
 def load_embedding_file(embed_file_name, word_set):
+
     embeddings = {}
     with open(embed_file_name, 'r') as embed_file:
         for line in embed_file:
@@ -24,6 +22,7 @@ def load_embedding_file(embed_file_name, word_set):
 
 
 def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_set, max_sent_len):
+
     if len(sent_word2idx) == 0:
         sent_word2idx["<pad>"] = 0
 
@@ -48,25 +47,14 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
 
             sentence.replace("$T$", "")
             sentence = sentence.lower()
-            # sentence = sentence.replace('\d', '')
-
             target = target.lower()
             max_sent_len = max(max_sent_len, len(sentence.split()))
 
             vn_sentences = word_tokenize(sentence, format='text')
-            vn_sentences = vn_sentences.replace("$ t $", "$t$")
-            vn_sentences = re.sub(r'\d', '', vn_sentences)
-            vn_sentences = re.sub('[!@#+/?.,():]', '', vn_sentences)
-            # vn_sentences = re.sub(r'\b\w{1,2}\b', '', vn_sentences)
             # vn_sentences = ViTokenizer.tokenize(sentence)
+            vn_sentences = vn_sentences.replace("$ t $", "$t$")
 
-            vn_sentences_list = list(set(vn_sentences.split()))
-            for i in list(vn_sentences_list):
-                if len(i) < 3:
-                    vn_sentences_list.remove(i)
-
-            sentence_words.extend(vn_sentences_list)
-
+            sentence_words.extend(vn_sentences.split())
             target_words.extend([target])
             words.extend(vn_sentences.split() + target.split())
 
@@ -90,6 +78,7 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
 
 
 def get_embedding_matrix(sent_word2idx, target_word2idx, edim):
+
     word_embed_matrix = np.zeros([len(sent_word2idx), edim], dtype=float)
     target_embed_matrix = np.zeros([len(target_word2idx), edim], dtype=float)
 
@@ -111,6 +100,7 @@ word2vec_model = KeyedVectors.load_word2vec_format(embed_file_name, binary=True)
 
 
 def get_dataset(data_file_name, sent_word2idx, target_word2idx):
+
     sentence_list = []
     location_list = []
     target_list = []
@@ -129,24 +119,14 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
             target = lines[line_no + 1].lower()
             polarity = int(lines[line_no + 2])
 
-            # sentence = sentence.replace('\d', '')
-
             # sent_words = sentence.split()
             sent_words = word_tokenize(sentence, format='text')
-            sent_words = sent_words.replace("$ t $", "$t$")
-            sent_words = re.sub(r'\d', '', sent_words)
-            sent_words = re.sub('[!@#+/?.,():]', '', sent_words)
-
             # sent_words = ViTokenizer.tokenize(sentence)
-            sent_words = list(set(sent_words.split()))
-            for i in list(sent_words):
-                if len(i) < 3:
-                    sent_words.remove(i)
-
+            sent_words = sent_words.replace("$ t $", "$t$").split()
             # target_words = target.split()
             target_words = word_tokenize(target, format='text').split()
             # target_words = ViTokenizer.tokenize(target)
-            print(sent_words)
+            print(sentence)
             try:
                 target_location = sent_words.index("$t$")
             except:

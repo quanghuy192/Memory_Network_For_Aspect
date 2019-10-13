@@ -25,12 +25,12 @@ class MemN2N(object):
         self.nwords = nwords
         self.mem_size = mem_size
 
-        self.input = tf.compat.v1.placeholder(tf.compat.v1.int32, [self.batch_size, 1], name="input")
-        self.time = tf.compat.v1.placeholder(tf.compat.v1.int32, [None, self.mem_size], name="time")
-        self.target = tf.compat.v1.placeholder(tf.compat.v1.int64, [self.batch_size], name="target")
-        self.context = tf.compat.v1.placeholder(tf.compat.v1.int32, [self.batch_size, self.mem_size], name="context")
-        self.mask = tf.compat.v1.placeholder(tf.compat.v1.float32, [self.batch_size, self.mem_size], name="mask")
-        self.neg_inf = tf.compat.v1.fill([self.batch_size, self.mem_size], -1 * np.inf, name="neg_inf")
+        self.input = tf.placeholder(tf.int32, [self.batch_size, 1], name="input")
+        self.time = tf.placeholder(tf.int32, [None, self.mem_size], name="time")
+        self.target = tf.placeholder(tf.int64, [self.batch_size], name="target")
+        self.context = tf.placeholder(tf.int32, [self.batch_size, self.mem_size], name="context")
+        self.mask = tf.placeholder(tf.float32, [self.batch_size, self.mem_size], name="mask")
+        self.neg_inf = tf.fill([self.batch_size, self.mem_size], -1 * np.inf, name="neg_inf")
 
         self.show = config.show
 
@@ -47,93 +47,93 @@ class MemN2N(object):
         self.log_perp = []
 
     def build_memory(self):
-        self.global_step = tf.compat.v1.Variable(0, name="global_step")
+        self.global_step = tf.Variable(0, name="global_step")
 
-        self.A = tf.compat.v1.Variable(tf.compat.v1.random_uniform([self.nwords, self.edim], minval=-0.01, maxval=0.01))
-        self.ASP = tf.compat.v1.Variable(
-            tf.compat.v1.random_uniform([self.pre_trained_target_wt.shape[0], self.edim], minval=-0.01, maxval=0.01))
-        self.C = tf.compat.v1.Variable(tf.compat.v1.random_uniform([self.edim, self.edim], minval=-0.01, maxval=0.01))
+        self.A = tf.Variable(tf.random_uniform([self.nwords, self.edim], minval=-0.01, maxval=0.01))
+        self.ASP = tf.Variable(
+            tf.random_uniform([self.pre_trained_target_wt.shape[0], self.edim], minval=-0.01, maxval=0.01))
+        self.C = tf.Variable(tf.random_uniform([self.edim, self.edim], minval=-0.01, maxval=0.01))
 
-        self.C_B = tf.compat.v1.Variable(tf.compat.v1.random_uniform([1, self.edim], minval=-0.01, maxval=0.01))
-        self.BL_W = tf.compat.v1.Variable(tf.compat.v1.random_uniform([2 * self.edim, 1], minval=-0.01, maxval=0.01))
-        self.BL_B = tf.compat.v1.Variable(tf.compat.v1.random_uniform([1, 1], minval=-0.01, maxval=0.01))
+        self.C_B = tf.Variable(tf.random_uniform([1, self.edim], minval=-0.01, maxval=0.01))
+        self.BL_W = tf.Variable(tf.random_uniform([2 * self.edim, 1], minval=-0.01, maxval=0.01))
+        self.BL_B = tf.Variable(tf.random_uniform([1, 1], minval=-0.01, maxval=0.01))
 
         # # Location
-        # location_encoding = 1 - tf.compat.v1.truediv(self.time, self.mem_size)
-        # location_encoding = tf.compat.v1.cast(location_encoding, tf.compat.v1.float32)
-        # location_encoding3dim = tf.compat.v1.tile(tf.compat.v1.expand_dims(location_encoding, 2), [1, 1, self.edim])
+        # location_encoding = 1 - tf.truediv(self.time, self.mem_size)
+        # location_encoding = tf.cast(location_encoding, tf.float32)
+        # location_encoding3dim = tf.tile(tf.expand_dims(location_encoding, 2), [1, 1, self.edim])
 
-        self.Ain_c = tf.compat.v1.nn.embedding_lookup(self.A, self.context)
+        self.Ain_c = tf.nn.embedding_lookup(self.A, self.context)
         # self.Ain = self.Ain_c * location_encoding3dim
         self.Ain = self.Ain_c
 
-        self.ASPin = tf.compat.v1.nn.embedding_lookup(self.ASP, self.input)
-        self.ASPout2dim = tf.compat.v1.reshape(self.ASPin, [-1, self.edim])
+        self.ASPin = tf.nn.embedding_lookup(self.ASP, self.input)
+        self.ASPout2dim = tf.reshape(self.ASPin, [-1, self.edim])
         self.hid.append(self.ASPout2dim)
 
         for h in xrange(self.nhop):
             '''
             Bi-linear scoring function for a context word and aspect term
             '''
-            self.til_hid = tf.compat.v1.tile(self.hid[-1], [1, self.mem_size])
-            self.til_hid3dim = tf.compat.v1.reshape(self.til_hid, [-1, self.mem_size, self.edim])
-            self.a_til_concat = tf.compat.v1.concat(axis=2, values=[self.til_hid3dim, self.Ain])
-            self.til_bl_wt = tf.compat.v1.tile(self.BL_W, [self.batch_size, 1])
-            self.til_bl_3dim = tf.compat.v1.reshape(self.til_bl_wt, [self.batch_size, 2 * self.edim, -1])
+            self.til_hid = tf.tile(self.hid[-1], [1, self.mem_size])
+            self.til_hid3dim = tf.reshape(self.til_hid, [-1, self.mem_size, self.edim])
+            self.a_til_concat = tf.concat(axis=2, values=[self.til_hid3dim, self.Ain])
+            self.til_bl_wt = tf.tile(self.BL_W, [self.batch_size, 1])
+            self.til_bl_3dim = tf.reshape(self.til_bl_wt, [self.batch_size, 2 * self.edim, -1])
 
-            self.att = tf.compat.v1.matmul(self.a_til_concat, self.til_bl_3dim)
-            self.til_bl_b = tf.compat.v1.tile(self.BL_B, [self.batch_size, self.mem_size])
-            self.til_bl_3dim = tf.compat.v1.reshape(self.til_bl_b, [-1, self.mem_size, 1])
-            self.g = tf.compat.v1.nn.tanh(tf.compat.v1.add(self.att, self.til_bl_3dim))
-            self.g_2dim = tf.compat.v1.reshape(self.g, [-1, self.mem_size])
-            self.masked_g_2dim = tf.compat.v1.add(self.g_2dim, self.mask)
-            self.P = tf.compat.v1.nn.softmax(self.masked_g_2dim)
-            self.probs3dim = tf.compat.v1.reshape(self.P, [-1, 1, self.mem_size])
+            self.att = tf.matmul(self.a_til_concat, self.til_bl_3dim)
+            self.til_bl_b = tf.tile(self.BL_B, [self.batch_size, self.mem_size])
+            self.til_bl_3dim = tf.reshape(self.til_bl_b, [-1, self.mem_size, 1])
+            self.g = tf.nn.tanh(tf.add(self.att, self.til_bl_3dim))
+            self.g_2dim = tf.reshape(self.g, [-1, self.mem_size])
+            self.masked_g_2dim = tf.add(self.g_2dim, self.mask)
+            self.P = tf.nn.softmax(self.masked_g_2dim)
+            self.probs3dim = tf.reshape(self.P, [-1, 1, self.mem_size])
 
-            self.Aout = tf.compat.v1.matmul(self.probs3dim, self.Ain)
-            self.Aout2dim = tf.compat.v1.reshape(self.Aout, [self.batch_size, self.edim])
+            self.Aout = tf.matmul(self.probs3dim, self.Ain)
+            self.Aout2dim = tf.reshape(self.Aout, [self.batch_size, self.edim])
 
-            Cout = tf.compat.v1.matmul(self.hid[-1], self.C)
-            til_C_B = tf.compat.v1.tile(self.C_B, [self.batch_size, 1])
-            Cout_add = tf.compat.v1.add(Cout, til_C_B)
-            self.Dout = tf.compat.v1.add(Cout_add, self.Aout2dim)
+            Cout = tf.matmul(self.hid[-1], self.C)
+            til_C_B = tf.tile(self.C_B, [self.batch_size, 1])
+            Cout_add = tf.add(Cout, til_C_B)
+            self.Dout = tf.add(Cout_add, self.Aout2dim)
 
             if self.lindim == self.edim:
                 self.hid.append(self.Dout)
             elif self.lindim == 0:
-                self.hid.append(tf.compat.v1.nn.relu(self.Dout))
+                self.hid.append(tf.nn.relu(self.Dout))
             else:
-                F = tf.compat.v1.slice(self.Dout, [0, 0], [self.batch_size, self.lindim])
-                G = tf.compat.v1.slice(self.Dout, [0, self.lindim], [self.batch_size, self.edim - self.lindim])
-                K = tf.compat.v1.nn.relu(G)
-                self.hid.append(tf.compat.v1.concat(axis=1, values=[F, K]))
+                F = tf.slice(self.Dout, [0, 0], [self.batch_size, self.lindim])
+                G = tf.slice(self.Dout, [0, self.lindim], [self.batch_size, self.edim - self.lindim])
+                K = tf.nn.relu(G)
+                self.hid.append(tf.concat(axis=1, values=[F, K]))
 
     def build_model(self):
         self.build_memory()
 
-        self.W = tf.compat.v1.Variable(tf.compat.v1.random_uniform([self.edim, 3], minval=-0.01, maxval=0.01))
-        self.z = tf.compat.v1.matmul(self.hid[-1], self.W)
+        self.W = tf.Variable(tf.random_uniform([self.edim, 3], minval=-0.01, maxval=0.01))
+        self.z = tf.matmul(self.hid[-1], self.W)
 
-        self.loss = tf.compat.v1.nn.sparse_softmax_cross_entropy_with_logits(logits=self.z, labels=self.target)
+        self.loss = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=self.z, labels=self.target)
 
-        self.lr = tf.compat.v1.Variable(self.current_lr)
-        self.opt = tf.compat.v1.train.AdagradOptimizer(self.lr)
+        self.lr = tf.Variable(self.current_lr)
+        self.opt = tf.train.AdagradOptimizer(self.lr)
 
         params = [self.A, self.C, self.C_B, self.W, self.BL_W, self.BL_B]
 
-        self.loss = tf.compat.v1.reduce_sum(self.loss)
+        self.loss = tf.reduce_sum(self.loss)
 
         grads_and_vars = self.opt.compute_gradients(self.loss, params)
-        clipped_grads_and_vars = [(tf.compat.v1.clip_by_norm(gv[0], self.max_grad_norm), gv[1]) \
+        clipped_grads_and_vars = [(tf.clip_by_norm(gv[0], self.max_grad_norm), gv[1]) \
                                   for gv in grads_and_vars]
 
         inc = self.global_step.assign_add(1)
-        with tf.compat.v1.control_dependencies([inc]):
+        with tf.control_dependencies([inc]):
             self.optim = self.opt.apply_gradients(clipped_grads_and_vars)
 
-        tf.compat.v1.global_variables_initializer().run()
+        tf.global_variables_initializer().run()
 
-        self.correct_prediction = tf.compat.v1.argmax(self.z, 1)
+        self.correct_prediction = tf.argmax(self.z, 1)
 
     def train(self, data):
         source_data, source_loc_data, target_data, target_label = data
@@ -237,26 +237,27 @@ class MemN2N(object):
 
                                                                             self.mask: mask})
             sentence_list = []
-            # if is_train:
-            #     with open('iphone_train.txt', 'r') as data_file:
-            #         lines = data_file.read().split('\n')
-            #         for line_no in range(0, len(lines) - 1, 3):
-            #             sentence = lines[line_no].lower()
-            #             sentence_list.append(sentence)
-            if not is_train:
+            if is_train:
+                with open('iphone_train.txt', 'r') as data_file:
+                    lines = data_file.read().split('\n')
+                    # for line_no in range(0, len(lines) - 1, 3):
+                    #     sentence = lines[line_no].lower()
+                    #     sentence_list.append(sentence)
+            else:
                 with open('iphone_test.txt', 'r') as data_file:
                     lines = data_file.read().split('\n')
                     for line_no in range(0, len(lines) - 1, 3):
                         sentence = lines[line_no].lower()
                         sentence_list.append(sentence)
 
-            # if is_train:
-            #     for b in xrange(self.batch_size):
-            #         if raw_labels[b] != predictions[b]:
-            #             print(" predict raw_labels : " + str(raw_labels[b]))
-            #             print(" predict by system : " + str(predictions[b]))
-            #             print(sentence_list[i] + " \n")
-            if not is_train:
+            if is_train:
+                for b in xrange(self.batch_size):
+                    if raw_labels[b] != predictions[b]:
+                        print("")
+                    #     print(" predict raw_labels : " + str(raw_labels[b]))
+                    #     print(" predict by system : " + str(predictions[b]))
+                    #     print(sentence_list[i] + " \n")
+            else:
                 for b in xrange(self.batch_size):
                     if raw_labels[b] != predictions[b]:
                         print(" predict raw_labels : " + str(raw_labels[b]))
