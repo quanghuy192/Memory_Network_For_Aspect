@@ -106,7 +106,7 @@ def get_embedding_matrix(sent_word2idx, target_word2idx, edim):
     return word_embed_matrix, target_embed_matrix
 
 
-embed_file_name = 'baomoi.model.bin'
+embed_file_name = 'baomoi.window2.vn.model.bin'
 word2vec_model = KeyedVectors.load_word2vec_format(embed_file_name, binary=True)
 
 
