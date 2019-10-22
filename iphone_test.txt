@@ -483,16 +483,7 @@ camera
 1
 $T$ : Dùng giải trí vui , thích thú nhưng nói muốn xài hằng ngày thì không , hao pin và chiếm dung lượng , set hình nền hao pin so với hình tĩnh - > Bình thường .
 live photo
-1
-Lives Photo : Dùng giải trí vui , thích thú nhưng nói muốn xài hằng ngày thì không , hao $T$ và chiếm dung lượng , set hình nền hao pin so với hình tĩnh - > Bình thường .
-pin
-0
-Lives Photo : Dùng giải trí vui , thích thú nhưng nói muốn xài hằng ngày thì không , hao pin và chiếm $T$ , set hình nền hao pin so với hình tĩnh - > Bình thường .
-dung lượng
-0
-Lives Photo : Dùng giải trí vui , thích thú nhưng nói muốn xài hằng ngày thì không , hao pin và chiếm dung lượng , set hình nền hao $T$ so với hình tĩnh - > Bình thường .
-pin
-0
+2
 $T$ Rose Gold : bắt mắt so với mấy hãng khác và đồ Apple bao giờ cũng chao chuốt so với mấy hãng khác , có thể nói màu hồng vàng của Apple hiện nay ăn đứt mấy hãng kia .
 màu sắc
 1
@@ -528,7 +519,7 @@ touch id
 1
 Chụp hình $T$ thì hay nhưng tốn bộ nhớ. 3D Touch thì ít sử dụng nhưng cũng thấy hay hay ! Cảm ứng vân tay nhạy hơn. Cầm nặng hơn
 live photo
-1
+0
 Chụp hình Live Photo thì hay nhưng tốn bộ nhớ. $T$ thì ít sử dụng nhưng cũng thấy hay hay ! Cảm ứng vân tay nhạy hơn. Cầm nặng hơn
 3d touch
 1

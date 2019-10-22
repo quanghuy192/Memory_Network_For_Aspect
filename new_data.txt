@@ -290,126 +290,210 @@ Máy dùng nhanh nhậy nhưng $T$ kém quá
 pin
 2
 ////////////////////////////////////////////////////
-Không thấy nói kích thước màn hình Sơn ơi.
-
-Màu đen đẹp vậy
-
-Thiết kế viền ăng ten giống hệt Meizu Pro 6, thiếu tinh tế hơn hẳn Asus Zenphone 3.
-
-Camera lồi kép lại giống với Huawei P9, LG G5, LG V20.
-
-Từ hồi iP6 đã có cam lồi rồi mà @.@
-
-7plus màu đen nhìn như trong phim viễn tưởng
-
-Màu đen nhìn đẹp quá. Tổng thể về thiết kế: gọn gàng đẹp hơn
-
-Màu đen nhìn đẹp quá. Tổng thể về thiết kế: gọn gàng đẹp hơn
-
-Kích thước như cũ, thánh cứ chém bừa
-
-Như lời đồn, chỉ tiếc không có 2 camera. Đang hy cọng chức năng chụp hình truoc lấy nét sau
-
-Pin và 32GB thế nào mới là quan trọng, chống nước cũng khá tốt, ko lo trời mưa.
-
-Pin và 32GB thế nào mới là quan trọng, chống nước cũng khá tốt, ko lo trời mưa.
-
-Đừng hy vọng ,chống nước phải ip8 trở lên mới ok
-
-vote cái màu đen 2 Camera , rất hay ...chà chà tuyệt
-
+Không thấy nói kích thước $T$ Sơn ơi.
+màn hình
+0
+$T$ đen đẹp vậy
+màu sắc
+1
+$T$ viền ăng ten giống hệt Meizu Pro 6, thiếu tinh tế hơn hẳn Asus Zenphone 3.
+thiết kế
+2
+$T$ lồi kép lại giống với Huawei P9, LG G5, LG V20.
+camera
+2
+Từ hồi iP6 đã có $T$ lồi rồi mà @.@
+camera
+0
+7plus $T$ đen nhìn như trong phim viễn tưởng
+màu sắc
+1
+$T$ đen nhìn đẹp quá. Tổng thể về thiết kế: gọn gàng đẹp hơn
+màu đen
+1
+Màu đen nhìn đẹp quá. Tổng thể về $T$: gọn gàng đẹp hơn
+thiết kế
+1
+$T$ như cũ, thánh cứ chém bừa
+Kích thước
+0
+Như lời đồn, chỉ tiếc không có 2 camera. Đang hy vọng chức năng chụp hình truoc lấy nét sau
+camera
+2
+$T$ và dung lượng 32GB thế nào mới là quan trọng, chống nước cũng khá tốt, ko lo trời mưa.
+pin
+0
+Pin và $T$ 32GB thế nào mới là quan trọng, chống nước cũng khá tốt, ko lo trời mưa.
+dung lượng
+0
+Pin và dung lượng 32GB thế nào mới là quan trọng, $T$ cũng khá tốt, ko lo trời mưa.
+chống nước
+1
+Đừng hy vọng, $T$ phải ip8 trở lên mới ok
+chống nước
+2
+vote cái $T$ đen 2 Camera , rất hay ...chà chà tuyệt
+màu sắc
+1
+vote cái màu đen 2 $T$ , rất hay ...chà chà tuyệt
+camera
+1
+Nói chung là có $T$ là ngon, 2 cam méo biết có gì hot không chứ bảo 2 cam để hỗ trợ zoom ảnh thì ít khả quan, vì thấy các ẻm chụp hình bằng iphone ko mấy khi zoom.
+chống nước
+1
+Nói chung là có chống nước là ngon, 2 $T$ méo biết có gì hot không chứ bảo 2 cam để hỗ trợ zoom ảnh thì ít khả quan, vì thấy các ẻm chụp hình bằng iphone ko mấy khi zoom.
+camera
+2
 Nói chung là có chống nước là ngon, 2 cam méo biết có gì hot không chứ bảo 2 cam để hỗ trợ zoom ảnh thì ít khả quan, vì thấy các ẻm chụp hình bằng iphone ko mấy khi zoom.
-
-Camera lồi :))...Chưa bao giờ comment mà mắc cười cái Camera lồi quá
-
-Camera lồi :))...Chưa bao giờ comment mà mắc cười cái Camera lồi quá
-
+camera
+2
+$T$ lồi :))...Chưa bao giờ comment mà mắc cười cái Camera lồi quá
+camera
+2
+Camera lồi :))...Chưa bao giờ comment mà mắc cười cái $T$ lồi quá
+camera
+2
 Bạn thấy có rất nhiều hãng vẫn thiết kế lồi, nếu không lồi vẫn không đẹp nhé. Đừng có anti
-
-Có quảng cáo chống nước mặc dù ko bằng ip68 của ss. Các ifan đâu rồi? E cần tiếng nói của mọi người?
-
-hoan hô khẩu độ 1.8
-
-camera đợt ngày ngon rồi, f1.8 wide color capture
-
-Camera trước 7MP. Độ phân giải dị vãi.
-
-Camera LG G5 + Huawei P9 --> Best camera :3 Apple từ hãng tiên phong thành kẻ đi sau khôn lỏi! ANW good learner
-
-Nâng cấp thế này là đủ để đánh bại Galaxy Note7 về phần cứng rồi. Điều mà chắc cách đây một năm chẳng một người dùng nào trên thế giới này có thể nghĩ ra được, Samsung ạ. Haiz.
-
-Cuối cùng thì ifan cũng có màn hình "loè loẹt" hơn, camera chụp "sặc sỡ" hơn giống anh sam rồi nhé :))
-
-Cuối cùng thì ifan cũng có màn hình "loè loẹt" hơn, camera chụp "sặc sỡ" hơn giống anh sam rồi nhé :))
-
-Giá không đổi so vs năm ngoái. Good
-
-Màu đen mới lại chuẩn bị cháy hàng năm nay nữa. Hôm nay xem xong thì thấy đáng giá hơn từ 6 qua 6s. Chuẩn bị thứ 6 này đặt hàng thôi.
-
-màu đen mới hình như phủ bóng, có vẻ bám vân tay và ko còn cảm giác kim loại khi cầm nắm nữa
-
-ko có gì đột phá hết, có vẻ như ip 7+ vẫn chỉ là một chiếc đt với màn hình lớn, ai sẽ bỏ 159$ mua cái tai nghe ko dây đấy :))
-
-Tóm lại thì y như tin đồn. Thiết kế không mấy đột phá, cam vẫn lồi và xấu, Tai nghe không dây sẽ rất bất tiện trong khâu cắm nối khi sạc và chắc chắn là dễ mất.
-
-Tóm lại thì y như tin đồn. Thiết kế không mấy đột phá, cam vẫn lồi và xấu, Tai nghe không dây sẽ rất bất tiện trong khâu cắm nối khi sạc và chắc chắn là dễ mất.
-
-Tóm lại thì y như tin đồn. Thiết kế không mấy đột phá, cam vẫn lồi và xấu, Tai nghe không dây sẽ rất bất tiện trong khâu cắm nối khi sạc và chắc chắn là dễ mất.
-
-Tuyệt vời. Mình thích màu đen nhám hơn đen bóng.
-
-Tóm lại iPhone vẫn là 1 sản phẩm tốt :)) mà kỳ này giữa iP6s và 7 khác nhau mỗi cái chống nước là chủ yếu chứ cũng không hơn gì nhiều
-
+thiết kế
+1
+Có quảng cáo $T$ mặc dù ko bằng ip68 của ss. Các ifan đâu rồi? E cần tiếng nói của mọi người?
+chống nước
+2
+hoan hô $T$ 1.8
+khẩu độ
+1
+$T$ đợt ngày ngon rồi, f1.8 wide color capture
+camera
+1
+$T$ trước 7MP. Độ phân giải dị vãi.
+camera
+0
+Camera trước 7MP. $T$ dị vãi.
+độ phân giải
+0
+$T$ LG G5 + Huawei P9 --> Best camera :3 Apple từ hãng tiên phong thành kẻ đi sau khôn lỏi! ANW good learner
+camera
+1
+Camera LG G5 + Huawei P9 --> Best $T$ :3 Apple từ hãng tiên phong thành kẻ đi sau khôn lỏi! ANW good learner
+camera
+1
+Nâng cấp thế này là đủ để đánh bại Galaxy Note7 về $T$ rồi. Điều mà chắc cách đây một năm chẳng một người dùng nào trên thế giới này có thể nghĩ ra được, Samsung ạ. Haiz.
+phần cứng
+1
+Cuối cùng thì ifan cũng có $T$ "loè loẹt" hơn, camera chụp "sặc sỡ" hơn giống anh sam rồi nhé :))
+màn hình
+2
+Cuối cùng thì ifan cũng có màn hình "loè loẹt" hơn, $T$ chụp "sặc sỡ" hơn giống anh sam rồi nhé :))
+camera
+2
+$T$ không đổi so vs năm ngoái. Good
+Giá
+1
+$T$ đen mới lại chuẩn bị cháy hàng năm nay nữa. Hôm nay xem xong thì thấy đáng giá hơn từ 6 qua 6s. Chuẩn bị thứ 6 này đặt hàng thôi.
+Màu sắc
+1
+$T$ đen mới hình như phủ bóng, có vẻ bám vân tay và ko còn cảm giác kim loại khi cầm nắm nữa
+màu
+1
+ko có gì đột phá hết, có vẻ như ip 7+ vẫn chỉ là một chiếc đt với $T$ lớn, ai sẽ bỏ 159$ mua cái tai nghe ko dây đấy :))
+màn hình
+2
+Tóm lại thì y như tin đồn. $T$ không mấy đột phá, camera vẫn lồi và xấu, Tai nghe không dây sẽ rất bất tiện trong khâu cắm nối khi sạc và chắc chắn là dễ mất.
+Thiết kế
+2
+Tóm lại thì y như tin đồn. Thiết kế không mấy đột phá, $T$ vẫn lồi và xấu, Tai nghe không dây sẽ rất bất tiện trong khâu cắm nối khi sạc và chắc chắn là dễ mất.
+camera
+2
+Tóm lại thì y như tin đồn. Thiết kế không mấy đột phá, camera vẫn lồi và xấu, $T$ không dây sẽ rất bất tiện trong khâu cắm nối khi sạc và chắc chắn là dễ mất.
+Tai nghe
+2
+Tuyệt vời. Mình thích $T$ đen nhám hơn đen bóng.
+màu sắc
+1
+Tóm lại iPhone vẫn là 1 sản phẩm tốt :)) mà kỳ này giữa iP6s và 7 khác nhau mỗi cái $T$ là chủ yếu chứ cũng không hơn gì nhiều
+chống nước
+1
 Độ phân giải như cũ. Tăng dải màu lên và độ sáng thêm...nói chung là đẹp, khỏi lăn tăn :)...
-
-Nghe chả hứng lắm, nhất là tính năng của 2 cái cam kia.
-
-ngoài thiết kế chưa mới hẳn thì apple chơi các hãng tới bến luôn!
-
-chỉ còn 2 điểm để iphone hoàn hảo 1- cái viền dày bựa quá, giờ còn hãng nào có viền dày như vậy nhỉ 2- fullHD vẫn như ngày nào.
-
-chỉ còn 2 điểm để iphone hoàn hảo 1- cái viền dày bựa quá, giờ còn hãng nào có viền dày như vậy nhỉ 2- fullHD vẫn như ngày nào.
-
-Nhiều nân cấp mới nhiều tính năng mới....cái tai nghe không dây quá đẹp.....
-
+$T$
+1
+Nghe chả hứng lắm, nhất là tính năng của 2 cái $T$ kia.
+camera
+1
+ngoài $T$ chưa mới hẳn thì apple chơi các hãng tới bến luôn!
+thiết kế
+2
+chỉ còn 2 điểm để iphone hoàn hảo 1- cái $T$ dày bựa quá, giờ còn hãng nào có viền dày như vậy nhỉ 2- fullHD vẫn như ngày nào.
+viền
+2
+chỉ còn 2 điểm để iphone hoàn hảo 1- cái viền dày bựa quá, giờ còn hãng nào có $T$ dày như vậy nhỉ 2- fullHD vẫn như ngày nào.
+viền
+2
+Nhiều nân cấp mới nhiều tính năng mới....cái $T$ không dây quá đẹp.....
+Tai nghe
+1
 Hic giờ có mua chắc chỉ chọn em 7+ jet black 128GB :(...nhìn mê quá, combo thêm cái tai nghe nữa quá ngon...hy vọng cái airpods về VN khoảng 4 triệu là đẹp...
-
+tai nghe
+1
+Hix, khủng quá, $T$ no1 khỏi nói, camera cải tiến khẩu 1.8, loa steroid, pin trâu, xứng danh iphone. Hi vọng là ko dính phốt nổ pin :v
+cấu hình
+1
 Hix, khủng quá, cấu hình no1 khỏi nói, camera cải tiến khẩu 1.8, loa steroid, pin trâu, xứng danh iphone. Hi vọng là ko dính phốt nổ pin :v
-
+camera
+1
+Hix, khủng quá, cấu hình no1 khỏi nói, camera cải tiến khẩu 1.8, loa steroid, pin trâu, xứng danh iphone. Hi vọng là ko dính phốt nổ $T$ :v
+pin
+0
 Hix, khủng quá, cấu hình no1 khỏi nói, camera cải tiến khẩu 1.8, loa steroid, pin trâu, xứng danh iphone. Hi vọng là ko dính phốt nổ pin :v
-
-Thời Steve Job thì thiết kế iphone đẹp nhưng lại chỉ có hai màu đen trắng. Đến thím Cook thì là gay nên thiết kế nhiều màu sắc kinh, nhưng phải công nhận là iphone 7, 7 plus có màu đen rất đẹp.
-
-Thời Steve Job thì thiết kế iphone đẹp nhưng lại chỉ có hai màu đen trắng. Đến thím Cook thì là gay nên thiết kế nhiều màu sắc kinh, nhưng phải công nhận là iphone 7, 7 plus có màu đen rất đẹp.
-
-Thời Steve Job thì thiết kế iphone đẹp nhưng lại chỉ có hai màu đen trắng. Đến thím Cook thì là gay nên thiết kế nhiều màu sắc kinh, nhưng phải công nhận là iphone 7, 7 plus có màu đen rất đẹp.
-
-Ko những mạnh hơn lại tiết kiệm pin hơn mới gớm chứ. Thích Apple nhất cái khoản tối ưu siêu tốt.
-
-Chống nước thôi chứ ko phải là đem đi bơi rồi chụp ảnh dưới nước như sony đâu.
-
+pin
+1
+Thời Steve Job thì $T$ iphone đẹp nhưng lại chỉ có hai màu đen trắng. Đến thím Cook thì là gay nên thiết kế nhiều màu sắc kinh, nhưng phải công nhận là iphone 7, 7 plus có màu đen rất đẹp.
+thiết kế
+1
+Thời Steve Job thì thiết kế iphone đẹp nhưng lại chỉ có hai màu đen trắng. Đến thím Cook thì là gay nên thiết kế nhiều $T$ kinh, nhưng phải công nhận là iphone 7, 7 plus có màu đen rất đẹp.
+màu sắc
+1
+Thời Steve Job thì thiết kế iphone đẹp nhưng lại chỉ có hai màu đen trắng. Đến thím Cook thì là gay nên thiết kế nhiều màu sắc kinh, nhưng phải công nhận là iphone 7, 7 plus có $T$ đen rất đẹp.
+màu sắc
+1
+Ko những mạnh hơn lại tiết kiệm $T$ hơn mới gớm chứ. Thích Apple nhất cái khoản tối ưu siêu tốt.
+pin
+1
+$T$ thôi chứ ko phải là đem đi bơi rồi chụp ảnh dưới nước như sony đâu.
+Chống nước
+0
 giá về VN khoảng bao nhiêu
-
-con màu đen có vẻ hay và đẹp đó ,,, kỳ này chắc sẻ lên đời từ nokia e6 đen lên apple i7 đen
-
-Hóng review cái camera kép trên 7+ xem sao, mấy khác chưa đủ hấp dẫn
-
-đối với e thì đáng quý nhất là nâng cấp đủ thứ nhưg giá ko đổi :D
-
-Thấy cũng ổn, điểm trừ thì chắc là ở khoản thiết kế với jack 3.5 thôi. Còn lại thì tốt, nhưng mình thấy có vẻ chưa đủ để gọi là iPhone 7 :-s
-
-Mình chỉ ngại tiền thôi chứ nếu có thì đổi đi bạn. Chắc lên 7 hết muốn về lại 6s luôn đó banh.
-
-đúng rồi ngại nhất cái khoản làm giá ở việt nam :(
-
-Màu đen đẹp nhất
-
-chỉ đợi nâng cấp camera :D
-
-Màu đen đẹp quá trời
-
-Ôi đúng như rò rỉ, xấu thật. Có vẻ cam lồi là phong cách của apple cmnr
-
+giá
+0
+con $T$ đen có vẻ hay và đẹp đó ,,, kỳ này chắc sẻ lên đời từ nokia e6 đen lên apple i7 đen
+màu
+1
+Hóng review cái $T$ kép trên 7+ xem sao, mấy khác chưa đủ hấp dẫn
+camera
+1
+đối với e thì đáng quý nhất là nâng cấp đủ thứ nhưg $T$ ko đổi :D
+giá
+1
+Thấy cũng ổn, điểm trừ thì chắc là ở khoản $T$ với jack 3.5 thôi. Còn lại thì tốt, nhưng mình thấy có vẻ chưa đủ để gọi là iPhone 7 :-s
+thiết kế
+2
+Mình chỉ ngại $T$ thôi chứ nếu có thì đổi đi bạn. Chắc lên 7 hết muốn về lại 6s luôn đó banh.
+giá
+2
+đúng rồi ngại nhất cái khoản làm $T$ ở việt nam :(
+giá
+2
+$T$ đen đẹp nhất
+màu sắc
+1
+chỉ đợi nâng cấp $T$ :D
+camera
+1
+$T$ đen đẹp quá trời
+Màu sắc
+1
+Ôi đúng như rò rỉ, xấu thật. Có vẻ $T$ lồi là phong cách của apple cmnr
+camera
+2
 Thất vọng toàn tập. :). Thiết kế xấu, màn hình cùi, bỏ tai nghe 3.5mm. Chắc dc pin trâu, camera đẹp hơn, mạnh hơn.
 
 Màn hình không nâng cấp là thấy chán rùi á
