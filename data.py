@@ -129,6 +129,8 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
             target = lines[line_no + 1].lower()
             polarity = int(lines[line_no + 2])
 
+            print(sentence)
+
             # sentence = sentence.replace('\d', '')
 
             # sent_words = sentence.split()
@@ -146,7 +148,6 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
             # target_words = target.split()
             target_words = word_tokenize(target, format='text').split()
             # target_words = ViTokenizer.tokenize(target)
-            print(sent_words)
             try:
                 target_location = sent_words.index("$t$")
             except:
