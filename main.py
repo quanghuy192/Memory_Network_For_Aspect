@@ -9,7 +9,7 @@ flags = tf.compat.v1.app.flags
 
 flags.DEFINE_integer("edim", 300, "internal state dimension [300]")
 flags.DEFINE_integer("lindim", 300, "linear part of the state [75]")
-flags.DEFINE_integer("nhop", 7, "number of hops [3]")
+flags.DEFINE_integer("nhop", 3, "number of hops [3]")
 flags.DEFINE_integer("batch_size", 1, "batch size to use during training [128]")
 flags.DEFINE_integer("nepoch", 300, "number of epoch to use during training [100]")
 flags.DEFINE_float("init_lr", 0.01, "initial learning rate [0.01]")
