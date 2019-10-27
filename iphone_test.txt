@@ -34,7 +34,7 @@ màu sắc
 Dùng $T$ mới biết nó thú vị thế nào
 3d touch
 1
-$T$ vẫn lồi
+$T$ vẫn lồi
 camera
 2
 $T$ chưa cải thiện chứ chưa thèm nói là cải lùi.
@@ -48,16 +48,16 @@ ram
 1
 Nâng cấp dc cái $T$ là làm mình đỡ khổ hơn bao nhiêu, bây h cứ chạm là mở, nhanh như ăn cắp.
 touch id
-1
+0
 $T$ ko thay đổi đáng kể?
 camera
 2
 $T$ làm kiểng?
 live photo
-2
+0
 nâng $T$ từ 8mpx lên 12mpx giảm noise tối đa tăng nét cho hình ảnh là ko đáng kể?
 camera
-2
+0
 $T$ thì cũng ko có gì đáng giá với cá nhân mình. Hơn nữa cũng ko sẵn tiền
 3d touch
 2
@@ -87,7 +87,7 @@ pin
 1
 $T$ Rose Gold phần lớn chỉ hấp dẫn phái nữ.
 màu sắc
-1
+0
 Đơn giản vì ip6 plus $T$ 64Gb của mình dùng quá đã
 dung lượng
 1
@@ -135,16 +135,16 @@ camera
 1
 $T$ thực dụng + vui vẻ nhưng có vẻ không đại trà ở tất cả các apps. Đổi đt chỉ vì cái này thì ko đáng
 3d touch
-0
+2
 $T$ 12mp: thích thôi nhưng không thật sự thu hút mình. Nghiệp dư như mình đag hài lòng với 8mp của 6plus rồi
 camera
-2
+1
 $T$ 16G quay 4k tha hồ
 dung lượng
-1
+0
 Mình xài $T$ 16gb thấy vẫn chụp ảnh chơi game vô tư mà , chắc tại mình ko chơi nhìu game
 dung lượng
-0
+1
 Game vài cái lặt vặt, ảnh đồng bộ hết vào Photos, chả bh hết $T$ 16gb
 dung lượng
 0
@@ -192,7 +192,7 @@ chip
 1
 $T$ 12 chấm nữa chi, đang dùng thấy rất ổn, giá ở vienthongA đang là rẻ nhất nhé mình
 camera
-1
+2
 $T$ 8MP, Ko có nhu cầu quay 4K, Chỉ quay dc 1080 30fps, Ít có nhu cầu nghe nhạc cao hơn 256kbps, Phim thì cũng thường coi 720p
 camera
 0
