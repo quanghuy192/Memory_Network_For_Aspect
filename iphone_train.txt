@@ -174,7 +174,7 @@ giá
 2
 Đợt sau apple nâng cho nó lên 3GB $T$ luôn đi xài cho khoẻ. Nâng cấp đáng giá nhất lần này mình nghĩ là ram, làm cho việc trải nghiệm máy thoải mái hơn.
 ram
-0
+1
 Đợt sau apple nâng cho nó lên 3GB ram luôn đi xài cho khoẻ. Nâng cấp đáng giá nhất lần này mình nghĩ là $T$, làm cho việc trải nghiệm máy thoải mái hơn.
 ram
 1
@@ -771,7 +771,7 @@ màn hình
 1
 Màu sắc $T$ ổn tuy nhiên lỗi hở sáng màn hình vẫn còn dù rất nhẹ ko để ý kĩ sẽ ko thấy.
 màn hình
-1
+2
 Màu sắc màn hình ổn tuy nhiên lỗi hở sáng $T$ vẫn còn dù rất nhẹ ko để ý kĩ sẽ ko thấy.
 màn hình
 2
@@ -948,7 +948,7 @@ Nhưng với ios 1g ram vẫn thoải mái chán! Và khác biệt nhau không q
 0
 $T$ là công nghệ tương lai, giống như touch ID trên 5s mà 5 ko có vậy, các máy sau này buộc phải có.
 3D touch
-1
+0
 3D touch là công nghệ tương lai, giống như $T$ trên 5s mà 5 ko có vậy, các máy sau này buộc phải có.
 touch id
 0
@@ -1707,7 +1707,7 @@ camera
 1
 Hix, khủng quá, cấu hình no1 khỏi nói, camera cải tiến khẩu 1.8, loa steroid, pin trâu, xứng danh iphone. Hi vọng là ko dính phốt nổ $T$ :v
 pin
-2
+0
 Hix, khủng quá, cấu hình no1 khỏi nói, camera cải tiến khẩu 1.8, loa steroid, $T$ trâu, xứng danh iphone. Hi vọng là ko dính phốt nổ pin :v
 pin
 1
@@ -2496,7 +2496,7 @@ màu
 0
 Em đang dùng con này đây. Phải nói là cái $T$ gần như chả có ý nghĩa j cả, thực sự lúc nghịch ngợm thì ấn thử cũng hay hay.
 3d touch
-1
+0
 Những lúc dùng cho sinh hoạt hàng ngày thì gần như 99% là ko động đến $T$, mong là về sau Apple bổ sung thêm nhiều thứ hay ho cho 3D touch
 3d touch
 2
@@ -2508,7 +2508,7 @@ rung
 1
 $T$ không có j đặc sắc hơn cả, nhưng phải công nhận chế độ Tiết kiệm pin của Apple rất tốt, bật cái này lên cảm giác máy vẫn chạy bình thường, ko yếu đi tí nào nhưng pin thì lâu hết hơn hẳn
 pin
-2
+0
 Pin không có j đặc sắc hơn cả, nhưng phải công nhận chế độ Tiết kiệm $T$ của Apple rất tốt, bật cái này lên cảm giác máy vẫn chạy bình thường, ko yếu đi tí nào nhưng pin thì lâu hết hơn hẳn
 pin
 1
@@ -2595,7 +2595,7 @@ dung lượng
 1
 Ko bênh Apple nhưng vụ dung lượng 16GB Apple cũng ko sai, nâng cấp đủ thứ mà vẫn giữ nguyên giá bán là tốt rồi. Đơn giản ai muốn nhiều $T$ thì mất thêm tiền.
 dung lượng
-0
+1
 Ko bênh Apple nhưng vụ dung lượng 16GB Apple cũng ko sai, nâng cấp đủ thứ mà vẫn giữ nguyên $T$ bán là tốt rồi. Đơn giản ai muốn nhiều dung lượng thì mất thêm tiền.
 giá
 1
