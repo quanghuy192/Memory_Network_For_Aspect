@@ -297,7 +297,7 @@ pin
 2
 Xác nhận là nếu $T$ trâu hơn như 6 plus thì quá đỉnh.
 pin
-2
+1
 Vâng kiệt tác vẫn $T$ lồi bo tròn 4 góc nhưng ip thì tuyệt hãng khác thì ko vãi thật.
 camera
 2
@@ -357,16 +357,16 @@ pin
 0
 Mình đang dùng 1 em iphone 6 $T$ gold, phải nói đây là smartphone mỏng, đẹp, nhanh, màn hình to vừa đủ, xứng đáng là siêu phẩm
 màu
-0
+1
 Mình đang dùng 1 em iphone 6 màu gold, phải nói đây là smartphone mỏng, đẹp, nhanh, $T$ to vừa đủ, xứng đáng là siêu phẩm
 màn hình
 1
 Có 2 điểm mình đánh giá em này ở mức trung bình đó là $T$ và pin.
 mặt lưng
-0
+2
 Có 2 điểm mình đánh giá em này ở mức trung bình đó là mặt lưng và $T$.
 pin
-0
+2
 $T$ thì không quá tệ nhưng cái mặt lưng nhìn chỉ muốn cạy bỏ cái đường trắng trắng đi thôi.
 pin
 0
@@ -405,7 +405,7 @@ camera
 2
 Mong là bản cập nhật tới giúp 6s trâu $T$ hơn
 pin
-2
+0
 $T$ thì mình dùng 2 ngày nếu xài ít, xài nhiều thì đủ cho 1-1 ngày rưỡi
 pin
 0
