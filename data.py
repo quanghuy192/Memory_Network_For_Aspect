@@ -60,7 +60,8 @@ def get_dataset_resources(data_file_name, sent_word2idx, target_word2idx, word_s
             # vn_sentences = re.sub(r'\b\w{1,2}\b', '', vn_sentences)
             # vn_sentences = ViTokenizer.tokenize(sentence)
 
-            vn_sentences_list = list(set(vn_sentences.split()))
+            # vn_sentences_list = list(set(vn_sentences.split()))
+            vn_sentences_list = vn_sentences.split()
             for i in list(vn_sentences_list):
                 if len(i) < 3:
                     vn_sentences_list.remove(i)
@@ -140,7 +141,8 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
             sent_words = re.sub('[!@#+/?.,():]', '', sent_words)
 
             # sent_words = ViTokenizer.tokenize(sentence)
-            sent_words = list(set(sent_words.split()))
+            # sent_words = list(set(sent_words.split()))
+            sent_words = sent_words.split()
             for i in list(sent_words):
                 if len(i) < 3:
                     sent_words.remove(i)
