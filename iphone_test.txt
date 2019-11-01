@@ -61,9 +61,6 @@ touch id
 Mới mua máy tối qua. dùng mượt, touch id nhạy, $T$ khá tốt. mới chuyển sang hệ điều hành nên hơi khó dùng.
 pin
 1
-Mới mua máy tối qua.dùng mượt, touch id nhạy, pin khá tốt. mới chuyển sang $T$ nên hơi khó dùng.
-hệ điều hành
-2
 Mình mua ngay đợt khuyến mãi nên giá chỉ 13.5 triệu, bằng với giá bên Mỹ luôn. Còn về $T$ thì khỏi nói, mượt mà và ổn định. Điểm duy nhất chưa hài lòng là pin không như mong đợi.
 hiệu năng
 1
@@ -282,7 +279,7 @@ giá
 1
 Tuyệt vời tại thời điểm này. Hợp lý giá tiền. $T$ không quá cũ.
 công nghệ
-0
+1
 Ngoài thời lượng $T$ không ấn tượng và mặt lưng hơi tệ thì tuyệt vời! tối nay mấy anh em seeder lại khổ rồi
 pin
 2
@@ -294,7 +291,7 @@ camera
 2
 Tuyệt lắm nếu như $T$ trâu hơn nữa
 pin
-2
+1
 Xác nhận là nếu $T$ trâu hơn như 6 plus thì quá đỉnh.
 pin
 1
@@ -363,13 +360,13 @@ màn hình
 1
 Có 2 điểm mình đánh giá em này ở mức trung bình đó là $T$ và pin.
 mặt lưng
-2
+0
 Có 2 điểm mình đánh giá em này ở mức trung bình đó là mặt lưng và $T$.
 pin
 2
 $T$ thì không quá tệ nhưng cái mặt lưng nhìn chỉ muốn cạy bỏ cái đường trắng trắng đi thôi.
 pin
-0
+2
 $T$ thì không quá tệ nhưng cái $T$ nhìn chỉ muốn cạy bỏ cái đường trắng trắng đi thôi.
 mặt lưng
 2

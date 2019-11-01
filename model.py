@@ -1,3 +1,4 @@
+import os
 import math
 import numpy as np
 import tensorflow as tf
@@ -6,7 +7,7 @@ from underthesea import word_tokenize
 
 
 class MemN2N(object):
-    def __init__(self, config, sess, pre_trained_context_wt, pre_trained_target_wt, pad_idx, nwords, mem_size):
+    def __init__(self, config, sess, pre_trained_context_wt, pre_trained_target_wt, pad_idx, nwords, mem_size, target_word2idx):
         # self.nwords = config.nwords
         self.init_hid = config.init_hid
         self.init_std = config.init_std
@@ -20,6 +21,7 @@ class MemN2N(object):
         # self.pad_idx = config.pad_idx
         self.pre_trained_context_wt = pre_trained_context_wt
         self.pre_trained_target_wt = pre_trained_target_wt
+        self.checkpoint_dir = config.checkpoint_dir
 
         self.pad_idx = pad_idx
         self.nwords = nwords
@@ -31,6 +33,8 @@ class MemN2N(object):
         self.context = tf.compat.v1.placeholder(tf.compat.v1.int32, [self.batch_size, self.mem_size], name="context")
         self.mask = tf.compat.v1.placeholder(tf.compat.v1.float32, [self.batch_size, self.mem_size], name="mask")
         self.neg_inf = tf.compat.v1.fill([self.batch_size, self.mem_size], -1 * np.inf, name="neg_inf")
+
+        self.target_word2idx = target_word2idx
 
         self.show = config.show
 
@@ -132,6 +136,7 @@ class MemN2N(object):
             self.optim = self.opt.apply_gradients(clipped_grads_and_vars)
 
         tf.compat.v1.global_variables_initializer().run()
+        self.saver = tf.train.Saver()
 
         self.correct_prediction = tf.compat.v1.argmax(self.z, 1)
 
@@ -234,8 +239,16 @@ class MemN2N(object):
                                                                             self.time: time,
                                                                             self.target: target,
                                                                             self.context: context,
-
                                                                             self.mask: mask})
+
+            # target predict
+            target_predict = self.sess.run([self.input], feed_dict={
+                self.input: x,
+                self.time: time,
+                self.target: target,
+                self.context: context,
+                self.mask: mask})
+
             sentence_list = []
             # if is_train:
             #     with open('iphone_train.txt', 'r') as data_file:
@@ -287,4 +300,17 @@ class MemN2N(object):
             print('train-loss=%.2f;train-acc=%.2f;test-acc=%.2f;' % (train_loss, train_acc * 100, test_acc * 100))
             print('============================================================================')
             self.log_loss.append([train_loss, test_loss])
+
+            if idx % 10 == 0:
+                self.saver.save(self.sess,
+                                os.path.join(self.checkpoint_dir, "MemN2N.model"),
+                                global_step=self.step.astype(int))
         print('best-acc=%.2f' % best_acc)
+
+    def load(self):
+        print(" [*] Reading checkpoints...")
+        ckpt = tf.train.get_checkpoint_state(self.checkpoint_dir)
+        if ckpt and ckpt.model_checkpoint_path:
+            self.saver.restore(self.sess, ckpt.model_checkpoint_path)
+        else:
+            raise Exception(" [!] Trest mode but no checkpoint found")
