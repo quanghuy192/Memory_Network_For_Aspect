@@ -7,7 +7,8 @@ from underthesea import word_tokenize
 
 
 class MemN2N(object):
-    def __init__(self, config, sess, pre_trained_context_wt, pre_trained_target_wt, pad_idx, nwords, mem_size, target_word2idx):
+    def __init__(self, config, sess, pre_trained_context_wt, pre_trained_target_wt, pad_idx, nwords, mem_size,
+                 target_word2idx):
         # self.nwords = config.nwords
         self.init_hid = config.init_hid
         self.init_std = config.init_std
@@ -136,7 +137,7 @@ class MemN2N(object):
             self.optim = self.opt.apply_gradients(clipped_grads_and_vars)
 
         tf.compat.v1.global_variables_initializer().run()
-        self.saver = tf.train.Saver()
+        self.saver = tf.compat.v1.train.Saver()
 
         self.correct_prediction = tf.compat.v1.argmax(self.z, 1)
 
@@ -241,40 +242,32 @@ class MemN2N(object):
                                                                             self.context: context,
                                                                             self.mask: mask})
 
-            # target predict
-            target_predict = self.sess.run([self.input], feed_dict={
-                self.input: x,
-                self.time: time,
-                self.target: target,
-                self.context: context,
-                self.mask: mask})
-
             sentence_list = []
-            # if is_train:
-            #     with open('iphone_train.txt', 'r') as data_file:
-            #         lines = data_file.read().split('\n')
-            #         for line_no in range(0, len(lines) - 1, 3):
-            #             sentence = lines[line_no].lower()
-            #             sentence_list.append(sentence)
-            if not is_train:
-                with open('iphone_test.txt', 'r') as data_file:
+            if is_train:
+                with open('iphone_train.txt', 'r') as data_file:
                     lines = data_file.read().split('\n')
                     for line_no in range(0, len(lines) - 1, 3):
                         sentence = lines[line_no].lower()
                         sentence_list.append(sentence)
+            # if not is_train:
+            #     with open('iphone_test.txt', 'r') as data_file:
+            #         lines = data_file.read().split('\n')
+            #         for line_no in range(0, len(lines) - 1, 3):
+            #             sentence = lines[line_no].lower()
+            #             sentence_list.append(sentence)
 
-            # if is_train:
-            #     for b in xrange(self.batch_size):
-            #         if raw_labels[b] != predictions[b]:
-            #             print(" predict raw_labels : " + str(raw_labels[b]))
-            #             print(" predict by system : " + str(predictions[b]))
-            #             print(sentence_list[i] + " \n")
-            if not is_train:
+            if is_train:
                 for b in xrange(self.batch_size):
                     if raw_labels[b] != predictions[b]:
                         print(" predict raw_labels : " + str(raw_labels[b]))
                         print(" predict by system : " + str(predictions[b]))
                         print(sentence_list[i] + " \n")
+            # if not is_train:
+            #     for b in xrange(self.batch_size):
+            #         if raw_labels[b] != predictions[b]:
+            #             print(" predict raw_labels : " + str(raw_labels[b]))
+            #             print(" predict by system : " + str(predictions[b]))
+            #             print(sentence_list[i] + " \n")
 
             for b in xrange(self.batch_size):
                 if b >= len(raw_labels): break
@@ -312,5 +305,20 @@ class MemN2N(object):
         ckpt = tf.train.get_checkpoint_state(self.checkpoint_dir)
         if ckpt and ckpt.model_checkpoint_path:
             self.saver.restore(self.sess, ckpt.model_checkpoint_path)
+
+
+            # ======= test =================================
+            x = np.ndarray([self.batch_size, 1], dtype=np.int32)
+            time = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
+            target = np.zeros([self.batch_size], dtype=np.int32)
+            context = np.ndarray([self.batch_size, self.mem_size], dtype=np.int32)
+            mask = np.ndarray([self.batch_size, self.mem_size])
+
+            prediction = self.sess.run(y4, feed_dict={self.input: x,
+                                                      self.time: time,
+                                                      self.target: target,
+                                                      self.context: context,
+                                                      self.mask: mask})
+            print(prediction)
         else:
             raise Exception(" [!] Trest mode but no checkpoint found")

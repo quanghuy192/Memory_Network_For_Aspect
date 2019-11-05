@@ -948,10 +948,10 @@ Nhưng với ios 1g ram vẫn thoải mái chán! Và khác biệt nhau không q
 0
 $T$ là công nghệ tương lai, giống như touch ID trên 5s mà 5 ko có vậy, các máy sau này buộc phải có.
 3D touch
-0
+1
 3D touch là công nghệ tương lai, giống như $T$ trên 5s mà 5 ko có vậy, các máy sau này buộc phải có.
 touch id
-0
+1
 Nói chung mọi thứ đều được nâng cấp, $T$, camera, pin, máy cầm cũng chắc tay hơn. giá cúng chát hơn.
 ram
 1
@@ -1779,7 +1779,7 @@ màn hình
 2
 Cá nhân em thấy cũng chưa cần thay đổi $T$. Thiết kế hiện tại rất đẹp.
 thiết kế
-0
+1
 Cá nhân em thấy cũng chưa cần thay đổi thiết kế. $T$ hiện tại rất đẹp.
 Thiết kế
 1
