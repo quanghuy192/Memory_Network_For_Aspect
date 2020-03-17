@@ -2,18 +2,22 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-data_export = open("data.txt", "w")
-i = 1
-status = True
-pageWithNumber = "page-"
-while i > 0 and status:
-    if i == 1:
-        pageWithNumber = ""
-    else:
-        pageWithNumber = "page-" + str(i)
-    url = "https://tinhte.vn/thread/cam-nhan-iphone-11-pro-max-sau-3-tuan-chang-khac-gi-iphone-xs-max.3024584/" + str(pageWithNumber)
-    # print(url)
-    page = requests.get(url)
+data_export = open("data_crawl.txt", "w")
+data_source = open("sources.txt", "r")
+data_lines = data_source.readlines()
+for url_line in data_lines:
+    i = 1
+    status = True
+    pageWithNumber = "page-"
+    while i > 0 and status:
+        if i == 1:
+            pageWithNumber = ""
+        else:
+            pageWithNumber = "page-" + str(i)
+        url = url_line + str(pageWithNumber)
+        print('========================= Crawling ' + pageWithNumber + ' ==================================')
+        # print(url)
+        page = requests.get(url)
 
         if page.status_code != 200:
             # print("false")
