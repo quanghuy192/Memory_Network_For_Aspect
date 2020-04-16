@@ -3,6 +3,7 @@ import math
 import numpy as np
 import tensorflow as tf
 from past.builtins import xrange
+import matplotlib.pyplot as plt
 from underthesea import word_tokenize
 
 
@@ -286,17 +287,26 @@ class MemN2N(object):
         return cost / float(len(source_data)), acc / float(len(source_data)), predicts, labels, sentences, targets
 
     def run(self, train_data, test_data):
+
         print('training...')
         self.sess.run(self.A.assign(self.pre_trained_context_wt))
         self.sess.run(self.ASP.assign(self.pre_trained_target_wt))
 
         best_acc = 0
+        train_acc_list = []
+        test_acc_list = []
         for idx in xrange(self.nepoch):
             print('epoch ' + str(idx) + '...')
+
             train_loss, train_acc = self.train(train_data)
+            train_acc_list.append(train_loss)
+
             test_loss, test_acc, predicts, labels, sentences, targets = self.test(test_data)
+            test_acc_list.append(test_loss)
+
             if best_acc < test_acc * 100:
                 best_acc = test_acc * 100
+
             print('train-loss=%.2f;train-acc=%.2f;test-acc=%.2f;' % (train_loss, train_acc * 100, test_acc * 100))
             print('============================================================================')
             self.log_loss.append([train_loss, test_loss])
@@ -305,6 +315,15 @@ class MemN2N(object):
                 self.saver.save(self.sess,
                                 os.path.join(self.checkpoint_dir, "MemN2N.model"),
                                 global_step=self.step.astype(int))
+
+        plt.plot(train_acc_list, 'k-', label='Train Set Accuracy')
+        plt.plot(test_acc_list, 'r--', label='Test Set Accuracy')
+        plt.title('Train and Test Accuracy')
+        plt.xlabel('Generation')
+        plt.ylabel('Accuracy')
+        plt.legend(loc='lower right')
+        plt.show()
+
         print('best-acc=%.2f' % best_acc)
 
     def load(self):
