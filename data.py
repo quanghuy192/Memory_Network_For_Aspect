@@ -152,7 +152,9 @@ def get_dataset(data_file_name, sent_word2idx, target_word2idx):
             # target_words = ViTokenizer.tokenize(target)
             try:
                 target_location = sent_words.index("$t$")
-            except:
+            except Exception as e:
+                print(e)
+                print(sent_words)
                 print("sentence does not contain target element tag")
                 exit()
 
