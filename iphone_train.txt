@@ -138,7 +138,7 @@ Công nhận 6s là 1 nâng cấp rất đáng giá với 2gb ram, camera 12mp, 
 1
 $T$ 12mp nhưng chất lượng chụp buổi tối ko có nhiều đột phá, đặc biệt nếu so vs note 5 hay g4, 3D touch: mình ko dám ý kiến vì cần thời gian để ng dùng thay đổi thói quen.
 camera
-2
+0
 Camera 12mp nhưng chất lượng chụp buổi tối ko có nhiều đột phá, đặc biệt nếu so vs note 5 hay g4, $T$: mình ko dám ý kiến vì cần thời gian để ng dùng thay đổi thói quen.
 3d touch
 0
@@ -189,7 +189,7 @@ touch id
 2
 Touch ID thì cũng chưa phải ghê gớm lắm thiết nghĩ cho cùng nhanh hơn vài giây cũng chả làm đc gì. $T$ cũng không hơn nhau là mấy. cái đáng đc nhất là ram 2G. ram 2G mang lại chải nghiệm tốt hơn rõ ràng.
 camera
-2
+0
 Touch ID thì cũng chưa phải ghê gớm lắm thiết nghĩ cho cùng nhanh hơn vài giây cũng chả làm đc gì. Camera cũng không hơn nhau là mấy. cái đáng đc nhất là $T$ 2G. ram 2G mang lại chải nghiệm tốt hơn rõ ràng.
 ram
 1
@@ -216,7 +216,7 @@ camera
 2
 Dù biết nó tốt nhưng nghĩ tới cái màn hình chỉ hd như Đt tầm trung là thấy chán. 3d touch cũng chả có gì đột phá, có hay không có cũng dc. Camera thì chụp đêm kém, chất lượng hình ảnh camera cũng thua các Đt cùng giá. $T$ ip dòng 5.5 mới trâu, còn 4.7 thì yếu.
 pin
-0
+1
 Vẫn cái $T$ quá xấu so với 5 và 5s tạo độ nhảm của IP lên rất nhiều, thực sự thất vọng
 thiết kế
 2
@@ -534,7 +534,7 @@ thiết kế
 1
 Máy dùng ngon, ổn định, pin tốt , thiết kế khá đẹp , $T$ cả cần phải mềm hơn nữa.
 giá
-2
+0
 $T$ sài rất tốt, pin cũng lâu hết. Thiết kế quá đẹp, rất sang trọng.
 máy
 1
@@ -660,7 +660,7 @@ pin
 2
 Ip6s hao pin còn hơn 5s trước mình xài nữa, càng ngày càng chán. Mình đã test cả 2 máy ip6 thì pin đều tệ. Cá nhân mình thấy ngoài $T$ to ra thì còn tệ hơn 5s. Ai xài 5s mà lên 6s thì sẽ thất vọng ngay vì pin yếu.
 màn hình
-1
+0
 $T$ có hơn 1800 mà sạc mất 4 tiếng cơ á ?
 pin
 2
@@ -681,13 +681,13 @@ camera
 2
 Mong là bản cập nhật tới giúp 6s trâu $T$ hơn
 pin
-2
+0
 $T$ thì mình dùng 2 ngày nếu xài ít, xài nhiều thì đủ cho 1-1 ngày rưỡi
 pin
 0
 6s plus $T$ to nhưng kiểu dáng tròn tròn ko có j đột phá, thích vuông kiểu ultra hoặc ít ra cũng giống note 4.
 màn hình
-1
+2
 6s plus màn hình to nhưng $T$ tròn tròn ko có j đột phá, thích vuông kiểu ultra hoặc ít ra cũng giống note 4.
 kiểu dáng
 2
@@ -813,7 +813,7 @@ thiết kế
 2
 Tính lên để thử quả $T$ 12 chấm mà em nó chụp cũng ko khác gì 6+ của mình là mấy nên thôi vậy đợi năm sau đổi 7
 camera
-2
+0
 Chưa đc dùng thử nhưng nghĩ đến cái $T$ cứ thấy nó hại tim thế đếu nào ấy
 3d touch
 2
@@ -939,7 +939,7 @@ màu
 0
 Nói gì nói, có hàng chính hãng sẽ mua ngay 6s $T$ hồng cho Vợ
 màu
-1
+0
 Con trai xài $T$ Rose Gold có hợp k ta ! :3
 màu sắc
 0
@@ -1143,19 +1143,19 @@ hiệu năng
 1
 pin rất trâu, hiệu năng cao, $T$ tuy chưa được hoàn hảo 100% nhưng như thế cũng là tốt rồi.
 camera
-0
+1
 Công nhận tinhte chịu khó đánh giá $T$ Iphone thật, hết bài này đến bài khác.
 camera
 0
 $T$ có nâng cấp quay phim và 1 vài tính năng vui vẻ nhưng vẫn ko có j đặc biệt.
 camera
-2
+0
 $T$ ip đã tụt hậu khá xa với các hãng khác.
 camera
 2
 Đã đang dùng cả 6s và 6s plus tuy nhiên về $T$ vẫn không so được với note 5 và G4
 camera
-2
+0
 Kích cầu tiêu dùng 6s $T$ rất mạnh nhưng xét về camera thì vẫn chưa tốt bằng LG đâu
 chip
 1
@@ -1206,7 +1206,7 @@ ram
 1
 Mình sẽ chờ ip7, vì chỉ với nâng cấp $T$ thì chưa thuyết phục lắm để mua 6s.
 camera
-1
+0
 Mình cần $T$ trâu hơn nữa.
 pin
 2
