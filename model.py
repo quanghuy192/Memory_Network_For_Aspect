@@ -137,7 +137,7 @@ class MemN2N(object):
             self.optim = self.opt.apply_gradients(clipped_grads_and_vars)
 
         tf.compat.v1.global_variables_initializer().run()
-        self.saver = tf.train.Saver()
+        # self.saver = tf.train.Saver()
 
         self.correct_prediction = tf.compat.v1.argmax(self.z, 1)
 
@@ -311,10 +311,10 @@ class MemN2N(object):
             print('============================================================================')
             self.log_loss.append([train_loss, test_loss])
 
-            if idx % 10 == 0:
-                self.saver.save(self.sess,
-                                os.path.join(self.checkpoint_dir, "MemN2N.model"),
-                                global_step=self.step.astype(int))
+            # if idx % 10 == 0:
+            #     self.saver.save(self.sess,
+            #                     os.path.join(self.checkpoint_dir, "MemN2N.model"),
+            #                     global_step=self.step.astype(int))
 
         plt.plot(train_acc_list, 'k-', label='Train Set Accuracy')
         plt.plot(test_acc_list, 'r--', label='Test Set Accuracy')
@@ -329,7 +329,7 @@ class MemN2N(object):
     def load(self):
         print(" [*] Reading checkpoints...")
         ckpt = tf.train.get_checkpoint_state(self.checkpoint_dir)
-        if ckpt and ckpt.model_checkpoint_path:
-            self.saver.restore(self.sess, ckpt.model_checkpoint_path)
-        else:
-            raise Exception(" [!] Trest mode but no checkpoint found")
+        # if ckpt and ckpt.model_checkpoint_path:
+        #     self.saver.restore(self.sess, ckpt.model_checkpoint_path)
+        # else:
+        #     raise Exception(" [!] Trest mode but no checkpoint found")
